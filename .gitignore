@@ -1,0 +1,34 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+bin/*
+tmp/
+ruleset/
+Country.mmdb
+proxies.yaml
+80b6a6d8-623e-49f4-a9bf-d6a82214432b.yaml
+config.yaml
+cache.db
+clash_proxies_phone202303191030.yaml
+
+
+
+# Test binary, build with `go test -c`
+*.test
+# Manually add it if neccessary
+*_test.*
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# dep
+vendor
+
+# GoLand
+.idea/*
+
+# macOS file
+.DS_Store
