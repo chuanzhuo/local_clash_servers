@@ -27,16 +27,34 @@ dns:
   - +.googleapis.cn
   - +.gvt1.com
 proxies:
-- {"name":"Relay_-🇭🇰HK_01","server":"14.29.124.168","type":"ss","country":"🇨🇳CN","port":31046,"password":"QazEdcTgb159@$*","cipher":"aes-128-cfb"}
-- {"name":"_02","server":"36.134.16.171","type":"vmess","country":"🇨🇳CN","port":11023,"uuid":"8c042a38-71c1-1dcb-00df-54880236e0dc","alterId":0,"cipher":"auto","network":"tcp","http-opts":{},"h2-opts":{},"skip-cert-verify":true}
-- {"name":"_03","server":"143.42.110.81","type":"vmess","country":"🇺🇸US","port":443,"uuid":"8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f","alterId":0,"cipher":"auto","network":"ws","servername":"143.42.110.81","http-opts":{},"h2-opts":{},"tls":true,"skip-cert-verify":true,"ws-opts":{"path":"/current_time","headers":{"HOST":"143.42.110.81"}}}
+- {"name":"🇧🇿BZ_01","server":"203.30.190.2","type":"vmess","country":"🇧🇿BZ","port":443,"uuid":"17b2a313-37a0-4945-a8e4-e63375506b4a","alterId":0,"cipher":"auto","network":"ws","servername":"77.v2ray1.xyz","http-opts":{},"h2-opts":{},"tls":true,"skip-cert-verify":true,"ws-opts":{"path":"/A2DJOPFT","headers":{"HOST":"77.v2ray1.xyz"}}}
+- {"name":"Relay_Relay_-🇭🇰HK_01🇨🇳CN-🇭🇰HK_02","server":"14.29.124.168","type":"ss","country":"🇨🇳CN","port":31046,"password":"QazEdcTgb159@$*","cipher":"aes-128-cfb"}
+- {"name":"_02🇨🇳CN_03","server":"36.134.16.171","type":"vmess","country":"🇨🇳CN","port":11023,"uuid":"8c042a38-71c1-1dcb-00df-54880236e0dc","alterId":0,"cipher":"auto","network":"tcp","http-opts":{},"h2-opts":{},"skip-cert-verify":true}
+- {"name":"Relay_🇺🇸US-🇺🇸US_04","server":"172.67.132.15","type":"vmess","country":"🇺🇸US","port":443,"uuid":"18e5f40f-bda6-4c15-9334-e87cda6047af","alterId":0,"cipher":"auto","network":"ws","servername":"ming2.kiwireich.com","http-opts":{},"h2-opts":{},"tls":true,"skip-cert-verify":true,"ws-opts":{"path":"/ray","headers":{"HOST":"ming2.kiwireich.com"}}}
+- {"name":"🇺🇸US_05","server":"172.64.153.150","type":"vmess","country":"🇺🇸US","port":443,"uuid":"5f64fa65-7b14-49c5-954d-aa15c6bfcacd","alterId":0,"cipher":"auto","network":"ws","servername":"clash6.ssr-free.xyz","http-opts":{},"h2-opts":{},"tls":true,"skip-cert-verify":true,"ws-opts":{"path":"/dongtaiwang.com","headers":{"HOST":"clash6.ssr-free.xyz"}}}
+- {"name":"Relay_🇺🇸US-🇩🇪DE_06","server":"quranweb29.xyz","type":"vmess","country":"🇺🇸US","port":443,"uuid":"8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f","alterId":0,"cipher":"auto","network":"ws","servername":"quranweb29.xyz","http-opts":{},"h2-opts":{},"tls":true,"skip-cert-verify":true,"ws-opts":{"path":"/current_time","headers":{"HOST":"quranweb29.xyz"}}}
+- {"name":"🇺🇸US_07","server":"quranweb3.xyz","type":"vmess","country":"🇺🇸US","port":443,"uuid":"8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f","alterId":0,"cipher":"auto","network":"ws","servername":"quranweb3.xyz","http-opts":{},"h2-opts":{},"tls":true,"skip-cert-verify":true,"ws-opts":{"path":"/current_time","headers":{"HOST":"quranweb3.xyz"}}}
+- {"name":"Relay_🇺🇸US-🇺🇸US_08","server":"172.67.136.150","type":"vmess","country":"🇺🇸US","port":443,"uuid":"44bab30b-d1da-40b4-b65d-e0a3a98c0de6","alterId":0,"cipher":"auto","network":"ws","servername":"ss.239000.xyz","http-opts":{},"h2-opts":{},"tls":true,"skip-cert-verify":true,"ws-opts":{"path":"/vmessws","headers":{"HOST":"ss.239000.xyz"}}}
+- {"name":"Relay_🇺🇸US-🇬🇧GB_09","server":"quranweb19.xyz","type":"vmess","country":"🇺🇸US","port":443,"uuid":"8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f","alterId":0,"cipher":"auto","network":"ws","servername":"quranweb19.xyz","http-opts":{},"h2-opts":{},"tls":true,"skip-cert-verify":true,"ws-opts":{"path":"/current_time","headers":{"HOST":"quranweb19.xyz"}}}
+- {"name":"_03🇺🇸US_10","server":"143.42.110.81","type":"vmess","country":"🇺🇸US","port":443,"uuid":"8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f","alterId":0,"cipher":"auto","network":"ws","servername":"143.42.110.81","http-opts":{},"h2-opts":{},"tls":true,"skip-cert-verify":true,"ws-opts":{"path":"/current_time","headers":{"HOST":"143.42.110.81"}}}
+- {"name":"Relay_🏁ZZ-🇬🇧GB_11","server":"quranweb17.xyz","type":"vmess","country":"🏁ZZ","port":443,"uuid":"8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f","alterId":0,"cipher":"auto","network":"ws","servername":"quranweb17.xyz","http-opts":{},"h2-opts":{},"tls":true,"skip-cert-verify":true,"ws-opts":{"path":"/current_time","headers":{"HOST":"quranweb17.xyz"}}}
+- {"name":"Relay_🏁ZZ-🇺🇸US_12","server":"quran-audio.xyz","type":"vmess","country":"🏁ZZ","port":443,"uuid":"8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f","alterId":0,"cipher":"auto","network":"ws","servername":"quran-audio.xyz","http-opts":{},"h2-opts":{},"tls":true,"skip-cert-verify":true,"ws-opts":{"path":"/current_time","headers":{"HOST":"quran-audio.xyz"}}}
 proxy-groups:
 - name: loadbalance1
   type: load-balance
   proxies:
-  - Relay_-🇭🇰HK_01
-  - _02
-  - _03
+  - 🇧🇿BZ_01
+  - Relay_Relay_-🇭🇰HK_01🇨🇳CN-🇭🇰HK_02
+  - _02🇨🇳CN_03
+  - Relay_🇺🇸US-🇺🇸US_04
+  - 🇺🇸US_05
+  - Relay_🇺🇸US-🇩🇪DE_06
+  - 🇺🇸US_07
+  - Relay_🇺🇸US-🇺🇸US_08
+  - Relay_🇺🇸US-🇬🇧GB_09
+  - _03🇺🇸US_10
+  - Relay_🏁ZZ-🇬🇧GB_11
+  - Relay_🏁ZZ-🇺🇸US_12
   url: http://clients3.google.com/generate_204
   interval: 300
 
