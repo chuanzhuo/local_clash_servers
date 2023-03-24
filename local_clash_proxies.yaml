@@ -27,14 +27,10 @@ dns:
   - +.googleapis.cn
   - +.gvt1.com
 proxies:
-- {"name":"Pool_Pool_Pool_Pool__05_14🇺🇸US_09🇺🇸US🇺🇸US_01","server":"45.79.79.37","type":"ssr","country":"🇺🇸US","port":443,"password":"9d6cceaa373bf2c8acb22e60b6a58be6","cipher":"aes-256-cfb","protocol":"origin","protocol-param":"WWW.YOUNEED.WIN","obfs":"plain","obfs-param":"WWW.YOUNEED.WIN","group":"WWW.YOUNEED.WIN"}
-- {"name":"Relay_Relay_Relay_-🇺🇸US_16-🇺🇸US_17🇺🇸US🇺🇸US-🇺🇸US_02","server":"vin1.0bad.com","type":"vmess","country":"🇺🇸US","port":443,"uuid":"927094d3-d678-4763-8591-e240d0bcae87","alterId":0,"cipher":"auto","network":"ws","servername":"vin1.0bad.com","http-opts":{},"h2-opts":{},"tls":true,"skip-cert-verify":true,"ws-opts":{"path":"/chat","headers":{"HOST":"vin1.0bad.com"}}}
 proxy-groups:
 - name: loadbalance1
   type: load-balance
   proxies:
-  - Pool_Pool_Pool_Pool__05_14🇺🇸US_09🇺🇸US🇺🇸US_01
-  - Relay_Relay_Relay_-🇺🇸US_16-🇺🇸US_17🇺🇸US🇺🇸US-🇺🇸US_02
   url: http://clients3.google.com/generate_204
   interval: 300
 
