@@ -33,9 +33,9 @@ proxies:
 - {"name":"Relay_-🇫🇷FR_04","server":"185.162.228.2","type":"vmess","country":"🇦🇲AM","port":443,"uuid":"17b2a313-37a0-4945-a8e4-e63375506b4a","alterId":0,"cipher":"auto","network":"ws","servername":"77.v2ray1.xyz","http-opts":{},"h2-opts":{},"tls":true,"skip-cert-verify":true,"ws-opts":{"path":"/A2DJOPFT","headers":{"HOST":"77.v2ray1.xyz"}}}
 - {"name":"Relay_-🇫🇷FR_05","server":"203.30.189.2","type":"vmess","country":"🇧🇿BZ","port":443,"uuid":"17b2a313-37a0-4945-a8e4-e63375506b4a","alterId":0,"cipher":"auto","network":"ws","servername":"77.v2ray1.xyz","http-opts":{},"h2-opts":{},"tls":true,"skip-cert-verify":true,"ws-opts":{"path":"/A2DJOPFT","headers":{"HOST":"77.v2ray1.xyz"}}}
 - {"name":"Relay_🇨🇳CN-🇭🇰HK_06","server":"14.29.124.168","type":"ss","country":"🇨🇳CN","port":31046,"password":"QazEdcTgb159@$*","cipher":"aes-128-cfb"}
-- {"name":"🇨🇳CN_07","server":"36.134.16.171","type":"vmess","country":"🇨🇳CN","port":11023,"uuid":"8c042a38-71c1-1dcb-00df-54880236e0dc","alterId":0,"cipher":"auto","network":"tcp","http-opts":{},"h2-opts":{},"skip-cert-verify":true}
+- {"name":"🇨🇳CN_07🇨🇳CN","server":"36.134.16.171","type":"vmess","country":"🇨🇳CN","port":11023,"uuid":"8c042a38-71c1-1dcb-00df-54880236e0dc","alterId":0,"cipher":"auto","network":"tcp","http-opts":{},"h2-opts":{},"skip-cert-verify":true}
 - {"name":"🇭🇰HK_08","server":"v22.gaowosiquanjia.top","type":"vmess","country":"🇭🇰HK","port":80,"uuid":"6f96a2e9-daf3-41d4-a159-2bfe0d86dfac","alterId":0,"cipher":"auto","network":"ws","servername":"v22.gaowosiquanjia.top","http-opts":{},"h2-opts":{},"skip-cert-verify":true,"ws-opts":{"path":"/","headers":{"HOST":"v22.gaowosiquanjia.top"}}}
-- {"name":"Relay_🇭🇰HK-🇭🇰HK_09","server":"v21.gaowosiquanjia.top","type":"vmess","country":"🇭🇰HK","port":80,"uuid":"6f96a2e9-daf3-41d4-a159-2bfe0d86dfac","alterId":0,"cipher":"auto","network":"ws","servername":"v21.gaowosiquanjia.top","http-opts":{},"h2-opts":{},"skip-cert-verify":true,"ws-opts":{"path":"/","headers":{"HOST":"v21.gaowosiquanjia.top"}}}
+- {"name":"Relay_🇭🇰HK-🇭🇰HK_09🇭🇰HK","server":"v21.gaowosiquanjia.top","type":"vmess","country":"🇭🇰HK","port":80,"uuid":"6f96a2e9-daf3-41d4-a159-2bfe0d86dfac","alterId":0,"cipher":"auto","network":"ws","servername":"v21.gaowosiquanjia.top","http-opts":{},"h2-opts":{},"skip-cert-verify":true,"ws-opts":{"path":"/","headers":{"HOST":"v21.gaowosiquanjia.top"}}}
 - {"name":"Relay_🇸🇬SG-🇸🇬SG_10","server":"sg-am3.eqsunshine.com","type":"ssr","country":"🇸🇬SG","port":32001,"password":"3g0dHlKME","cipher":"aes-256-cfb","protocol":"origin","obfs":"tls1.2_ticket_auth","group":"SSRProvider"}
 - {"name":"Pool_🇺🇸US_11","server":"45.79.79.37","type":"ssr","country":"🇺🇸US","port":443,"password":"9d6cceaa373bf2c8acb22e60b6a58be6","cipher":"aes-256-cfb","protocol":"origin","protocol-param":"WWW.YOUNEED.WIN","obfs":"plain","obfs-param":"WWW.YOUNEED.WIN","group":"WWW.YOUNEED.WIN"}
 - {"name":"Relay_🇺🇸US-🇬🇧GB_12","server":"quranweb3.xyz","type":"vmess","country":"🇺🇸US","port":443,"uuid":"8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f","alterId":0,"cipher":"auto","network":"ws","servername":"quranweb3.xyz","http-opts":{},"h2-opts":{},"tls":true,"skip-cert-verify":true,"ws-opts":{"path":"/current_time","headers":{"HOST":"quranweb3.xyz"}}}
@@ -51,9 +51,9 @@ proxy-groups:
   - Relay_-🇫🇷FR_04
   - Relay_-🇫🇷FR_05
   - Relay_🇨🇳CN-🇭🇰HK_06
-  - 🇨🇳CN_07
+  - 🇨🇳CN_07🇨🇳CN
   - 🇭🇰HK_08
-  - Relay_🇭🇰HK-🇭🇰HK_09
+  - Relay_🇭🇰HK-🇭🇰HK_09🇭🇰HK
   - Relay_🇸🇬SG-🇸🇬SG_10
   - Pool_🇺🇸US_11
   - Relay_🇺🇸US-🇬🇧GB_12
