@@ -44,7 +44,7 @@ proxies:
 - {"name":"_15","server":"43.201.37.176","type":"ss","country":"🇺🇸US","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
 - {"name":"Relay_Relay_-🇺🇸US_13-🇺🇸US_16","server":"t1.freegradely.xyz","type":"ssr","country":"🇺🇸US","port":30033,"password":"dongtaiwang.com","cipher":"aes-256-cfb","protocol":"auth_chain_a","obfs":"tls1.2_ticket_auth"}
 - {"name":"_17","server":"vde2.0bad.com","type":"vmess","country":"🇺🇸US","port":443,"uuid":"927094d3-d678-4763-8591-e240d0bcae87","alterId":0,"cipher":"auto","network":"ws","servername":"vde2.0bad.com","http-opts":{},"h2-opts":{},"tls":true,"skip-cert-verify":true,"ws-opts":{"path":"/chat","headers":{"HOST":"vde2.0bad.com"}}}
-- {"name":"Relay_Relay_-🇸🇬SG_21-🇸🇬SG_18","server":"103.21.244.173","type":"vmess","country":"🇺🇸US","port":80,"uuid":"f7738290-ba04-4dd1-b4f3-e6863a9e1c8a","alterId":0,"cipher":"auto","network":"ws","servername":"zzsg.nmsl.pics","http-opts":{},"h2-opts":{},"skip-cert-verify":true,"ws-opts":{"path":"/","headers":{"HOST":"zzsg.nmsl.pics"}}}
+- {"name":"Relay_Relay_-🇸🇬SG_21-🇸🇬SG_18🇺🇸US","server":"103.21.244.173","type":"vmess","country":"🇺🇸US","port":80,"uuid":"f7738290-ba04-4dd1-b4f3-e6863a9e1c8a","alterId":0,"cipher":"auto","network":"ws","servername":"zzsg.nmsl.pics","http-opts":{},"h2-opts":{},"skip-cert-verify":true,"ws-opts":{"path":"/","headers":{"HOST":"zzsg.nmsl.pics"}}}
 - {"name":"Relay_Relay_-🇺🇸US_16-🇺🇸US_19","server":"vuk1.0bad.com","type":"vmess","country":"🇺🇸US","port":443,"uuid":"927094d3-d678-4763-8591-e240d0bcae87","alterId":0,"cipher":"auto","network":"ws","servername":"vuk1.0bad.com","http-opts":{},"h2-opts":{},"tls":true,"skip-cert-verify":true,"ws-opts":{"path":"/chat","headers":{"HOST":"vuk1.0bad.com"}}}
 - {"name":"_19_20","server":"143.42.110.81","type":"vmess","country":"🇺🇸US","port":443,"uuid":"8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f","alterId":0,"cipher":"auto","network":"ws","servername":"143.42.110.81","http-opts":{},"h2-opts":{},"tls":true,"skip-cert-verify":true,"ws-opts":{"path":"/current_time","headers":{"HOST":"143.42.110.81"}}}
 - {"name":"Relay_-🇺🇸US_21","server":"172.67.135.57","type":"vmess","country":"🇺🇸US","port":443,"uuid":"c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7","alterId":0,"cipher":"auto","network":"ws","servername":"oplg1.cfcdn2.xyz","http-opts":{},"h2-opts":{},"tls":true,"skip-cert-verify":true,"ws-opts":{"path":"/AUIKN8AU","headers":{"HOST":"oplg1.cfcdn2.xyz"}}}
@@ -79,7 +79,7 @@ proxy-groups:
   - _15
   - Relay_Relay_-🇺🇸US_13-🇺🇸US_16
   - _17
-  - Relay_Relay_-🇸🇬SG_21-🇸🇬SG_18
+  - Relay_Relay_-🇸🇬SG_21-🇸🇬SG_18🇺🇸US
   - Relay_Relay_-🇺🇸US_16-🇺🇸US_19
   - _19_20
   - Relay_-🇺🇸US_21
