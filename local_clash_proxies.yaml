@@ -27,10 +27,12 @@ dns:
   - +.googleapis.cn
   - +.gvt1.com
 proxies:
+- {"name":"Pool__01","server":"222.186.20.102","type":"ssr","port":41228,"password":"http://cc.ax/","cipher":"aes-256-cfb","protocol":"auth_aes128_md5","protocol-param":"165400:Hr2aXO","obfs":"plain","obfs-param":"data.bilibili.com/ed5a2165400"}
 proxy-groups:
 - name: loadbalance1
   type: load-balance
   proxies:
+  - Pool__01
   url: http://clients3.google.com/generate_204
   interval: 300
 
