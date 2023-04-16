@@ -27,12 +27,16 @@ dns:
   - +.googleapis.cn
   - +.gvt1.com
 proxies:
-- {"name":"Pool__01","server":"222.186.20.102","type":"ssr","port":41228,"password":"http://cc.ax/","cipher":"aes-256-cfb","protocol":"auth_aes128_md5","protocol-param":"165400:Hr2aXO","obfs":"plain","obfs-param":"data.bilibili.com/ed5a2165400"}
+- {"name":"_03🇨🇳CN_01","server":"36.137.106.45","type":"ss","country":"🇨🇳CN","port":11023,"password":"ll668668@","cipher":"aes-256-gcm"}
+- {"name":"_02🇨🇳CN_02","server":"36.138.193.128","type":"ss","country":"🇨🇳CN","port":11023,"password":"ll668668@","cipher":"aes-256-gcm"}
+- {"name":"Pool_Pool__06🇺🇸US_03","server":"45.79.79.37","type":"ssr","country":"🇺🇸US","port":443,"password":"9d6cceaa373bf2c8acb22e60b6a58be6","cipher":"aes-256-cfb","protocol":"origin","protocol-param":"WWW.YOUNEED.WIN","obfs":"plain","obfs-param":"WWW.YOUNEED.WIN","group":"WWW.YOUNEED.WIN"}
 proxy-groups:
 - name: loadbalance1
   type: load-balance
   proxies:
-  - Pool__01
+  - _03🇨🇳CN_01
+  - _02🇨🇳CN_02
+  - Pool_Pool__06🇺🇸US_03
   url: http://clients3.google.com/generate_204
   interval: 300
 
