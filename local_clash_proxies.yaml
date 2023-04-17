@@ -27,10 +27,14 @@ dns:
   - +.googleapis.cn
   - +.gvt1.com
 proxies:
+- {"name":"Relay_🇷🇺RU-🇷🇺RU_01","server":"t3.freegradely.xyz","type":"ssr","country":"🇷🇺RU","port":20022,"password":"dongtaiwang.com","cipher":"aes-256-cfb","protocol":"origin","obfs":"tls1.2_ticket_auth"}
+- {"name":"Pool_🇺🇸US_02","server":"45.79.79.37","type":"ssr","country":"🇺🇸US","port":443,"password":"9d6cceaa373bf2c8acb22e60b6a58be6","cipher":"aes-256-cfb","protocol":"origin","protocol-param":"WWW.YOUNEED.WIN","obfs":"plain","obfs-param":"WWW.YOUNEED.WIN","group":"WWW.YOUNEED.WIN"}
 proxy-groups:
 - name: loadbalance1
   type: load-balance
   proxies:
+  - Relay_🇷🇺RU-🇷🇺RU_01
+  - Pool_🇺🇸US_02
   url: http://clients3.google.com/generate_204
   interval: 300
 
