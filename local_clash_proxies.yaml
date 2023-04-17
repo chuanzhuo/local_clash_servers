@@ -27,18 +27,10 @@ dns:
   - +.googleapis.cn
   - +.gvt1.com
 proxies:
-- {"name":"Relay_🇯🇵JP-🇯🇵JP_01","server":"jp-am48-6.eqnode.net","type":"ssr","country":"🇯🇵JP","port":8081,"password":"eAokbaDN6","cipher":"aes-256-cfb","protocol":"origin","obfs":"tls1.2_ticket_auth","group":"SSRProvider"}
-- {"name":"Relay_🇸🇬SG-🇸🇬SG_02","server":"sg-am3.eqsunshine.com","type":"ssr","country":"🇸🇬SG","port":32001,"password":"3g0dHlKME","cipher":"aes-256-cfb","protocol":"origin","obfs":"tls1.2_ticket_auth","group":"SSRProvider"}
-- {"name":"🇺🇸US_03","server":"43.201.60.60","type":"ss","country":"🇺🇸US","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
-- {"name":"Pool_🇺🇸US_04","server":"45.79.79.37","type":"ssr","country":"🇺🇸US","port":443,"password":"9d6cceaa373bf2c8acb22e60b6a58be6","cipher":"aes-256-cfb","protocol":"origin","protocol-param":"WWW.YOUNEED.WIN","obfs":"plain","obfs-param":"WWW.YOUNEED.WIN","group":"WWW.YOUNEED.WIN"}
 proxy-groups:
 - name: loadbalance1
   type: load-balance
   proxies:
-  - Relay_🇯🇵JP-🇯🇵JP_01
-  - Relay_🇸🇬SG-🇸🇬SG_02
-  - 🇺🇸US_03
-  - Pool_🇺🇸US_04
   url: http://clients3.google.com/generate_204
   interval: 300
 
