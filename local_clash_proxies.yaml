@@ -27,10 +27,34 @@ dns:
   - +.googleapis.cn
   - +.gvt1.com
 proxies:
+- {"name":"_01","server":"36.137.106.45","type":"ss","country":"🇨🇳CN","port":11023,"password":"ll668668@","cipher":"aes-256-gcm"}
+- {"name":"_02","server":"36.138.193.128","type":"ss","country":"🇨🇳CN","port":11023,"password":"ll668668@","cipher":"aes-256-gcm"}
+- {"name":"_03","server":"36.134.16.96","type":"vmess","country":"🇨🇳CN","port":11023,"uuid":"8c042a38-71c1-1dcb-00df-54880236e0dc","alterId":0,"cipher":"auto","network":"tcp","http-opts":{},"h2-opts":{},"skip-cert-verify":true}
+- {"name":"_04","server":"36.133.171.209","type":"vmess","country":"🇨🇳CN","port":11023,"uuid":"8c042a38-71c1-1dcb-00df-54880236e0dc","alterId":0,"cipher":"auto","network":"tcp","http-opts":{},"h2-opts":{},"skip-cert-verify":true}
+- {"name":"_05","server":"47.104.237.32","type":"vmess","country":"🇨🇳CN","port":50002,"uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"cipher":"auto","network":"tcp","http-opts":{},"h2-opts":{},"skip-cert-verify":true}
+- {"name":"_06","server":"120.210.205.220","type":"vmess","country":"🇨🇳CN","port":36918,"uuid":"411dacd6-030b-41ad-bfb6-3a822ec83014","alterId":64,"cipher":"auto","network":"tcp","http-opts":{},"h2-opts":{},"skip-cert-verify":true}
+- {"name":"Relay_-🇸🇬SG_07","server":"sg-am3.eqsunshine.com","type":"ssr","country":"🇸🇬SG","port":32001,"password":"3g0dHlKME","cipher":"aes-256-cfb","protocol":"origin","obfs":"tls1.2_ticket_auth","group":"SSRProvider"}
+- {"name":"_08","server":"43.201.60.60","type":"ss","country":"🇺🇸US","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+- {"name":"_09","server":"43.207.149.87","type":"ss","country":"🇺🇸US","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+- {"name":"_10","server":"131.186.21.62","type":"ss","country":"🇺🇸US","port":4433,"password":"yy595721","cipher":"aes-256-gcm"}
+- {"name":"Pool__11","server":"45.79.79.37","type":"ssr","country":"🇺🇸US","port":443,"password":"9d6cceaa373bf2c8acb22e60b6a58be6","cipher":"aes-256-cfb","protocol":"origin","protocol-param":"WWW.YOUNEED.WIN","obfs":"plain","obfs-param":"WWW.YOUNEED.WIN","group":"WWW.YOUNEED.WIN"}
+- {"name":"Relay_-🇺🇸US_12","server":"pop.china.gfwcaonimanmsl.ml","type":"vmess","country":"🇺🇸US","port":10010,"uuid":"3b8fb6a5-1193-4bb4-a4bd-5ea854d1350f","alterId":0,"cipher":"auto","network":"ws","servername":"pop.china.gfwcaonimanmsl.ml","http-opts":{},"h2-opts":{},"skip-cert-verify":true,"ws-opts":{"path":"/name","headers":{"HOST":"pop.china.gfwcaonimanmsl.ml"}}}
 proxy-groups:
 - name: loadbalance1
   type: load-balance
   proxies:
+  - _01
+  - _02
+  - _03
+  - _04
+  - _05
+  - _06
+  - Relay_-🇸🇬SG_07
+  - _08
+  - _09
+  - _10
+  - Pool__11
+  - Relay_-🇺🇸US_12
   url: http://clients3.google.com/generate_204
   interval: 300
 
