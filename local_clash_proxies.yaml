@@ -27,22 +27,20 @@ dns:
   - +.googleapis.cn
   - +.gvt1.com
 proxies:
-- {"name":"Relay_🇨🇳CN-🇸🇬SG_01","server":"hn.xiaohouzi.club","type":"trojan","country":"🇨🇳CN","port":19021,"password":"82277b90-9f40-3c91-9b5a-e97140f63d8b","sni":"siga01.xiaohouzi.club","skip-cert-verify":true,"udp":true}
-- {"name":"Relay_🇨🇳CN-🇨🇳CN_02","server":"hn.xiaohouzi.club","type":"trojan","country":"🇨🇳CN","port":45147,"password":"82277b90-9f40-3c91-9b5a-e97140f63d8b","sni":"hk-tr06.xiaohouzi.club","skip-cert-verify":true,"udp":true}
-- {"name":"Relay_🇨🇳CN🇨🇳CN-🇩🇪DE_03","server":"hn.xiaohouzi.club","type":"trojan","country":"🇨🇳CN","port":18871,"password":"82277b90-9f40-3c91-9b5a-e97140f63d8b","sni":"ger01.xiaohouzi.club","skip-cert-verify":true,"udp":true}
-- {"name":"Relay_🇨🇳CN-🇸🇬SG_04","server":"hn.xiaohouzi.club","type":"trojan","country":"🇨🇳CN","port":19023,"password":"82277b90-9f40-3c91-9b5a-e97140f63d8b","sni":"siga03.xiaohouzi.club","skip-cert-verify":true,"udp":true}
-- {"name":"Relay_🇨🇳CN-🇦🇺AU_05","server":"hnm.xiaohouzi.club","type":"trojan","country":"🇨🇳CN","port":19466,"password":"82277b90-9f40-3c91-9b5a-e97140f63d8b","sni":"vultrau01.xiaohouzi.club","skip-cert-verify":true,"udp":true}
-- {"name":"Relay_🇨🇳CN-🇸🇬SG_06","server":"hnm.xiaohouzi.club","type":"trojan","country":"🇨🇳CN","port":18633,"password":"82277b90-9f40-3c91-9b5a-e97140f63d8b","sni":"avas03.xiaohouzi.club","skip-cert-verify":true,"udp":true}
+- {"name":"Relay_🇨🇳CN-🇨🇳CN_01","server":"hn.xiaohouzi.club","type":"trojan","country":"🇨🇳CN","port":19457,"password":"82277b90-9f40-3c91-9b5a-e97140f63d8b","sni":"hk-tr08.xiaohouzi.club","skip-cert-verify":true,"udp":true}
+- {"name":"Relay_Relay_🇨🇳CN🇨🇳CN-🇩🇪DE_03-🇩🇪DE_02","server":"hn.xiaohouzi.club","type":"trojan","country":"🇨🇳CN","port":18871,"password":"82277b90-9f40-3c91-9b5a-e97140f63d8b","sni":"ger01.xiaohouzi.club","skip-cert-verify":true,"udp":true}
+- {"name":"Relay_Relay_🇨🇳CN🇨🇳CN-🇨🇿CZ_05-🇨🇿CZ_03","server":"hn.xiaohouzi.club","type":"trojan","country":"🇨🇳CN","port":18821,"password":"82277b90-9f40-3c91-9b5a-e97140f63d8b","sni":"sofia.xiaohouzi.club","skip-cert-verify":true,"udp":true}
+- {"name":"Relay_🇨🇳CN-🇨🇳CN_04","server":"hnm.xiaohouzi.club","type":"trojan","country":"🇨🇳CN","port":19462,"password":"82277b90-9f40-3c91-9b5a-e97140f63d8b","sni":"hk-tr03.xiaohouzi.club","skip-cert-verify":true,"udp":true}
+- {"name":"Relay_🇨🇳CN-🇸🇬SG_05","server":"hnm.xiaohouzi.club","type":"trojan","country":"🇨🇳CN","port":18634,"password":"82277b90-9f40-3c91-9b5a-e97140f63d8b","sni":"avas04.xiaohouzi.club","skip-cert-verify":true,"udp":true}
 proxy-groups:
 - name: loadbalance1
   type: load-balance
   proxies:
-  - Relay_🇨🇳CN-🇸🇬SG_01
-  - Relay_🇨🇳CN-🇨🇳CN_02
-  - Relay_🇨🇳CN🇨🇳CN-🇩🇪DE_03
-  - Relay_🇨🇳CN-🇸🇬SG_04
-  - Relay_🇨🇳CN-🇦🇺AU_05
-  - Relay_🇨🇳CN-🇸🇬SG_06
+  - Relay_🇨🇳CN-🇨🇳CN_01
+  - Relay_Relay_🇨🇳CN🇨🇳CN-🇩🇪DE_03-🇩🇪DE_02
+  - Relay_Relay_🇨🇳CN🇨🇳CN-🇨🇿CZ_05-🇨🇿CZ_03
+  - Relay_🇨🇳CN-🇨🇳CN_04
+  - Relay_🇨🇳CN-🇸🇬SG_05
   url: http://clients3.google.com/generate_204
   interval: 300
 
