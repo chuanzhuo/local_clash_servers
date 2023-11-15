@@ -27,60 +27,14 @@ dns:
   - +.googleapis.cn
   - +.gvt1.com
 proxies:
-- {"name":"_01","server":"bjcu.xzyunjiasu.icu","type":"ss","port":33952,"password":"5c8b210a-2f00-4292-964b-05281c7ad5d1","cipher":"aes-256-gcm"}
-- {"name":"Pool__02","server":"222.186.20.102","type":"ssr","port":41228,"password":"http://cc.ax/","cipher":"aes-256-cfb","protocol":"auth_aes128_md5","protocol-param":"165400:Hr2aXO","obfs":"plain","obfs-param":"data.bilibili.com/ed5a2165400"}
-- {"name":"Relay_🇨🇦CA-🇨🇦CA_03","server":"z0115.security-cloudfront-cdn.com","type":"ssr","country":"🇨🇦CA","port":42833,"password":"YpX2opBbrfqJzzMs","cipher":"aes-256-cfb","protocol":"origin","obfs":"http_simple","group":"SSRProvider"}
-- {"name":"Relay_🇨🇦CA-🇨🇦CA_04","server":"ssr2.ssrsub.com","type":"ssr","country":"🇨🇦CA","port":38149,"password":"suo.yt/ssrsub","cipher":"aes-256-cfb","protocol":"origin","protocol-param":"t.me/SSRSUB","obfs":"plain","group":"t.me/SSRSUB"}
-- {"name":"Relay_🇨🇦CA-🇨🇦CA_05","server":"ssr1.ssrsub.com","type":"ssr","country":"🇨🇦CA","port":42471,"password":"https://dlj.tf/ssrsub","cipher":"aes-256-cfb","protocol":"origin","protocol-param":"t.me/SSRSUB","obfs":"plain","group":"t.me/SSRSUB"}
-- {"name":"Pool_🇯🇵JP_06","server":"172.104.101.201","type":"ssr","country":"🇯🇵JP","port":8099,"password":"eIW0Dnk69454e6nSwuspv9DmS201tQ0D","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain","group":"日本"}
-- {"name":"Pool_🇷🇺RU_07","server":"2.56.240.246","type":"ssr","country":"🇷🇺RU","port":30088,"password":"dongtaiwang.com","cipher":"none","protocol":"auth_chain_a","obfs":"tls1.2_ticket_auth","group":"https://git.io/v9999"}
-- {"name":"Pool_🇸🇬SG_08","server":"172.104.50.102","type":"ssr","country":"🇸🇬SG","port":8097,"password":"eIW0Dnk69454e6nSwuspv9DmS201tQ0D","cipher":"aes-256-cfb","protocol":"origin","protocol-param":"t.me/SSRSUB","obfs":"plain","group":"t.me/SSRSUB"}
-- {"name":"Pool_🇸🇬SG_09","server":"139.162.38.42","type":"ssr","country":"🇸🇬SG","port":8099,"password":"eIW0Dnk69454e6nSwuspv9DmS201tQ0D","cipher":"aes-256-cfb","protocol":"origin","protocol-param":"t.me/SSRSUB","obfs":"plain","group":"t.me/SSRSUB"}
-- {"name":"Pool_🇸🇬SG_10","server":"139.162.38.42","type":"ssr","country":"🇸🇬SG","port":8097,"password":"eIW0Dnk69454e6nSwuspv9DmS201tQ0D","cipher":"aes-256-cfb","protocol":"origin","protocol-param":"t.me/SSRSUB","obfs":"plain","group":"t.me/SSRSUB"}
-- {"name":"Pool_🇸🇬SG_11","server":"139.162.15.45","type":"ssr","country":"🇸🇬SG","port":8097,"password":"eIW0Dnk69454e6nSwuspv9DmS201tQ0D","cipher":"aes-256-cfb","protocol":"origin","protocol-param":"t.me/SSRSUB","obfs":"plain","group":"t.me/SSRSUB"}
-- {"name":"🇺🇸US_12","server":"www.dongtaiwang4.com","type":"ss","country":"🇺🇸US","port":27700,"password":"dongtaiwang.com","cipher":"aes-256-gcm"}
-- {"name":"Pool_🇺🇸US_13","server":"192.240.99.182","type":"ssr","country":"🇺🇸US","port":8099,"password":"eIW0Dnk69454e6nSwuspv9DmS201tQ0D","cipher":"aes-256-cfb","protocol":"origin","protocol-param":"t.me/SSRSUB","obfs":"plain","group":"t.me/SSRSUB"}
-- {"name":"Relay_🇺🇸US-🇺🇸US_14","server":"ssr-06.ssrsub.xyz","type":"ssr","country":"🇺🇸US","port":543,"password":"t.me/SSRSUB","cipher":"aes-256-ctr","protocol":"auth_aes128_md5","protocol-param":"t.me/SSRSUB","obfs":"tls1.2_ticket_auth","group":"t.me/SSRSUB"}
-- {"name":"Pool_🇺🇸US_15","server":"45.79.90.66","type":"ssr","country":"🇺🇸US","port":8097,"password":"eIW0Dnk69454e6nSwuspv9DmS201tQ0D","cipher":"aes-256-cfb","protocol":"origin","protocol-param":"t.me/SSRSUB","obfs":"plain","group":"t.me/SSRSUB"}
-- {"name":"Relay_🇺🇸US-🇺🇸US_16","server":"ssr-08.ssrsub.xyz","type":"ssr","country":"🇺🇸US","port":8097,"password":"t.me/SSRSUB","cipher":"aes-256-ctr","protocol":"auth_aes128_md5","obfs":"tls1.2_ticket_auth","group":"加拿大"}
-- {"name":"Pool_🇺🇸US_17","server":"45.79.71.183","type":"ssr","country":"🇺🇸US","port":8099,"password":"eIW0Dnk69454e6nSwuspv9DmS201tQ0D","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
-- {"name":"Pool_🇺🇸US_18","server":"45.79.90.66","type":"ssr","country":"🇺🇸US","port":8099,"password":"eIW0Dnk69454e6nSwuspv9DmS201tQ0D","cipher":"aes-256-cfb","protocol":"origin","protocol-param":"t.me/SSRSUB","obfs":"plain","group":"t.me/SSRSUB"}
-- {"name":"Pool_🇺🇸US_19","server":"85.209.158.210","type":"ssr","country":"🇺🇸US","port":30033,"password":"dongtaiwang.com","cipher":"none","protocol":"auth_chain_a","obfs":"tls1.2_ticket_auth","group":"https://git.io/v9999"}
-- {"name":"Relay_🇺🇸US-🇺🇸US_20","server":"ssr-06.ssrsub.xyz","type":"ssr","country":"🇺🇸US","port":543,"password":"t.me/SSRSUB","cipher":"aes-256-ctr","protocol":"auth_aes128_md5","obfs":"tls1.2_ticket_auth","group":"加拿大"}
-- {"name":"Pool_🇺🇸US_21","server":"45.79.96.104","type":"ssr","country":"🇺🇸US","port":8097,"password":"eIW0Dnk69454e6nSwuspv9DmS201tQ0D","cipher":"aes-256-cfb","protocol":"origin","protocol-param":"t.me/SSRSUB","obfs":"plain","group":"t.me/SSRSUB"}
-- {"name":"Relay_🇻🇬VG-🇻🇬VG_22","server":"ssr4.ssrsub.com","type":"ssr","country":"🇻🇬VG","port":8333,"password":"passfw2xs4e!","cipher":"rc4-md5","protocol":"origin","protocol-param":"t.me/SSRSUB","obfs":"plain","group":"t.me/SSRSUB"}
-- {"name":"Relay_🇻🇬VG-🇻🇬VG_23","server":"ssr3.ssrsub.com","type":"ssr","country":"🇻🇬VG","port":8333,"password":"passfw2xs4e!","cipher":"rc4-md5","protocol":"origin","protocol-param":"t.me/SSRSUB","obfs":"plain","group":"t.me/SSRSUB"}
-- {"name":"Relay_🇻🇬VG-🇻🇬VG_24","server":"ssr6.ssrsub.com","type":"ssr","country":"🇻🇬VG","port":8333,"password":"passfw2xs4e!","cipher":"rc4-md5","protocol":"origin","protocol-param":"t.me/SSRSUB","obfs":"plain","group":"t.me/SSRSUB"}
-- {"name":"Relay_🇻🇬VG-🇻🇬VG_25","server":"ssr5.ssrsub.com","type":"ssr","country":"🇻🇬VG","port":8333,"password":"passfw2xs4e!","cipher":"rc4-md5","protocol":"origin","protocol-param":"t.me/SSRSUB","obfs":"plain","group":"t.me/SSRSUB"}
+- {"name":"_01","server":"n1699253769.aaigefm.cn","type":"vmess","port":443,"uuid":"982fadd1-3e5f-4aa3-8552-ed6fda23414a","alterId":0,"cipher":"auto","network":"ws","servername":"n1699253769.aaigefm.cn","http-opts":{},"h2-opts":{},"tls":true,"ws-opts":{"path":"/","headers":{"Host":"n1699253769.aaigefm.cn"}}}
+- {"name":"🇨🇳CN_02","server":"124.220.57.75","type":"vmess","country":"🇨🇳CN","port":80,"uuid":"1b3dd95b-f6dc-4f20-97aa-3b365358419c","alterId":0,"cipher":"auto","network":"ws","servername":"124.220.57.75","http-opts":{},"h2-opts":{},"skip-cert-verify":true,"ws-opts":{"path":"/","headers":{"HOST":"124.220.57.75"}}}
 proxy-groups:
 - name: loadbalance1
   type: url-test
   proxies:
   - _01
-  - Pool__02
-  - Relay_🇨🇦CA-🇨🇦CA_03
-  - Relay_🇨🇦CA-🇨🇦CA_04
-  - Relay_🇨🇦CA-🇨🇦CA_05
-  - Pool_🇯🇵JP_06
-  - Pool_🇷🇺RU_07
-  - Pool_🇸🇬SG_08
-  - Pool_🇸🇬SG_09
-  - Pool_🇸🇬SG_10
-  - Pool_🇸🇬SG_11
-  - 🇺🇸US_12
-  - Pool_🇺🇸US_13
-  - Relay_🇺🇸US-🇺🇸US_14
-  - Pool_🇺🇸US_15
-  - Relay_🇺🇸US-🇺🇸US_16
-  - Pool_🇺🇸US_17
-  - Pool_🇺🇸US_18
-  - Pool_🇺🇸US_19
-  - Relay_🇺🇸US-🇺🇸US_20
-  - Pool_🇺🇸US_21
-  - Relay_🇻🇬VG-🇻🇬VG_22
-  - Relay_🇻🇬VG-🇻🇬VG_23
-  - Relay_🇻🇬VG-🇻🇬VG_24
-  - Relay_🇻🇬VG-🇻🇬VG_25
+  - 🇨🇳CN_02
   url: https://clients3.google.com/generate_204
   interval: 300
 
