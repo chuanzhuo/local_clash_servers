@@ -32,28 +32,26 @@ dns:
   - +.gvt1.com
 proxies:
 - {"name":"Relay_-🇯🇵JP_01","server":"119.23.104.213","type":"ss","port":8474,"udp":true,"password":"a501c82c72d790b8","cipher":"chacha20-ietf-poly1305"}
-- {"name":"Relay_-🇨🇳CN_02","server":"bs4.jymzffbquawl.com","type":"ssr","port":5503,"password":"renzhecloud","cipher":"chacha20-ietf","protocol":"auth_aes128_sha1","protocol-param":"277272:LzSb2q","obfs":"plain","obfs-param":"TG@wangcai_1"}
-- {"name":"Relay_-🇨🇳CN_03","server":"cm01.newcome.xyz","type":"ssr","port":7709,"password":"jFa4F1","cipher":"chacha20-ietf","protocol":"auth_aes128_sha1","protocol-param":"50916:1129K_n259","obfs":"plain","obfs-param":"ffc9c50916.microsoft.com"}
-- {"name":"Relay_-🇨🇳CN_04","server":"cm01.newcome.xyz","type":"ssr","port":7704,"password":"jFa4F1","cipher":"chacha20-ietf","protocol":"auth_aes128_sha1","protocol-param":"84263:3gj7aB","obfs":"plain","obfs-param":"TG@wangcai_1"}
-- {"name":"Relay_-🇨🇳CN_05","server":"bs3.jymzffbquawl.com","type":"ssr","port":5502,"password":"renzhecloud","cipher":"chacha20-ietf","protocol":"auth_aes128_sha1","protocol-param":"277272:LzSb2q","obfs":"plain","obfs-param":"TG@wangcai_1"}
-- {"name":"Relay_-🇨🇳CN_06","server":"pr3.jymzffbquawl.com","type":"ssr","port":5501,"password":"renzhecloud","cipher":"chacha20-ietf","protocol":"auth_aes128_sha1","protocol-param":"277272:LzSb2q","obfs":"plain","obfs-param":"TG@wangcai_1"}
-- {"name":"Relay_-🇨🇳CN_07","server":"cm01.newcome.xyz","type":"ssr","port":7709,"password":"jFa4F1","cipher":"chacha20-ietf","protocol":"auth_aes128_sha1","protocol-param":"84263:3gj7aB","obfs":"plain","obfs-param":"TG@wangcai_1"}
-- {"name":"Relay_-🇨🇳CN_08","server":"cm01.newcome.xyz","type":"ssr","port":7708,"password":"jFa4F1","cipher":"chacha20-ietf","protocol":"auth_aes128_sha1","protocol-param":"84263:3gj7aB","obfs":"plain","obfs-param":"TG@wangcai_1"}
-- {"name":"Relay_-🇨🇳CN_09","server":"bs4.jymzffbquawl.com","type":"ssr","port":5502,"password":"renzhecloud","cipher":"chacha20-ietf","protocol":"auth_aes128_sha1","protocol-param":"277272:LzSb2q","obfs":"plain","obfs-param":"TG@wangcai_1"}
-- {"name":"Relay_-🇨🇳CN_10","server":"cm01.newcome.xyz","type":"ssr","port":7700,"password":"jFa4F1","cipher":"chacha20-ietf","protocol":"auth_aes128_sha1","protocol-param":"84263:3gj7aB","obfs":"plain","obfs-param":"TG@wangcai_1"}
-- {"name":"Relay_-🇨🇳CN_11","server":"cm01.newcome.xyz","type":"ssr","port":7705,"password":"jFa4F1","cipher":"chacha20-ietf","protocol":"auth_aes128_sha1","protocol-param":"50916:1129K_n259","obfs":"plain","obfs-param":"ffc9c50916.microsoft.com"}
-- {"name":"Relay_-🇨🇳CN_12","server":"cm01.newcome.xyz","type":"ssr","port":7701,"password":"jFa4F1","cipher":"chacha20-ietf","protocol":"auth_aes128_sha1","protocol-param":"84263:3gj7aB","obfs":"plain","obfs-param":"TG@wangcai_1"}
-- {"name":"Relay_-🇨🇳CN_13","server":"cm01.newcome.xyz","type":"ssr","port":7706,"password":"jFa4F1","cipher":"chacha20-ietf","protocol":"auth_aes128_sha1","protocol-param":"45641:1119_jE165t","obfs":"plain","obfs-param":"511df45641.microsoft.com"}
-- {"name":"Relay_-🇨🇳CN_14","server":"cm01.newcome.xyz","type":"ssr","port":7703,"password":"jFa4F1","cipher":"chacha20-ietf","protocol":"auth_aes128_sha1","protocol-param":"84263:3gj7aB","obfs":"plain","obfs-param":"TG@wangcai_1"}
-- {"name":"Relay_-🇨🇳CN_15","server":"cm01.newcome.xyz","type":"ssr","port":7703,"password":"jFa4F1","cipher":"chacha20-ietf","protocol":"auth_aes128_sha1","protocol-param":"45641:1119_jE165t","obfs":"plain","obfs-param":"511df45641.microsoft.com"}
-- {"name":"_16","server":"78.111.102.232","type":"vmess","port":3389,"uuid":"9c050a86-d612-48f1-ec32-e573df08a1b7","alterId":0,"cipher":"auto","network":"http","http-opts":{},"h2-opts":{},"skip-cert-verify":true}
-- {"name":"_17","server":"172.64.68.208","type":"vmess","port":8080,"udp":true,"uuid":"477af724-de79-40dc-80ef-bf3bca0be3ce","alterId":0,"cipher":"auto","network":"ws","http-opts":{},"h2-opts":{},"skip-cert-verify":true,"ws-opts":{"path":"/?ed=2048","headers":{"Host":"eu3.openxai.link"}}}
-- {"name":"Relay_-🇧🇪BE_18","server":"94.140.0.110","type":"vmess","port":8880,"udp":true,"uuid":"0d1bf26a-ce97-4707-a270-7f4d2ae37334","alterId":0,"cipher":"auto","network":"ws","http-opts":{},"h2-opts":{},"ws-opts":{"path":"/","headers":{"Host":"food.zhaal.ir"}}}
-- {"name":"Relay_-🏁ZZ_19","server":"data-us-v1.shwjfkw.cn","type":"vmess","port":20401,"udp":true,"uuid":"b1478e24-4916-3abe-8f17-15931012ecbe","alterId":0,"cipher":"auto","network":"ws","http-opts":{},"h2-opts":{},"ws-opts":{"path":"/debian","headers":{"Host":"data-us-v1.shwjfkw.cn"}}}
-- {"name":"Relay_🇨🇳CN-🇨🇳CN_20","server":"zx01.endhigh.xyz","type":"ssr","country":"🇨🇳CN","port":2403,"password":"jFa4F1","cipher":"chacha20-ietf","protocol":"auth_aes128_sha1","protocol-param":"45641:1119_jE165t","obfs":"plain","obfs-param":"511df45641.microsoft.com","group":"Update-二爷"}
-- {"name":"Relay_🇨🇳CN-🇨🇳CN_21","server":"cm03.newcome.xyz","type":"ssr","country":"🇨🇳CN","port":6705,"password":"jFa4F1","cipher":"chacha20-ietf","protocol":"auth_aes128_sha1","protocol-param":"45641:1119_jE165t","obfs":"plain","obfs-param":"511df45641.microsoft.com","group":"Update-二爷"}
-- {"name":"Relay_🇨🇳CN-🇨🇳CN_22","server":"zx01.endhigh.xyz","type":"ssr","country":"🇨🇳CN","port":2402,"password":"jFa4F1","cipher":"chacha20-ietf","protocol":"auth_aes128_sha1","protocol-param":"45641:1119_jE165t","obfs":"plain","obfs-param":"511df45641.microsoft.com","group":"Update-二爷"}
-- {"name":"Relay_🇺🇸US-🇺🇸US_23","server":"ssr1.ssrsub.one","type":"ssr","country":"🇺🇸US","port":47481,"password":"https://dlj.tf/ssrsub","cipher":"aes-256-cfb","protocol":"origin","protocol-param":"t.me/SSRSUB","obfs":"plain","group":"github.com/freefq"}
+- {"name":"Relay_-🇨🇳CN_02","server":"cm01.newcome.xyz","type":"ssr","port":7703,"password":"jFa4F1","cipher":"chacha20-ietf","protocol":"auth_aes128_sha1","protocol-param":"45641:1119_jE165t","obfs":"plain","obfs-param":"511df45641.microsoft.com"}
+- {"name":"Relay_-🇨🇳CN_03","server":"bs4.jymzffbquawl.com","type":"ssr","port":5503,"password":"renzhecloud","cipher":"chacha20-ietf","protocol":"auth_aes128_sha1","protocol-param":"277272:LzSb2q","obfs":"plain","obfs-param":"TG@wangcai_1"}
+- {"name":"Relay_-🇨🇳CN_04","server":"cm01.newcome.xyz","type":"ssr","port":7706,"password":"jFa4F1","cipher":"chacha20-ietf","protocol":"auth_aes128_sha1","protocol-param":"45641:1119_jE165t","obfs":"plain","obfs-param":"511df45641.microsoft.com"}
+- {"name":"Relay_-🇨🇳CN_05","server":"cm01.newcome.xyz","type":"ssr","port":7700,"password":"jFa4F1","cipher":"chacha20-ietf","protocol":"auth_aes128_sha1","protocol-param":"84263:3gj7aB","obfs":"plain","obfs-param":"TG@wangcai_1"}
+- {"name":"Relay_-🇨🇳CN_06","server":"cm01.newcome.xyz","type":"ssr","port":7705,"password":"jFa4F1","cipher":"chacha20-ietf","protocol":"auth_aes128_sha1","protocol-param":"50916:1129K_n259","obfs":"plain","obfs-param":"ffc9c50916.microsoft.com"}
+- {"name":"Relay_-🇨🇳CN_07","server":"cm01.newcome.xyz","type":"ssr","port":7709,"password":"jFa4F1","cipher":"chacha20-ietf","protocol":"auth_aes128_sha1","protocol-param":"50916:1129K_n259","obfs":"plain","obfs-param":"ffc9c50916.microsoft.com"}
+- {"name":"Relay_-🇨🇳CN_08","server":"cm01.newcome.xyz","type":"ssr","port":7701,"password":"jFa4F1","cipher":"chacha20-ietf","protocol":"auth_aes128_sha1","protocol-param":"84263:3gj7aB","obfs":"plain","obfs-param":"TG@wangcai_1"}
+- {"name":"Relay_-🇨🇳CN_09","server":"cm01.newcome.xyz","type":"ssr","port":7703,"password":"jFa4F1","cipher":"chacha20-ietf","protocol":"auth_aes128_sha1","protocol-param":"84263:3gj7aB","obfs":"plain","obfs-param":"TG@wangcai_1"}
+- {"name":"Pool__10","server":"222.186.20.102","type":"ssr","port":41228,"password":"http://cc.ax/","cipher":"aes-256-cfb","protocol":"auth_aes128_md5","protocol-param":"165400:Hr2aXO","obfs":"plain","obfs-param":"data.bilibili.com/ed5a2165400"}
+- {"name":"Relay_-🇨🇳CN_11","server":"cm01.newcome.xyz","type":"ssr","port":7709,"password":"jFa4F1","cipher":"chacha20-ietf","protocol":"auth_aes128_sha1","protocol-param":"84263:3gj7aB","obfs":"plain","obfs-param":"TG@wangcai_1"}
+- {"name":"Relay_-🇨🇳CN_12","server":"cm01.newcome.xyz","type":"ssr","port":7704,"password":"jFa4F1","cipher":"chacha20-ietf","protocol":"auth_aes128_sha1","protocol-param":"84263:3gj7aB","obfs":"plain","obfs-param":"TG@wangcai_1"}
+- {"name":"Relay_-🇨🇳CN_13","server":"pr3.jymzffbquawl.com","type":"ssr","port":5501,"password":"renzhecloud","cipher":"chacha20-ietf","protocol":"auth_aes128_sha1","protocol-param":"277272:LzSb2q","obfs":"plain","obfs-param":"TG@wangcai_1"}
+- {"name":"Relay_-🇨🇳CN_14","server":"bs4.jymzffbquawl.com","type":"ssr","port":5502,"password":"renzhecloud","cipher":"chacha20-ietf","protocol":"auth_aes128_sha1","protocol-param":"277272:LzSb2q","obfs":"plain","obfs-param":"TG@wangcai_1"}
+- {"name":"Relay_-🇨🇳CN_15","server":"bs3.jymzffbquawl.com","type":"ssr","port":5502,"password":"renzhecloud","cipher":"chacha20-ietf","protocol":"auth_aes128_sha1","protocol-param":"277272:LzSb2q","obfs":"plain","obfs-param":"TG@wangcai_1"}
+- {"name":"Relay_-🇨🇳CN_16","server":"cm01.newcome.xyz","type":"ssr","port":7708,"password":"jFa4F1","cipher":"chacha20-ietf","protocol":"auth_aes128_sha1","protocol-param":"84263:3gj7aB","obfs":"plain","obfs-param":"TG@wangcai_1"}
+- {"name":"_17","server":"185.236.233.111","type":"trojan","port":2053,"password":"ba74833c-8c0f-4dcd-8cbc-13e3c32d3765","sni":"ftp.debian.org","skip-cert-verify":true,"udp":true}
+- {"name":"Relay_🇨🇳CN-🇨🇳CN_18","server":"zx01.endhigh.xyz","type":"ssr","country":"🇨🇳CN","port":2403,"password":"jFa4F1","cipher":"chacha20-ietf","protocol":"auth_aes128_sha1","protocol-param":"45641:1119_jE165t","obfs":"plain","obfs-param":"511df45641.microsoft.com","group":"Update-二爷"}
+- {"name":"Relay_🇨🇳CN-🇨🇳CN_19","server":"zx01.endhigh.xyz","type":"ssr","country":"🇨🇳CN","port":2402,"password":"jFa4F1","cipher":"chacha20-ietf","protocol":"auth_aes128_sha1","protocol-param":"45641:1119_jE165t","obfs":"plain","obfs-param":"511df45641.microsoft.com","group":"Update-二爷"}
+- {"name":"Relay_🇨🇳CN-🇨🇳CN_20","server":"cm03.newcome.xyz","type":"ssr","country":"🇨🇳CN","port":6705,"password":"jFa4F1","cipher":"chacha20-ietf","protocol":"auth_aes128_sha1","protocol-param":"45641:1119_jE165t","obfs":"plain","obfs-param":"511df45641.microsoft.com","group":"Update-二爷"}
+- {"name":"Relay_🇺🇸US-🇺🇸US_21","server":"ssr1.ssrsub.one","type":"ssr","country":"🇺🇸US","port":47481,"password":"https://dlj.tf/ssrsub","cipher":"aes-256-cfb","protocol":"origin","protocol-param":"t.me/SSRSUB","obfs":"plain","group":"github.com/freefq"}
 proxy-groups:
 - name: loadbalance1
   type: url-test
@@ -69,20 +67,18 @@ proxy-groups:
   - Relay_-🇨🇳CN_07
   - Relay_-🇨🇳CN_08
   - Relay_-🇨🇳CN_09
-  - Relay_-🇨🇳CN_10
+  - Pool__10
   - Relay_-🇨🇳CN_11
   - Relay_-🇨🇳CN_12
   - Relay_-🇨🇳CN_13
   - Relay_-🇨🇳CN_14
   - Relay_-🇨🇳CN_15
-  - _16
+  - Relay_-🇨🇳CN_16
   - _17
-  - Relay_-🇧🇪BE_18
-  - Relay_-🏁ZZ_19
+  - Relay_🇨🇳CN-🇨🇳CN_18
+  - Relay_🇨🇳CN-🇨🇳CN_19
   - Relay_🇨🇳CN-🇨🇳CN_20
-  - Relay_🇨🇳CN-🇨🇳CN_21
-  - Relay_🇨🇳CN-🇨🇳CN_22
-  - Relay_🇺🇸US-🇺🇸US_23
+  - Relay_🇺🇸US-🇺🇸US_21
   url: http://www.gstatic.com/generate_204
   interval: 600
 rules:
