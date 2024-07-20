@@ -31,12 +31,34 @@ dns:
   - +.googleapis.cn
   - +.gvt1.com
 proxies:
+- {"name":"Relay_🇨🇳CN-🇭🇰HK_01","server":"183.236.51.23","type":"vmess","country":"🇨🇳CN","port":54100,"uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"cipher":"auto","network":"tcp","http-opts":{},"h2-opts":{},"skip-cert-verify":true}
+- {"name":"🇺🇸US_02","server":"154.17.13.95","type":"ss","country":"🇺🇸US","port":15000,"password":"c8174645-af40-4c6a-817c-f91cc145ac62","cipher":"aes-256-gcm"}
+- {"name":"Relay_🇺🇸US-🇺🇸US_03","server":"ssr1.ssrsub.one","type":"ssr","country":"🇺🇸US","port":47481,"password":"https://dlj.tf/ssrsub","cipher":"aes-256-cfb","protocol":"origin","protocol-param":"t.me/SSRSUB","obfs":"plain","group":"github.com/freefq"}
+- {"name":"Relay_🇺🇸US-🇨🇦CA_04","server":"172.64.233.32","type":"vmess","country":"🇺🇸US","port":2086,"uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"cipher":"auto","network":"ws","servername":"ip2.1457230.xyz","http-opts":{},"h2-opts":{},"skip-cert-verify":true,"ws-opts":{"path":"github.com/Alvin9999","headers":{"HOST":"ip2.1457230.xyz"}}}
+- {"name":"🇺🇸US_05","server":"38.75.136.73","type":"vmess","country":"🇺🇸US","port":443,"uuid":"03fcc618-b93d-6796-6aed-8a38c975d581","alterId":0,"cipher":"auto","network":"ws","servername":"38.75.136.73","http-opts":{},"h2-opts":{},"tls":true,"skip-cert-verify":true,"ws-opts":{"path":"/linkvws","headers":{"HOST":"38.75.136.73"}}}
+- {"name":"🇺🇸US_06","server":"104.26.0.56","type":"vmess","country":"🇺🇸US","port":2052,"uuid":"d6b6d982-d52f-465a-b988-85670b23f64a","alterId":0,"cipher":"auto","network":"ws","servername":"cdn1.freegradely.xyz","http-opts":{},"h2-opts":{},"skip-cert-verify":true,"ws-opts":{"path":"github.com/Alvin9999","headers":{"HOST":"cdn1.freegradely.xyz"}}}
+- {"name":"Relay_🏁ZZ-🇨🇦CA_07","server":"104.19.38.8","type":"vmess","country":"🏁ZZ","port":2052,"uuid":"d6b6d982-d52f-465a-b988-85670b23f64a","alterId":0,"cipher":"auto","network":"ws","servername":"cdn1.freegradely.xyz","http-opts":{},"h2-opts":{},"skip-cert-verify":true,"ws-opts":{"path":"github.com/Alvin9999","headers":{"HOST":"cdn1.freegradely.xyz"}}}
+- {"name":"Relay_🏁ZZ-🇨🇦CA_08","server":"104.19.38.22","type":"vmess","country":"🏁ZZ","port":2052,"uuid":"d6b6d982-d52f-465a-b988-85670b23f64a","alterId":0,"cipher":"auto","network":"ws","servername":"cdn3.freegradely.xyz","http-opts":{},"h2-opts":{},"skip-cert-verify":true,"ws-opts":{"path":"github.com/Alvin9999","headers":{"HOST":"cdn3.freegradely.xyz"}}}
+- {"name":"Relay_🏁ZZ-🇨🇦CA_09","server":"104.17.106.151","type":"vmess","country":"🏁ZZ","port":2086,"uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"cipher":"auto","network":"ws","servername":"ip14.freegradely.xyz","http-opts":{},"h2-opts":{},"skip-cert-verify":true,"ws-opts":{"path":"github.com/Alvin9999","headers":{"HOST":"ip14.freegradely.xyz"}}}
+- {"name":"Relay_🏁ZZ-🇨🇦CA_10","server":"104.19.45.31","type":"vmess","country":"🏁ZZ","port":2086,"uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"cipher":"auto","network":"ws","servername":"ip13.freegradely.xyz","http-opts":{},"h2-opts":{},"skip-cert-verify":true,"ws-opts":{"path":"github.com/Alvin9999","headers":{"HOST":"ip13.freegradely.xyz"}}}
+- {"name":"Relay_🏁ZZ-🇨🇦CA_11","server":"104.19.46.123","type":"vmess","country":"🏁ZZ","port":2052,"uuid":"d6b6d982-d52f-465a-b988-85670b23f64a","alterId":0,"cipher":"auto","network":"ws","servername":"cdn3.freegradely.xyz","http-opts":{},"h2-opts":{},"skip-cert-verify":true,"ws-opts":{"path":"github.com/Alvin9999","headers":{"HOST":"cdn3.freegradely.xyz"}}}
 proxy-groups:
 - name: loadbalance1
   type: url-test
   stragery: consistent-hashing
   tolerance: 300
   proxies:
+  - Relay_🇨🇳CN-🇭🇰HK_01
+  - 🇺🇸US_02
+  - Relay_🇺🇸US-🇺🇸US_03
+  - Relay_🇺🇸US-🇨🇦CA_04
+  - 🇺🇸US_05
+  - 🇺🇸US_06
+  - Relay_🏁ZZ-🇨🇦CA_07
+  - Relay_🏁ZZ-🇨🇦CA_08
+  - Relay_🏁ZZ-🇨🇦CA_09
+  - Relay_🏁ZZ-🇨🇦CA_10
+  - Relay_🏁ZZ-🇨🇦CA_11
   url: http://www.gstatic.com/generate_204
   interval: 600
 rules:
