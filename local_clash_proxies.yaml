@@ -31,20 +31,26 @@ dns:
   - +.googleapis.cn
   - +.gvt1.com
 proxies:
-- {"name":"Relay_-🇸🇬SG_01","server":"183.236.51.23","type":"vmess","port":46602,"uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"cipher":"auto","http-opts":{},"h2-opts":{}}
-- {"name":"Relay_-🇸🇬SG_02","server":"183.236.51.23","type":"vmess","port":53002,"uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"cipher":"auto","network":"tcp","http-opts":{},"h2-opts":{},"skip-cert-verify":true}
-- {"name":"_03","server":"naiu-hk.05vr9nyqg5.download","type":"trojan","port":13007,"password":"3bb73c5b-2500-484a-8ee4-68aaca381a6d","sni":"cloudflare.node-ssl.cdn-alibaba.com"}
-- {"name":"Relay_🇺🇸US-🇺🇸US_04","server":"nm3.boom.party","type":"ssr","country":"🇺🇸US","port":13000,"password":"Uk92CS","cipher":"aes-256-cfb","protocol":"auth_aes128_sha1","obfs":"http_simple"}
+- {"name":"Relay_-🇬🇧GB_01","server":"soonjp.soon.guru","type":"ss","port":40003,"password":"ab8b625c-efb8-45cd-b509-c7cceabe0cc6","cipher":"chacha20-ietf-poly1305"}
+- {"name":"_02","server":"3.34.255.220","type":"ss","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+- {"name":"_03","server":"43.202.1.19","type":"ss","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+- {"name":"Relay_-🇸🇬SG_04","server":"183.236.51.23","type":"vmess","port":53002,"uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"cipher":"auto","network":"tcp","http-opts":{},"h2-opts":{},"skip-cert-verify":true}
+- {"name":"Relay_-🇸🇬SG_05","server":"183.236.51.23","type":"vmess","port":46602,"uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"cipher":"auto","http-opts":{},"h2-opts":{}}
+- {"name":"🇧🇿BZ_06","server":"46.183.217.232","type":"ss","country":"🇧🇿BZ","port":990,"password":"f8f7aCzcPKbsF8p3","cipher":"chacha20-ietf-poly1305"}
+- {"name":"Relay_🇺🇸US-🇺🇸US_07","server":"nm3.boom.party","type":"ssr","country":"🇺🇸US","port":13000,"password":"Uk92CS","cipher":"aes-256-cfb","protocol":"auth_aes128_sha1","obfs":"http_simple"}
 proxy-groups:
 - name: loadbalance1
   type: url-test
   stragery: consistent-hashing
   tolerance: 300
   proxies:
-  - Relay_-🇸🇬SG_01
-  - Relay_-🇸🇬SG_02
+  - Relay_-🇬🇧GB_01
+  - _02
   - _03
-  - Relay_🇺🇸US-🇺🇸US_04
+  - Relay_-🇸🇬SG_04
+  - Relay_-🇸🇬SG_05
+  - 🇧🇿BZ_06
+  - Relay_🇺🇸US-🇺🇸US_07
   url: https://clients3.google.com/generate_204
   interval: 600
 rules:
