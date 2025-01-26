@@ -31,20 +31,26 @@ dns:
   - +.googleapis.cn
   - +.gvt1.com
 proxies:
-- {"name":"Relay_🇨🇳CN-🇸🇬SG_01","server":"ctmm.gscloud.bond","type":"ss","country":"🇨🇳CN","port":31620,"password":"f16d3752-7bae-474e-87dc-f892df2caeaf","cipher":"chacha20-ietf-poly1305"}
-- {"name":"🇵🇱PL_02","server":"45.144.48.128","type":"vmess","country":"🇵🇱PL","port":8443,"uuid":"a4850481-9b95-430f-9b2d-192d2410b4f4","alterId":0,"cipher":"auto","network":"ws","http-opts":{},"h2-opts":{},"tls":true,"skip-cert-verify":true,"ws-opts":{"path":"/vmess/"}}
-- {"name":"Relay_🇺🇸US-🇷🇺RU_03","server":"dongtaiwang5.com","type":"ssr","country":"🇺🇸US","port":50055,"password":"dongtaiwang.com","cipher":"none","protocol":"auth_chain_a","obfs":"plain"}
-- {"name":"Relay_🇺🇸US-🇺🇸US_04","server":"nm3.boom.party","type":"ssr","country":"🇺🇸US","port":13000,"password":"Uk92CS","cipher":"aes-256-cfb","protocol":"auth_aes128_sha1","obfs":"http_simple"}
+- {"name":"_01","server":"37.143.129.230","type":"ss","port":989,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
+- {"name":"_02","server":"222.186.20.102","type":"ssr","port":41228,"password":"http://cc.ax/","cipher":"aes-256-cfb","protocol":"auth_aes128_md5","protocol-param":"165400:Hr2aXO","obfs":"plain","obfs-param":"data.bilibili.com/ed5a2165400"}
+- {"name":"Relay_🇨🇳CN-🇸🇬SG_03","server":"ctmm.gscloud.bond","type":"ss","country":"🇨🇳CN","port":31620,"password":"f16d3752-7bae-474e-87dc-f892df2caeaf","cipher":"chacha20-ietf-poly1305"}
+- {"name":"🇬🇧GB_04","server":"5.39.252.204","type":"vmess","country":"🇬🇧GB","port":23532,"uuid":"2b98e5b4-b935-4de8-8a23-74c8ab5392e0","alterId":0,"cipher":"auto","network":"ws","http-opts":{},"h2-opts":{},"skip-cert-verify":true,"ws-opts":{"path":"/"}}
+- {"name":"🇵🇱PL_05","server":"45.144.48.128","type":"vmess","country":"🇵🇱PL","port":8443,"uuid":"a4850481-9b95-430f-9b2d-192d2410b4f4","alterId":0,"cipher":"auto","network":"ws","http-opts":{},"h2-opts":{},"tls":true,"skip-cert-verify":true,"ws-opts":{"path":"/vmess/"}}
+- {"name":"Relay_🇺🇸US-🇺🇸US_06","server":"nm3.boom.party","type":"ssr","country":"🇺🇸US","port":13000,"password":"Uk92CS","cipher":"aes-256-cfb","protocol":"auth_aes128_sha1","obfs":"http_simple"}
+- {"name":"Relay_🇺🇸US-🇷🇺RU_07","server":"dongtaiwang5.com","type":"ssr","country":"🇺🇸US","port":50055,"password":"dongtaiwang.com","cipher":"none","protocol":"auth_chain_a","obfs":"plain"}
 proxy-groups:
 - name: loadbalance1
   type: url-test
   stragery: consistent-hashing
   tolerance: 300
   proxies:
-  - Relay_🇨🇳CN-🇸🇬SG_01
-  - 🇵🇱PL_02
-  - Relay_🇺🇸US-🇷🇺RU_03
-  - Relay_🇺🇸US-🇺🇸US_04
+  - _01
+  - _02
+  - Relay_🇨🇳CN-🇸🇬SG_03
+  - 🇬🇧GB_04
+  - 🇵🇱PL_05
+  - Relay_🇺🇸US-🇺🇸US_06
+  - Relay_🇺🇸US-🇷🇺RU_07
   url: https://clients3.google.com/generate_204
   interval: 600
 rules:
