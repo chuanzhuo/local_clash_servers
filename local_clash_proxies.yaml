@@ -31,13 +31,20 @@ dns:
   - +.googleapis.cn
   - +.gvt1.com
 proxies:
-- {"name":"_01","server":"37.143.129.230","type":"ss","port":989,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
-- {"name":"Relay_-🇭🇰HK_02","server":"120.232.81.50","type":"ss","port":16088,"password":"hGkQ6915tD","cipher":"aes-256-cfb"}
-- {"name":"Pool__03","server":"222.186.20.102","type":"ssr","port":41228,"password":"http://cc.ax/","cipher":"aes-256-cfb","protocol":"auth_aes128_md5","protocol-param":"165400:Hr2aXO","obfs":"plain","obfs-param":"data.bilibili.com/ed5a2165400"}
-- {"name":"🇵🇱PL_04","server":"3h-poland1.09vpn.com","type":"vmess","country":"🇵🇱PL","port":8443,"uuid":"a4850481-9b95-430f-9b2d-192d2410b4f4","alterId":0,"cipher":"auto","network":"ws","http-opts":{},"h2-opts":{},"tls":true,"skip-cert-verify":true,"ws-opts":{"path":"/vmess/"}}
-- {"name":"🇷🇺RU_05","server":"185.22.153.73","type":"vmess","country":"🇷🇺RU","port":45740,"uuid":"af7f07dc-d726-4b1e-967d-dbb6c594999f","alterId":0,"cipher":"auto","network":"ws","http-opts":{},"h2-opts":{},"skip-cert-verify":true,"ws-opts":{"path":"github.com/Alvin9999"}}
-- {"name":"Relay_🇺🇸US-🇺🇸US_06","server":"nm3.boom.party","type":"ssr","country":"🇺🇸US","port":13000,"password":"Uk92CS","cipher":"aes-256-cfb","protocol":"auth_aes128_sha1","obfs":"http_simple"}
-- {"name":"Relay_🏁ZZ-🇺🇸US_07","server":"www.vpslook.com","type":"vmess","country":"🏁ZZ","port":443,"uuid":"627a811e-acab-4d97-a683-ebdae2e2565b","alterId":0,"cipher":"auto","network":"ws","servername":"testament-ciao-knit-colors.trycloudflare.com","http-opts":{},"h2-opts":{},"tls":true,"skip-cert-verify":true,"ws-opts":{"path":"/vmess-argo?ed=2048","headers":{"HOST":"testament-ciao-knit-colors.trycloudflare.com"}}}
+- {"name":"_01","server":"154.90.63.193","type":"ss","port":990,"password":"f8f7aCzcPKbsF8p3","cipher":"chacha20-ietf-poly1305"}
+- {"name":"Relay_-🇺🇦UA_02","server":"uk1.ssocks.wiki","type":"ss","port":8388,"password":"ZTFkZ","cipher":"chacha20-ietf-poly1305"}
+- {"name":"_03","server":"23.185.248.14","type":"ss","port":17004,"password":"IC4APDY4ATHX890I","cipher":"aes-256-gcm"}
+- {"name":"_04","server":"218.38.103.150","type":"ss","port":28902,"password":"qwerREWQ@@","cipher":"aes-256-cfb"}
+- {"name":"_05","server":"23.185.248.11","type":"ss","port":17001,"password":"Z7ZSQR3OI9JVRA6N","cipher":"aes-256-gcm"}
+- {"name":"_06","server":"149.34.244.82","type":"ss","port":443,"password":"shadowsocks","cipher":"aes-128-gcm"}
+- {"name":"Relay_-🇭🇰HK_07","server":"120.232.81.50","type":"ss","port":16088,"password":"hGkQ6915tD","cipher":"aes-256-cfb"}
+- {"name":"Relay_-🇺🇸US_08","server":"ca1.ssocks.wiki","type":"ss","port":8388,"password":"MzZjN","cipher":"chacha20-ietf-poly1305"}
+- {"name":"_09","server":"222.186.20.102","type":"ssr","port":41228,"password":"http://cc.ax/","cipher":"aes-256-cfb","protocol":"auth_aes128_md5","protocol-param":"165400:Hr2aXO","obfs":"plain","obfs-param":"data.bilibili.com/ed5a2165400"}
+- {"name":"_10","server":"104.251.227.182","type":"trojan","port":443,"password":"43e5eeacbad3032bfe4c25a2f011b6b7","sni":"hezijiasuqi.com","skip-cert-verify":true}
+- {"name":"🇨🇿CZ_11","server":"195.58.49.42","type":"vmess","country":"🇨🇿CZ","port":20319,"uuid":"1cc59a3a-9625-40f7-b0e6-e233286ae82d","alterId":0,"cipher":"auto","network":"ws","http-opts":{},"h2-opts":{},"skip-cert-verify":true,"ws-opts":{"path":"/"}}
+- {"name":"Relay_🇫🇷FR-🇫🇷FR_12","server":"dongtaiwang5.com","type":"ssr","country":"🇫🇷FR","port":20001,"password":"dongtaiwang.com","cipher":"chacha20-ietf","protocol":"auth_chain_a","obfs":"plain"}
+- {"name":"🇷🇺RU_13","server":"185.22.153.82","type":"ss","country":"🇷🇺RU","port":30011,"password":"dongtaiwang.com","cipher":"aes-256-gcm"}
+- {"name":"Relay_🇺🇸US-🇺🇸US_14","server":"nm3.boom.party","type":"ssr","country":"🇺🇸US","port":13000,"password":"Uk92CS","cipher":"aes-256-cfb","protocol":"auth_aes128_sha1","obfs":"http_simple"}
 proxy-groups:
 - name: loadbalance1
   type: url-test
@@ -45,12 +52,19 @@ proxy-groups:
   tolerance: 300
   proxies:
   - _01
-  - Relay_-🇭🇰HK_02
-  - Pool__03
-  - 🇵🇱PL_04
-  - 🇷🇺RU_05
-  - Relay_🇺🇸US-🇺🇸US_06
-  - Relay_🏁ZZ-🇺🇸US_07
+  - Relay_-🇺🇦UA_02
+  - _03
+  - _04
+  - _05
+  - _06
+  - Relay_-🇭🇰HK_07
+  - Relay_-🇺🇸US_08
+  - _09
+  - _10
+  - 🇨🇿CZ_11
+  - Relay_🇫🇷FR-🇫🇷FR_12
+  - 🇷🇺RU_13
+  - Relay_🇺🇸US-🇺🇸US_14
   url: https://clients3.google.com/generate_204
   interval: 600
 rules:
