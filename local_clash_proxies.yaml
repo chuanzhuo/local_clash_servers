@@ -70,14 +70,14 @@ proxies:
 - {"name":"","server":"172.67.163.102","type":"vmess","port":2087,"uuid":"7c8317bd-290a-4a33-987e-613037c1b2dd","alterId":0,"cipher":"auto","network":"ws","http-opts":{},"h2-opts":{},"tls":true,"skip-cert-verify":true,"ws-opts":{"path":"/ny1-sub.931.pp.ua","headers":{"Host":"ny1-sub.931.pp.ua"}}}
 - {"name":"","server":"manager.onetwothree123.ir","type":"vmess","port":8443,"uuid":"b3a26392-9981-4c46-bf0f-ac24d84de1f7","alterId":0,"cipher":"auto","network":"ws","http-opts":{},"h2-opts":{},"tls":true,"skip-cert-verify":true,"ws-opts":{"path":"/🆔@M3HDIO1","headers":{"Host":"manager.onetwothree123.ir"}}}
 - {"name":"","server":"3.71.135.1","type":"trojan","port":22222,"password":"telegram-id-directvpn","sni":"trojan.burgerip.co.uk","skip-cert-verify":true}
-- {"name":"","server":"hk02.x.quickcht3.club","type":"ss","country":"🇨🇳CN","port":52612,"password":"2be0c954-4291-45ea-b47d-ca713180550b","cipher":"chacha20-ietf-poly1305"}
+- {"name":"🇨🇳CN","server":"hk02.x.quickcht3.club","type":"ss","country":"🇨🇳CN","port":52612,"password":"2be0c954-4291-45ea-b47d-ca713180550b","cipher":"chacha20-ietf-poly1305"}
 - {"name":"","server":"hk01.x.quickcht3.club","type":"ss","country":"🇨🇳CN","port":52611,"password":"2be0c954-4291-45ea-b47d-ca713180550b","cipher":"chacha20-ietf-poly1305"}
-- {"name":"","server":"dxv4.pai50288.uk","type":"vmess","country":"🇨🇳CN","port":14100,"uuid":"f6866b0b-f946-4a03-8df0-c7e0016b55ad","alterId":0,"cipher":"auto","network":"tcp","http-opts":{},"h2-opts":{},"skip-cert-verify":true}
-- {"name":"","server":"fa.fxlcn.com","type":"vmess","country":"🇨🇳CN","port":45215,"uuid":"469e0b31-30c3-4dab-800d-711232634ce1","alterId":0,"cipher":"auto","network":"tcp","http-opts":{},"h2-opts":{},"skip-cert-verify":true}
-- {"name":"","server":"dongtaiwang5.com","type":"ssr","country":"🇫🇷FR","port":32000,"password":"dongtaiwang.com","cipher":"chacha20-ietf","protocol":"auth_chain_a","obfs":"tls1.2_ticket_auth"}
-- {"name":"","server":"62.210.25.173","type":"ss","country":"🇬🇧GB","port":13355,"password":"dongtaiwang.com","cipher":"aes-256-gcm"}
-- {"name":"","server":"151.115.88.168","type":"ss","country":"🇵🇱PL","port":443,"password":"sVjPo5m8PUrhHuB9lDZzNS","cipher":"chacha20-ietf-poly1305"}
-- {"name":"","server":"nm3.boom.party","type":"ssr","country":"🇺🇸US","port":13000,"password":"Uk92CS","cipher":"aes-256-cfb","protocol":"auth_aes128_sha1","obfs":"http_simple"}
+- {"name":"🇨🇳CN","server":"dxv4.pai50288.uk","type":"vmess","country":"🇨🇳CN","port":14100,"uuid":"f6866b0b-f946-4a03-8df0-c7e0016b55ad","alterId":0,"cipher":"auto","network":"tcp","http-opts":{},"h2-opts":{},"skip-cert-verify":true}
+- {"name":"🇨🇳CN","server":"fa.fxlcn.com","type":"vmess","country":"🇨🇳CN","port":45215,"uuid":"469e0b31-30c3-4dab-800d-711232634ce1","alterId":0,"cipher":"auto","network":"tcp","http-opts":{},"h2-opts":{},"skip-cert-verify":true}
+- {"name":"🇫🇷FR","server":"dongtaiwang5.com","type":"ssr","country":"🇫🇷FR","port":32000,"password":"dongtaiwang.com","cipher":"chacha20-ietf","protocol":"auth_chain_a","obfs":"tls1.2_ticket_auth"}
+- {"name":"🇬🇧GB","server":"62.210.25.173","type":"ss","country":"🇬🇧GB","port":13355,"password":"dongtaiwang.com","cipher":"aes-256-gcm"}
+- {"name":"🇵🇱PL","server":"151.115.88.168","type":"ss","country":"🇵🇱PL","port":443,"password":"sVjPo5m8PUrhHuB9lDZzNS","cipher":"chacha20-ietf-poly1305"}
+- {"name":"🇺🇸US","server":"nm3.boom.party","type":"ssr","country":"🇺🇸US","port":13000,"password":"Uk92CS","cipher":"aes-256-cfb","protocol":"auth_aes128_sha1","obfs":"http_simple"}
 - {"name":"","server":"172.67.175.40","type":"vmess","country":"🇺🇸US","port":8443,"uuid":"0e46defc-aee6-4c44-b609-6523d95401a0","alterId":0,"cipher":"auto","network":"ws","servername":"tehran.farsonline24.ir","http-opts":{},"h2-opts":{},"tls":true,"skip-cert-verify":true,"ws-opts":{"path":"/🆔@M3HDIO1","headers":{"HOST":"tehran.farsonline24.ir"}}}
 - {"name":"","server":"eb99b5c1-sum4g0-t56ztp-n3n5.sv.plebai.net","type":"vmess","country":"🇺🇸US","port":1280,"uuid":"99982f88-8ea2-11ed-9f57-f23c913c8d2b","alterId":2,"cipher":"auto","network":"ws","servername":"broadcastlv.chat.bilibili.com","http-opts":{},"h2-opts":{},"skip-cert-verify":true,"ws-opts":{"path":"/","headers":{"HOST":"broadcastlv.chat.bilibili.com"}}}
 - {"name":"","server":"us10-09.852224.ggff.net","type":"vmess","country":"🏁ZZ","port":443,"uuid":"576c81b6-4976-4fe3-b1a9-05a9c302e98e","alterId":0,"cipher":"auto","network":"ws","servername":"us10-09.852224.ggff.net","http-opts":{},"h2-opts":{},"tls":true,"skip-cert-verify":true,"ws-opts":{"path":"/SNwNdunw28lVztopw90eoXel","headers":{"HOST":"us10-09.852224.ggff.net"}}}
@@ -126,14 +126,14 @@ proxy-groups:
   - 
   - 
   - 
+  - 🇨🇳CN
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - 🇨🇳CN
+  - 🇨🇳CN
+  - 🇫🇷FR
+  - 🇬🇧GB
+  - 🇵🇱PL
+  - 🇺🇸US
   - 
   - 
   - 
