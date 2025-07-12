@@ -31,48 +31,16 @@ dns:
   - +.googleapis.cn
   - +.gvt1.com
 proxies:
-- {"name":"_01","server":"77.246.102.112","type":"ss","port":60117,"password":"Y1hjiUmSgucgzYYJ0WtqwW","cipher":"chacha20-ietf-poly1305"}
-- {"name":"Relay_-🇨🇳CN_02","server":"3.link-hub.click","type":"ssr","port":40239,"password":"ENZ52K","cipher":"rc4-md5","protocol":"auth_aes128_md5","obfs":"plain","group":"SSRProvider"}
-- {"name":"Relay_-🇨🇳CN_03","server":"aieq.mt.mt5888.top","type":"ssr","port":44003,"password":"mantouyun888","cipher":"none","protocol":"auth_chain_a","obfs":"plain","group":"SSRProvider"}
-- {"name":"Relay_-🇨🇳CN_04","server":"y66.ffd.mt5888.top","type":"ssr","port":41114,"password":"mantouyun888","cipher":"none","protocol":"auth_chain_a","obfs":"plain","group":"SSRProvider"}
-- {"name":"Pool__05","server":"222.186.20.102","type":"ssr","port":41228,"password":"http://cc.ax/","cipher":"aes-256-cfb","protocol":"auth_aes128_md5","protocol-param":"165400:Hr2aXO","obfs":"plain","obfs-param":"data.bilibili.com/ed5a2165400"}
-- {"name":"_06","server":"ye.fxlcn.com","type":"vmess","port":45245,"uuid":"469e0b31-30c3-4dab-800d-711232634ce1","alterId":0,"cipher":"auto","network":"tcp","http-opts":{},"h2-opts":{},"skip-cert-verify":true}
-- {"name":"_07","server":"47.104.186.133","type":"vmess","port":50002,"uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":0,"cipher":"auto","network":"tcp","http-opts":{},"h2-opts":{},"skip-cert-verify":true}
-- {"name":"Relay_-🇺🇸US_08","server":"v9.heduian.link","type":"vmess","port":30809,"uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"cipher":"auto","network":"ws","http-opts":{},"h2-opts":{},"skip-cert-verify":true,"ws-opts":{"path":"/oooo","headers":{"Host":"baidu.com"}}}
-- {"name":"Relay_-🇸🇬SG_09","server":"111.26.109.79","type":"vmess","port":30828,"uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"cipher":"auto","network":"ws","http-opts":{},"h2-opts":{},"skip-cert-verify":true,"ws-opts":{"path":"/oooo","headers":{"Host":"ocbc.com"}}}
-- {"name":"Relay_-🇩🇪DE_10","server":"nextstepcareer.online","type":"trojan","port":443,"password":"4732adfa16c6450bbef87264e41332db","skip-cert-verify":true}
-- {"name":"Relay_-🇮🇷IR_11","server":"unify.46322416.xyz","type":"trojan","port":60073,"password":"0b9c9261-7209-4dcc-b268-2fa74f6cd536","sni":"cdn.alibaba.com","skip-cert-verify":true}
-- {"name":"Relay_-🏁ZZ_12","server":"q2.46322416.xyz","type":"trojan","port":20220,"password":"0b9c9261-7209-4dcc-b268-2fa74f6cd536","sni":"cdn.alibaba.com","skip-cert-verify":true}
-- {"name":"Relay_-🇨🇳CN_13","server":"dozo01.flztjc.top","type":"trojan","port":8313,"password":"2c605663-b89a-5734-a9d6-97d4743d72cf","sni":"hk-13-568.flztjc.net"}
-- {"name":"_14","server":"165.22.74.230","type":"trojan","port":443,"password":"4732adfa16c6450bbef87264e41332db","sni":"nextstepcareer.online","skip-cert-verify":true}
-- {"name":"Relay_🇨🇳CN-🇭🇰HK_15","server":"120.232.153.40","type":"vmess","country":"🇨🇳CN","port":32209,"uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":0,"cipher":"auto","network":"tcp","http-opts":{},"h2-opts":{},"skip-cert-verify":true}
-- {"name":"🇨🇳CN_16","server":"fa.fxlcn.com","type":"vmess","country":"🇨🇳CN","port":45215,"uuid":"469e0b31-30c3-4dab-800d-711232634ce1","alterId":0,"cipher":"auto","network":"tcp","http-opts":{},"h2-opts":{},"skip-cert-verify":true}
-- {"name":"Relay_🇭🇰HK-🇭🇰HK_17","server":"hkt.gotochinatown.net","type":"vmess","country":"🇭🇰HK","port":80,"uuid":"12a81f5a-fa9e-11ef-8400-f23c9164ca5d","alterId":2,"cipher":"auto","network":"ws","http-opts":{},"h2-opts":{},"skip-cert-verify":true,"ws-opts":{"path":"/"}}
-- {"name":"Relay_🇺🇸US-🇺🇸US_18","server":"nm3.boom.party","type":"ssr","country":"🇺🇸US","port":13000,"password":"Uk92CS","cipher":"aes-256-cfb","protocol":"auth_aes128_sha1","obfs":"http_simple"}
+- {"name":"🇭🇰HK_01","server":"103.149.183.61","type":"ss","country":"🇭🇰HK","port":8388,"password":"asd123456","cipher":"chacha20-ietf"}
+- {"name":"Relay_🇺🇸US-🇺🇸US_02","server":"nm3.boom.party","type":"ssr","country":"🇺🇸US","port":13000,"password":"Uk92CS","cipher":"aes-256-cfb","protocol":"auth_aes128_sha1","obfs":"http_simple"}
 proxy-groups:
 - name: loadbalance1
   type: url-test
   stragery: consistent-hashing
   tolerance: 300
   proxies:
-  - _01
-  - Relay_-🇨🇳CN_02
-  - Relay_-🇨🇳CN_03
-  - Relay_-🇨🇳CN_04
-  - Pool__05
-  - _06
-  - _07
-  - Relay_-🇺🇸US_08
-  - Relay_-🇸🇬SG_09
-  - Relay_-🇩🇪DE_10
-  - Relay_-🇮🇷IR_11
-  - Relay_-🏁ZZ_12
-  - Relay_-🇨🇳CN_13
-  - _14
-  - Relay_🇨🇳CN-🇭🇰HK_15
-  - 🇨🇳CN_16
-  - Relay_🇭🇰HK-🇭🇰HK_17
-  - Relay_🇺🇸US-🇺🇸US_18
+  - 🇭🇰HK_01
+  - Relay_🇺🇸US-🇺🇸US_02
   url: https://clients3.google.com/generate_204
   interval: 600
 rules:
