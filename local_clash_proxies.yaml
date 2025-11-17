@@ -31,12 +31,34 @@ dns:
   - +.googleapis.cn
   - +.gvt1.com
 proxies:
+- {"name":"_01","server":"3.112.229.1","type":"ss","port":2377,"password":"t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv","cipher":"chacha20-ietf-poly1305","plugin":"obfs","plugin-opts":{"host":"(TG @WangCai2)9d3f6ec:160648","mode":"tls"}}
+- {"name":"_02","server":"213.159.66.206","type":"ss","port":443,"password":"pl2XtR0pzwknQOGwewbwXtPYDw1zn9Vu","cipher":"chacha20-ietf-poly1305"}
+- {"name":"Relay_-🇺🇸US_03","server":"sl.fgmcx.top","type":"ss","port":41047,"password":"014e90df-a3ee-4654-a9f6-d118e02dd02a","cipher":"chacha20-ietf-poly1305"}
+- {"name":"_04","server":"222.186.20.102","type":"ssr","port":41228,"password":"http://cc.ax/","cipher":"aes-256-cfb","protocol":"auth_aes128_md5","protocol-param":"165400:Hr2aXO","obfs":"plain","obfs-param":"data.bilibili.com/ed5a2165400"}
+- {"name":"_05","server":"36.133.73.36","type":"vmess","port":11819,"uuid":"de32752c-0661-467e-82d3-35bc740a787f","alterId":0,"cipher":"auto","http-opts":{},"h2-opts":{}}
+- {"name":"_06","server":"58.152.26.173","type":"trojan","port":443,"password":"BxceQaOe","sni":"t.me%2Fripaojiedian","skip-cert-verify":true}
+- {"name":"_07","server":"219.79.165.55","type":"trojan","port":443,"password":"BxceQaOe","sni":"t.me%2Fripaojiedian","skip-cert-verify":true}
+- {"name":"🇰🇷KR_08","server":"221.139.79.57","type":"ss","country":"🇰🇷KR","port":37008,"password":"qwerREWQ@@","cipher":"aes-256-cfb"}
+- {"name":"🇷🇺RU_09","server":"45.14.245.2","type":"ss","country":"🇷🇺RU","port":443,"password":"17ZDORWIliQHuO6WRGHChXYMzdRtAYVP","cipher":"chacha20-ietf-poly1305"}
+- {"name":"Relay_🇺🇸US-🇫🇷FR_10","server":"ssr2.762988.xyz","type":"ssr","country":"🇺🇸US","port":33336,"password":"dongtaiwang.com","cipher":"chacha20-ietf","protocol":"auth_chain_a","obfs":"tls1.2_ticket_auth"}
+- {"name":"Relay_🇺🇸US-🇺🇸US_11","server":"nm3.boom.party","type":"ssr","country":"🇺🇸US","port":13000,"password":"Uk92CS","cipher":"aes-256-cfb","protocol":"auth_aes128_sha1","obfs":"http_simple"}
 proxy-groups:
 - name: loadbalance1
   type: url-test
   stragery: consistent-hashing
   tolerance: 300
   proxies:
+  - _01
+  - _02
+  - Relay_-🇺🇸US_03
+  - _04
+  - _05
+  - _06
+  - _07
+  - 🇰🇷KR_08
+  - 🇷🇺RU_09
+  - Relay_🇺🇸US-🇫🇷FR_10
+  - Relay_🇺🇸US-🇺🇸US_11
   url: https://clients3.google.com/generate_204
   interval: 600
 rules:
