@@ -32,11 +32,10 @@ dns:
   - +.gvt1.com
 proxies:
 - {"name":"Relay_-🇺🇸US_01","server":"sl.fgmcx.top","type":"ss","port":41047,"password":"014e90df-a3ee-4654-a9f6-d118e02dd02a","cipher":"chacha20-ietf-poly1305"}
-- {"name":"Pool__02","server":"222.186.20.102","type":"ssr","port":41228,"password":"http://cc.ax/","cipher":"aes-256-cfb","protocol":"auth_aes128_md5","protocol-param":"165400:Hr2aXO","obfs":"plain","obfs-param":"data.bilibili.com/ed5a2165400"}
-- {"name":"_03","server":"36.133.73.36","type":"vmess","port":11819,"uuid":"de32752c-0661-467e-82d3-35bc740a787f","alterId":0,"cipher":"auto","http-opts":{},"h2-opts":{}}
-- {"name":"Relay_🇫🇷FR-🇫🇷FR_04","server":"ssr2.762988.xyz","type":"ssr","country":"🇫🇷FR","port":33336,"password":"dongtaiwang.com","cipher":"chacha20-ietf","protocol":"auth_chain_a","obfs":"tls1.2_ticket_auth"}
-- {"name":"Relay_🇸🇪SE-🇸🇪SE_05","server":"dd.openaccessnode.com","type":"vmess","country":"🇸🇪SE","port":5228,"uuid":"6202ab99-7f57-0a6a-180a-e980b41f5789","alterId":0,"cipher":"auto","network":"tcp","servername":"dd.openaccessnode.com","http-opts":{},"h2-opts":{},"skip-cert-verify":true}
-- {"name":"Relay_🇺🇸US-🇺🇸US_06","server":"nm3.boom.party","type":"ssr","country":"🇺🇸US","port":13000,"password":"Uk92CS","cipher":"aes-256-cfb","protocol":"auth_aes128_sha1","obfs":"http_simple"}
+- {"name":"_02","server":"213.159.66.206","type":"ss","port":443,"password":"pl2XtR0pzwknQOGwewbwXtPYDw1zn9Vu","cipher":"chacha20-ietf-poly1305"}
+- {"name":"_03","server":"222.186.20.102","type":"ssr","port":41228,"password":"http://cc.ax/","cipher":"aes-256-cfb","protocol":"auth_aes128_md5","protocol-param":"165400:Hr2aXO","obfs":"plain","obfs-param":"data.bilibili.com/ed5a2165400"}
+- {"name":"_04","server":"36.133.73.36","type":"vmess","port":11819,"uuid":"de32752c-0661-467e-82d3-35bc740a787f","alterId":0,"cipher":"auto","http-opts":{},"h2-opts":{}}
+- {"name":"Relay_🇺🇸US-🇺🇸US_05","server":"nm3.boom.party","type":"ssr","country":"🇺🇸US","port":13000,"password":"Uk92CS","cipher":"aes-256-cfb","protocol":"auth_aes128_sha1","obfs":"http_simple"}
 proxy-groups:
 - name: loadbalance1
   type: url-test
@@ -44,11 +43,10 @@ proxy-groups:
   tolerance: 300
   proxies:
   - Relay_-🇺🇸US_01
-  - Pool__02
+  - _02
   - _03
-  - Relay_🇫🇷FR-🇫🇷FR_04
-  - Relay_🇸🇪SE-🇸🇪SE_05
-  - Relay_🇺🇸US-🇺🇸US_06
+  - _04
+  - Relay_🇺🇸US-🇺🇸US_05
   url: https://clients3.google.com/generate_204
   interval: 600
 rules:
