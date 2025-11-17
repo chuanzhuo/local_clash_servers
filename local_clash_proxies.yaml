@@ -33,14 +33,10 @@ dns:
 proxies:
 - {"name":"Relay_-🇺🇸US_01","server":"sl.fgmcx.top","type":"ss","port":41047,"password":"014e90df-a3ee-4654-a9f6-d118e02dd02a","cipher":"chacha20-ietf-poly1305"}
 - {"name":"Pool__02","server":"222.186.20.102","type":"ssr","port":41228,"password":"http://cc.ax/","cipher":"aes-256-cfb","protocol":"auth_aes128_md5","protocol-param":"165400:Hr2aXO","obfs":"plain","obfs-param":"data.bilibili.com/ed5a2165400"}
-- {"name":"Relay_-🇮🇳IN_03","server":"36.133.73.36","type":"vmess","port":11819,"uuid":"de32752c-0661-467e-82d3-35bc740a787f","alterId":0,"cipher":"auto","http-opts":{},"h2-opts":{}}
-- {"name":"Relay_-🇮🇷IR_04","server":"oss-cn-shanghai.letssepub.com","type":"trojan","port":20021,"password":"adbac894-90b9-4913-b77e-a715a8d4ebc8","sni":"dingding-doc.com"}
-- {"name":"Relay_🇫🇷FR-🇫🇷FR_05","server":"ssr.762988.xyz","type":"ssr","country":"🇫🇷FR","port":33336,"password":"dongtaiwang.com","cipher":"chacha20-ietf","protocol":"auth_chain_a","obfs":"tls1.2_ticket_auth"}
-- {"name":"🇭🇰HK_06","server":"58.152.53.3","type":"trojan","country":"🇭🇰HK","port":443,"password":"BxceQaOe","sni":"58.152.53.3","skip-cert-verify":true,"udp":true}
-- {"name":"🇭🇰HK_07","server":"58.152.46.98","type":"trojan","country":"🇭🇰HK","port":443,"password":"BxceQaOe","sni":"58.152.46.98","skip-cert-verify":true,"udp":true}
-- {"name":"🇭🇰HK_08","server":"58.152.53.42","type":"trojan","country":"🇭🇰HK","port":443,"password":"bca467b8c15211d189008a93c7519d3b","sni":"www.nintendogames.net","skip-cert-verify":true,"udp":true}
-- {"name":"🇭🇰HK_09","server":"203.198.122.129","type":"trojan","country":"🇭🇰HK","port":443,"password":"BxceQaOe","sni":"203.198.122.129","skip-cert-verify":true,"udp":true}
-- {"name":"Relay_🇺🇸US-🇺🇸US_10","server":"nm3.boom.party","type":"ssr","country":"🇺🇸US","port":13000,"password":"Uk92CS","cipher":"aes-256-cfb","protocol":"auth_aes128_sha1","obfs":"http_simple"}
+- {"name":"_03","server":"36.133.73.36","type":"vmess","port":11819,"uuid":"de32752c-0661-467e-82d3-35bc740a787f","alterId":0,"cipher":"auto","http-opts":{},"h2-opts":{}}
+- {"name":"Relay_🇫🇷FR-🇫🇷FR_04","server":"ssr2.762988.xyz","type":"ssr","country":"🇫🇷FR","port":33336,"password":"dongtaiwang.com","cipher":"chacha20-ietf","protocol":"auth_chain_a","obfs":"tls1.2_ticket_auth"}
+- {"name":"Relay_🇸🇪SE-🇸🇪SE_05","server":"dd.openaccessnode.com","type":"vmess","country":"🇸🇪SE","port":5228,"uuid":"6202ab99-7f57-0a6a-180a-e980b41f5789","alterId":0,"cipher":"auto","network":"tcp","servername":"dd.openaccessnode.com","http-opts":{},"h2-opts":{},"skip-cert-verify":true}
+- {"name":"Relay_🇺🇸US-🇺🇸US_06","server":"nm3.boom.party","type":"ssr","country":"🇺🇸US","port":13000,"password":"Uk92CS","cipher":"aes-256-cfb","protocol":"auth_aes128_sha1","obfs":"http_simple"}
 proxy-groups:
 - name: loadbalance1
   type: url-test
@@ -49,14 +45,10 @@ proxy-groups:
   proxies:
   - Relay_-🇺🇸US_01
   - Pool__02
-  - Relay_-🇮🇳IN_03
-  - Relay_-🇮🇷IR_04
-  - Relay_🇫🇷FR-🇫🇷FR_05
-  - 🇭🇰HK_06
-  - 🇭🇰HK_07
-  - 🇭🇰HK_08
-  - 🇭🇰HK_09
-  - Relay_🇺🇸US-🇺🇸US_10
+  - _03
+  - Relay_🇫🇷FR-🇫🇷FR_04
+  - Relay_🇸🇪SE-🇸🇪SE_05
+  - Relay_🇺🇸US-🇺🇸US_06
   url: https://clients3.google.com/generate_204
   interval: 600
 rules:
