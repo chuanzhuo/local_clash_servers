@@ -31,26 +31,270 @@ dns:
   - +.googleapis.cn
   - +.gvt1.com
 proxies:
-- {"name":"_01","server":"103.149.183.80","type":"ss","port":8388,"password":"asd123456","cipher":"chacha20-ietf"}
-- {"name":"Relay_🇨🇳CN-🇨🇳CN_02","server":"glimmerdsds.sdl-sz.com","type":"ssr","country":"🇨🇳CN","port":39007,"password":"dajkd*/?","cipher":"aes-256-cfb","protocol":"auth_aes128_md5","obfs":"http_simple","obfs-param":"1f4c39347.microsoft.com"}
-- {"name":"🇨🇳CN_03","server":"v35.hdacd.com","type":"vmess","country":"🇨🇳CN","port":30835,"uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"cipher":"auto","network":"tcp","http-opts":{},"h2-opts":{},"skip-cert-verify":true}
-- {"name":"Relay_🇫🇷FR-🇩🇪DE_04","server":"ssr2.762988.xyz","type":"ssr","country":"🇫🇷FR","port":33336,"password":"dongtaiwang.com","cipher":"chacha20-ietf","protocol":"auth_chain_a","obfs":"tls1.2_ticket_auth"}
-- {"name":"Relay_🇭🇰HK-🇭🇰HK_05","server":"v10.hdacd.com","type":"vmess","country":"🇭🇰HK","port":30807,"uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"cipher":"auto","network":"tcp","http-opts":{},"h2-opts":{},"skip-cert-verify":true}
-- {"name":"🇵🇹PT_06","server":"185.231.233.112","type":"ss","country":"🇵🇹PT","port":989,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
-- {"name":"🇷🇺RU_07","server":"185.153.197.5","type":"ss","country":"🇷🇺RU","port":989,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
+- {"name":"Relay_🇨🇳CN-🇨🇳CN_01","server":"cn11.somethingstranges.com","type":"ssr","country":"🇨🇳CN","port":8402,"password":"passwd","cipher":"chacha20-ietf","protocol":"origin","obfs":"http_simple","obfs-param":"29071-OIX56UoM.download.microsoft.com","group":"IPLC.VIP"}
+- {"name":"Relay_🇨🇳CN-🇨🇳CN_02","server":"cn15.somethingstranges.com","type":"ssr","country":"🇨🇳CN","port":8503,"password":"passwd","cipher":"chacha20-ietf","protocol":"origin","obfs":"http_simple","obfs-param":"29071-OIX56UoM.download.microsoft.com","group":"IPLC.VIP"}
+- {"name":"Relay_🇨🇳CN-🇨🇳CN_03","server":"cn06.somethingstranges.com","type":"ssr","country":"🇨🇳CN","port":8233,"password":"passwd","cipher":"chacha20-ietf","protocol":"origin","obfs":"http_simple","obfs-param":"29071-OIX56UoM.download.microsoft.com","group":"IPLC.VIP"}
+- {"name":"Relay_🇨🇳CN-🇨🇳CN_04","server":"cn15.somethingstranges.com","type":"ssr","country":"🇨🇳CN","port":8506,"password":"passwd","cipher":"chacha20-ietf","protocol":"origin","obfs":"http_simple","obfs-param":"29071-OIX56UoM.download.microsoft.com","group":"IPLC.VIP"}
+- {"name":"Relay_🇨🇳CN-🇨🇳CN_05","server":"cn07.somethingstranges.com","type":"ssr","country":"🇨🇳CN","port":8206,"password":"passwd","cipher":"chacha20-ietf","protocol":"origin","obfs":"http_simple","obfs-param":"29071-OIX56UoM.download.microsoft.com","group":"IPLC.VIP"}
+- {"name":"Relay_🇨🇳CN-🇨🇳CN_06","server":"glimmerdsds.sdl-sz.com","type":"ssr","country":"🇨🇳CN","port":39007,"password":"dajkd*/?","cipher":"aes-256-cfb","protocol":"auth_aes128_md5","obfs":"http_simple","obfs-param":"1f4c39347.microsoft.com"}
+- {"name":"Relay_🇨🇳CN-🇨🇳CN_07","server":"cn06.somethingstranges.com","type":"ssr","country":"🇨🇳CN","port":8231,"password":"passwd","cipher":"chacha20-ietf","protocol":"origin","obfs":"http_simple","obfs-param":"29071-OIX56UoM.download.microsoft.com","group":"IPLC.VIP"}
+- {"name":"Relay_🇨🇳CN-🇨🇳CN_08","server":"cn07.somethingstranges.com","type":"ssr","country":"🇨🇳CN","port":8208,"password":"passwd","cipher":"chacha20-ietf","protocol":"origin","obfs":"http_simple","obfs-param":"29071-OIX56UoM.download.microsoft.com","group":"IPLC.VIP"}
+- {"name":"Relay_🇨🇳CN-🇨🇳CN_09","server":"cn06.somethingstranges.com","type":"ssr","country":"🇨🇳CN","port":8205,"password":"passwd","cipher":"chacha20-ietf","protocol":"origin","obfs":"http_simple","obfs-param":"29071-OIX56UoM.download.microsoft.com","group":"IPLC.VIP"}
+- {"name":"Relay_🇨🇳CN-🇨🇳CN_10","server":"cn06.somethingstranges.com","type":"ssr","country":"🇨🇳CN","port":8232,"password":"passwd","cipher":"chacha20-ietf","protocol":"origin","obfs":"http_simple","obfs-param":"29071-OIX56UoM.download.microsoft.com","group":"IPLC.VIP"}
+- {"name":"Relay_🇨🇳CN-🇨🇳CN_11","server":"cn06.somethingstranges.com","type":"ssr","country":"🇨🇳CN","port":8203,"password":"passwd","cipher":"chacha20-ietf","protocol":"origin","obfs":"http_simple","obfs-param":"29071-OIX56UoM.download.microsoft.com","group":"IPLC.VIP"}
+- {"name":"Relay_🇨🇳CN-🇨🇳CN_12","server":"cn15.somethingstranges.com","type":"ssr","country":"🇨🇳CN","port":8505,"password":"passwd","cipher":"chacha20-ietf","protocol":"origin","obfs":"http_simple","obfs-param":"29071-OIX56UoM.download.microsoft.com","group":"IPLC.VIP"}
+- {"name":"Relay_🇨🇳CN-🇨🇳CN_13","server":"cn15.somethingstranges.com","type":"ssr","country":"🇨🇳CN","port":8504,"password":"passwd","cipher":"chacha20-ietf","protocol":"origin","obfs":"http_simple","obfs-param":"29071-OIX56UoM.download.microsoft.com","group":"IPLC.VIP"}
+- {"name":"Relay_🇨🇳CN-🇨🇳CN_14","server":"cn11.somethingstranges.com","type":"ssr","country":"🇨🇳CN","port":8401,"password":"passwd","cipher":"chacha20-ietf","protocol":"origin","obfs":"http_simple","obfs-param":"29071-OIX56UoM.download.microsoft.com","group":"IPLC.VIP"}
+- {"name":"Relay_🇨🇳CN-🇨🇳CN_15","server":"cn15.somethingstranges.com","type":"ssr","country":"🇨🇳CN","port":8502,"password":"passwd","cipher":"chacha20-ietf","protocol":"origin","obfs":"http_simple","obfs-param":"29071-OIX56UoM.download.microsoft.com","group":"IPLC.VIP"}
+- {"name":"Relay_🇨🇳CN-🇨🇳CN_16","server":"cn06.somethingstranges.com","type":"ssr","country":"🇨🇳CN","port":8202,"password":"passwd","cipher":"chacha20-ietf","protocol":"origin","obfs":"http_simple","obfs-param":"29071-OIX56UoM.download.microsoft.com","group":"IPLC.VIP"}
+- {"name":"Relay_🇨🇳CN-🇨🇳CN_17","server":"cn06.somethingstranges.com","type":"ssr","country":"🇨🇳CN","port":8201,"password":"passwd","cipher":"chacha20-ietf","protocol":"origin","obfs":"http_simple","obfs-param":"29071-OIX56UoM.download.microsoft.com","group":"IPLC.VIP"}
+- {"name":"Relay_🇨🇳CN-🇨🇳CN_18","server":"cn07.somethingstranges.com","type":"ssr","country":"🇨🇳CN","port":8207,"password":"passwd","cipher":"chacha20-ietf","protocol":"origin","obfs":"http_simple","obfs-param":"29071-OIX56UoM.download.microsoft.com","group":"IPLC.VIP"}
+- {"name":"Relay_🇨🇳CN-🇨🇳CN_19","server":"cn06.somethingstranges.com","type":"ssr","country":"🇨🇳CN","port":8204,"password":"passwd","cipher":"chacha20-ietf","protocol":"origin","obfs":"http_simple","obfs-param":"29071-OIX56UoM.download.microsoft.com","group":"IPLC.VIP"}
+- {"name":"Relay_🇨🇳CN-🇨🇳CN_20","server":"cn15.somethingstranges.com","type":"ssr","country":"🇨🇳CN","port":8501,"password":"passwd","cipher":"chacha20-ietf","protocol":"origin","obfs":"http_simple","obfs-param":"29071-OIX56UoM.download.microsoft.com","group":"IPLC.VIP"}
+- {"name":"Relay_🇨🇳CN-🇨🇳CN_21","server":"cn11.somethingstranges.com","type":"ssr","country":"🇨🇳CN","port":8403,"password":"passwd","cipher":"chacha20-ietf","protocol":"origin","obfs":"http_simple","obfs-param":"29071-OIX56UoM.download.microsoft.com","group":"IPLC.VIP"}
+- {"name":"Relay_🇫🇷FR-🇫🇷FR_22","server":"ossg02.somethingstranges.com","type":"ssr","country":"🇫🇷FR","port":2000,"password":"passwd","cipher":"chacha20-ietf","protocol":"origin","obfs":"http_simple","obfs-param":"29071-OIX56UoM.download.microsoft.com","group":"IPLC.VIP"}
+- {"name":"Relay_🇭🇰HK-🇭🇰HK_23","server":"oshk02.somethingstranges.com","type":"ssr","country":"🇭🇰HK","port":2000,"password":"passwd","cipher":"chacha20-ietf","protocol":"origin","obfs":"http_simple","obfs-param":"29071-OIX56UoM.download.microsoft.com","group":"IPLC.VIP"}
+- {"name":"Relay_🇭🇰HK-🇭🇰HK_24","server":"oshk01.somethingstranges.com","type":"ssr","country":"🇭🇰HK","port":2000,"password":"passwd","cipher":"chacha20-ietf","protocol":"origin","obfs":"http_simple","obfs-param":"29071-OIX56UoM.download.microsoft.com","group":"IPLC.VIP"}
+- {"name":"Relay_🇭🇰HK-🇭🇰HK_25","server":"v10.hdacd.com","type":"vmess","country":"🇭🇰HK","port":30807,"uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"cipher":"auto","network":"tcp","http-opts":{},"h2-opts":{},"skip-cert-verify":true}
+- {"name":"Relay_🇮🇷IR-🇮🇷IR_26","server":"osjp05.somethingstranges.com","type":"ssr","country":"🇮🇷IR","port":2000,"password":"passwd","cipher":"chacha20-ietf","protocol":"origin","obfs":"http_simple","obfs-param":"29071-OIX56UoM.download.microsoft.com","group":"IPLC.VIP"}
+- {"name":"Relay_🇮🇷IR-🇮🇷IR_27","server":"osus05.somethingstranges.com","type":"ssr","country":"🇮🇷IR","port":2000,"password":"passwd","cipher":"chacha20-ietf","protocol":"origin","obfs":"http_simple","obfs-param":"29071-OIX56UoM.download.microsoft.com","group":"IPLC.VIP"}
+- {"name":"Relay_🇮🇷IR-🇮🇷IR_28","server":"osus04.somethingstranges.com","type":"ssr","country":"🇮🇷IR","port":2000,"password":"passwd","cipher":"chacha20-ietf","protocol":"origin","obfs":"http_simple","obfs-param":"29071-OIX56UoM.download.microsoft.com","group":"IPLC.VIP"}
+- {"name":"Relay_🇮🇷IR-🇮🇷IR_29","server":"osjp01.somethingstranges.com","type":"ssr","country":"🇮🇷IR","port":2000,"password":"passwd","cipher":"chacha20-ietf","protocol":"origin","obfs":"http_simple","obfs-param":"29071-OIX56UoM.download.microsoft.com","group":"IPLC.VIP"}
+- {"name":"Relay_🇮🇷IR-🇮🇷IR_30","server":"osjp04.somethingstranges.com","type":"ssr","country":"🇮🇷IR","port":2000,"password":"passwd","cipher":"chacha20-ietf","protocol":"origin","obfs":"http_simple","obfs-param":"29071-OIX56UoM.download.microsoft.com","group":"IPLC.VIP"}
+- {"name":"Relay_🇳🇱NL-🇳🇱NL_31","server":"osus03.somethingstranges.com","type":"ssr","country":"🇳🇱NL","port":2000,"password":"passwd","cipher":"chacha20-ietf","protocol":"origin","obfs":"http_simple","obfs-param":"29071-OIX56UoM.download.microsoft.com","group":"IPLC.VIP"}
+- {"name":"🇷🇺RU_32","server":"185.153.197.5","type":"ss","country":"🇷🇺RU","port":989,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
+- {"name":"🇷🇺RU_33","server":"45.14.245.2","type":"ss","country":"🇷🇺RU","port":443,"password":"17ZDORWIliQHuO6WRGHChXYMzdRtAYVP","cipher":"chacha20-ietf-poly1305"}
+- {"name":"Relay_🏁ZZ-🏁ZZ_34","server":"cn04.somethingstranges.com","type":"ssr","country":"🏁ZZ","port":8120,"password":"passwd","cipher":"chacha20-ietf","protocol":"origin","obfs":"http_simple","obfs-param":"29071-OIX56UoM.download.microsoft.com","group":"IPLC.VIP"}
+- {"name":"Relay_🏁ZZ-🏁ZZ_35","server":"cn10.somethingstranges.com","type":"ssr","country":"🏁ZZ","port":8301,"password":"passwd","cipher":"chacha20-ietf","protocol":"origin","obfs":"http_simple","obfs-param":"29071-OIX56UoM.download.microsoft.com","group":"IPLC.VIP"}
+- {"name":"Relay_🏁ZZ-🏁ZZ_36","server":"cn01.somethingstranges.com","type":"ssr","country":"🏁ZZ","port":8103,"password":"passwd","cipher":"chacha20-ietf","protocol":"origin","obfs":"http_simple","obfs-param":"29071-OIX56UoM.download.microsoft.com","group":"IPLC.VIP"}
+- {"name":"Relay_🏁ZZ-🏁ZZ_37","server":"cn01.somethingstranges.com","type":"ssr","country":"🏁ZZ","port":8101,"password":"passwd","cipher":"chacha20-ietf","protocol":"origin","obfs":"http_simple","obfs-param":"29071-OIX56UoM.download.microsoft.com","group":"IPLC.VIP"}
+- {"name":"Relay_🏁ZZ-🏁ZZ_38","server":"cn09.somethingstranges.com","type":"ssr","country":"🏁ZZ","port":8215,"password":"passwd","cipher":"chacha20-ietf","protocol":"origin","obfs":"http_simple","obfs-param":"29071-OIX56UoM.download.microsoft.com","group":"IPLC.VIP"}
+- {"name":"Relay_🏁ZZ-🏁ZZ_39","server":"cn03.somethingstranges.com","type":"ssr","country":"🏁ZZ","port":8112,"password":"passwd","cipher":"chacha20-ietf","protocol":"origin","obfs":"http_simple","obfs-param":"29071-OIX56UoM.download.microsoft.com","group":"IPLC.VIP"}
+- {"name":"Relay_🏁ZZ-🏁ZZ_40","server":"cn02.somethingstranges.com","type":"ssr","country":"🏁ZZ","port":8107,"password":"passwd","cipher":"chacha20-ietf","protocol":"origin","obfs":"http_simple","obfs-param":"29071-OIX56UoM.download.microsoft.com","group":"IPLC.VIP"}
+- {"name":"Relay_🏁ZZ-🏁ZZ_41","server":"cn18.somethingstranges.com","type":"ssr","country":"🏁ZZ","port":8607,"password":"passwd","cipher":"chacha20-ietf","protocol":"origin","obfs":"http_simple","obfs-param":"29071-OIX56UoM.download.microsoft.com","group":"IPLC.VIP"}
+- {"name":"Relay_🏁ZZ-🏁ZZ_42","server":"cn01.somethingstranges.com","type":"ssr","country":"🏁ZZ","port":8102,"password":"passwd","cipher":"chacha20-ietf","protocol":"origin","obfs":"http_simple","obfs-param":"29071-OIX56UoM.download.microsoft.com","group":"IPLC.VIP"}
+- {"name":"Relay_🏁ZZ-🏁ZZ_43","server":"cn18.somethingstranges.com","type":"ssr","country":"🏁ZZ","port":8608,"password":"passwd","cipher":"chacha20-ietf","protocol":"origin","obfs":"http_simple","obfs-param":"29071-OIX56UoM.download.microsoft.com","group":"IPLC.VIP"}
+- {"name":"Relay_🏁ZZ-🏁ZZ_44","server":"cn09.somethingstranges.com","type":"ssr","country":"🏁ZZ","port":8216,"password":"passwd","cipher":"chacha20-ietf","protocol":"origin","obfs":"http_simple","obfs-param":"29071-OIX56UoM.download.microsoft.com","group":"IPLC.VIP"}
+- {"name":"Relay_🏁ZZ-🏁ZZ_45","server":"cn18.somethingstranges.com","type":"ssr","country":"🏁ZZ","port":8618,"password":"passwd","cipher":"chacha20-ietf","protocol":"origin","obfs":"http_simple","obfs-param":"29071-OIX56UoM.download.microsoft.com","group":"IPLC.VIP"}
+- {"name":"Relay_🏁ZZ-🏁ZZ_46","server":"cn18.somethingstranges.com","type":"ssr","country":"🏁ZZ","port":8628,"password":"passwd","cipher":"chacha20-ietf","protocol":"origin","obfs":"http_simple","obfs-param":"29071-OIX56UoM.download.microsoft.com","group":"IPLC.VIP"}
+- {"name":"Relay_🏁ZZ-🏁ZZ_47","server":"cn13.somethingstranges.com","type":"ssr","country":"🏁ZZ","port":8413,"password":"passwd","cipher":"chacha20-ietf","protocol":"origin","obfs":"http_simple","obfs-param":"29071-OIX56UoM.download.microsoft.com","group":"IPLC.VIP"}
+- {"name":"Relay_🏁ZZ-🏁ZZ_48","server":"cn04.somethingstranges.com","type":"ssr","country":"🏁ZZ","port":8116,"password":"passwd","cipher":"chacha20-ietf","protocol":"origin","obfs":"http_simple","obfs-param":"29071-OIX56UoM.download.microsoft.com","group":"IPLC.VIP"}
+- {"name":"Relay_🏁ZZ-🏁ZZ_49","server":"cn18.somethingstranges.com","type":"ssr","country":"🏁ZZ","port":8613,"password":"passwd","cipher":"chacha20-ietf","protocol":"origin","obfs":"http_simple","obfs-param":"29071-OIX56UoM.download.microsoft.com","group":"IPLC.VIP"}
+- {"name":"Relay_🏁ZZ-🏁ZZ_50","server":"cn18.somethingstranges.com","type":"ssr","country":"🏁ZZ","port":8606,"password":"passwd","cipher":"chacha20-ietf","protocol":"origin","obfs":"http_simple","obfs-param":"29071-OIX56UoM.download.microsoft.com","group":"IPLC.VIP"}
+- {"name":"Relay_🏁ZZ-🏁ZZ_51","server":"cn17.somethingstranges.com","type":"ssr","country":"🏁ZZ","port":8521,"password":"passwd","cipher":"chacha20-ietf","protocol":"origin","obfs":"http_simple","obfs-param":"29071-OIX56UoM.download.microsoft.com","group":"IPLC.VIP"}
+- {"name":"Relay_🏁ZZ-🏁ZZ_52","server":"cn18.somethingstranges.com","type":"ssr","country":"🏁ZZ","port":8610,"password":"passwd","cipher":"chacha20-ietf","protocol":"origin","obfs":"http_simple","obfs-param":"29071-OIX56UoM.download.microsoft.com","group":"IPLC.VIP"}
+- {"name":"Relay_🏁ZZ-🏁ZZ_53","server":"cn02.somethingstranges.com","type":"ssr","country":"🏁ZZ","port":8106,"password":"passwd","cipher":"chacha20-ietf","protocol":"origin","obfs":"http_simple","obfs-param":"29071-OIX56UoM.download.microsoft.com","group":"IPLC.VIP"}
+- {"name":"Relay_🏁ZZ-🏁ZZ_54","server":"cn18.somethingstranges.com","type":"ssr","country":"🏁ZZ","port":8609,"password":"passwd","cipher":"chacha20-ietf","protocol":"origin","obfs":"http_simple","obfs-param":"29071-OIX56UoM.download.microsoft.com","group":"IPLC.VIP"}
+- {"name":"Relay_🏁ZZ-🏁ZZ_55","server":"cn18.somethingstranges.com","type":"ssr","country":"🏁ZZ","port":8627,"password":"passwd","cipher":"chacha20-ietf","protocol":"origin","obfs":"http_simple","obfs-param":"29071-OIX56UoM.download.microsoft.com","group":"IPLC.VIP"}
+- {"name":"Relay_🏁ZZ-🏁ZZ_56","server":"cn18.somethingstranges.com","type":"ssr","country":"🏁ZZ","port":8615,"password":"passwd","cipher":"chacha20-ietf","protocol":"origin","obfs":"http_simple","obfs-param":"29071-OIX56UoM.download.microsoft.com","group":"IPLC.VIP"}
+- {"name":"Relay_🏁ZZ-🏁ZZ_57","server":"cn18.somethingstranges.com","type":"ssr","country":"🏁ZZ","port":8624,"password":"passwd","cipher":"chacha20-ietf","protocol":"origin","obfs":"http_simple","obfs-param":"29071-OIX56UoM.download.microsoft.com","group":"IPLC.VIP"}
+- {"name":"Relay_🏁ZZ-🏁ZZ_58","server":"cn18.somethingstranges.com","type":"ssr","country":"🏁ZZ","port":8622,"password":"passwd","cipher":"chacha20-ietf","protocol":"origin","obfs":"http_simple","obfs-param":"29071-OIX56UoM.download.microsoft.com","group":"IPLC.VIP"}
+- {"name":"Relay_🏁ZZ-🏁ZZ_59","server":"cn18.somethingstranges.com","type":"ssr","country":"🏁ZZ","port":8612,"password":"passwd","cipher":"chacha20-ietf","protocol":"origin","obfs":"http_simple","obfs-param":"29071-OIX56UoM.download.microsoft.com","group":"IPLC.VIP"}
+- {"name":"Relay_🏁ZZ-🏁ZZ_60","server":"cn18.somethingstranges.com","type":"ssr","country":"🏁ZZ","port":8616,"password":"passwd","cipher":"chacha20-ietf","protocol":"origin","obfs":"http_simple","obfs-param":"29071-OIX56UoM.download.microsoft.com","group":"IPLC.VIP"}
+- {"name":"Relay_🏁ZZ-🏁ZZ_61","server":"cn03.somethingstranges.com","type":"ssr","country":"🏁ZZ","port":8115,"password":"passwd","cipher":"chacha20-ietf","protocol":"origin","obfs":"http_simple","obfs-param":"29071-OIX56UoM.download.microsoft.com","group":"IPLC.VIP"}
+- {"name":"Relay_🏁ZZ-🏁ZZ_62","server":"cn03.somethingstranges.com","type":"ssr","country":"🏁ZZ","port":8114,"password":"passwd","cipher":"chacha20-ietf","protocol":"origin","obfs":"http_simple","obfs-param":"29071-OIX56UoM.download.microsoft.com","group":"IPLC.VIP"}
+- {"name":"Relay_🏁ZZ-🏁ZZ_63","server":"cn18.somethingstranges.com","type":"ssr","country":"🏁ZZ","port":8623,"password":"passwd","cipher":"chacha20-ietf","protocol":"origin","obfs":"http_simple","obfs-param":"29071-OIX56UoM.download.microsoft.com","group":"IPLC.VIP"}
+- {"name":"Relay_🏁ZZ-🏁ZZ_64","server":"cn02.somethingstranges.com","type":"ssr","country":"🏁ZZ","port":8105,"password":"passwd","cipher":"chacha20-ietf","protocol":"origin","obfs":"http_simple","obfs-param":"29071-OIX56UoM.download.microsoft.com","group":"IPLC.VIP"}
+- {"name":"Relay_🏁ZZ-🏁ZZ_65","server":"cn03.somethingstranges.com","type":"ssr","country":"🏁ZZ","port":8113,"password":"passwd","cipher":"chacha20-ietf","protocol":"origin","obfs":"http_simple","obfs-param":"29071-OIX56UoM.download.microsoft.com","group":"IPLC.VIP"}
+- {"name":"Relay_🏁ZZ-🏁ZZ_66","server":"cn10.somethingstranges.com","type":"ssr","country":"🏁ZZ","port":8306,"password":"passwd","cipher":"chacha20-ietf","protocol":"origin","obfs":"http_simple","obfs-param":"29071-OIX56UoM.download.microsoft.com","group":"IPLC.VIP"}
+- {"name":"Relay_🏁ZZ-🏁ZZ_67","server":"cn08.somethingstranges.com","type":"ssr","country":"🏁ZZ","port":8209,"password":"passwd","cipher":"chacha20-ietf","protocol":"origin","obfs":"http_simple","obfs-param":"29071-OIX56UoM.download.microsoft.com","group":"IPLC.VIP"}
+- {"name":"Relay_🏁ZZ-🏁ZZ_68","server":"cn16.somethingstranges.com","type":"ssr","country":"🏁ZZ","port":8513,"password":"passwd","cipher":"chacha20-ietf","protocol":"origin","obfs":"http_simple","obfs-param":"29071-OIX56UoM.download.microsoft.com","group":"IPLC.VIP"}
+- {"name":"Relay_🏁ZZ-🏁ZZ_69","server":"cn05.somethingstranges.com","type":"ssr","country":"🏁ZZ","port":8121,"password":"passwd","cipher":"chacha20-ietf","protocol":"origin","obfs":"http_simple","obfs-param":"29071-OIX56UoM.download.microsoft.com","group":"IPLC.VIP"}
+- {"name":"Relay_🏁ZZ-🏁ZZ_70","server":"cn12.somethingstranges.com","type":"ssr","country":"🏁ZZ","port":8405,"password":"passwd","cipher":"chacha20-ietf","protocol":"origin","obfs":"http_simple","obfs-param":"29071-OIX56UoM.download.microsoft.com","group":"IPLC.VIP"}
+- {"name":"Relay_🏁ZZ-🏁ZZ_71","server":"cn12.somethingstranges.com","type":"ssr","country":"🏁ZZ","port":8407,"password":"passwd","cipher":"chacha20-ietf","protocol":"origin","obfs":"http_simple","obfs-param":"29071-OIX56UoM.download.microsoft.com","group":"IPLC.VIP"}
+- {"name":"Relay_🏁ZZ-🏁ZZ_72","server":"cn13.somethingstranges.com","type":"ssr","country":"🏁ZZ","port":8409,"password":"passwd","cipher":"chacha20-ietf","protocol":"origin","obfs":"http_simple","obfs-param":"29071-OIX56UoM.download.microsoft.com","group":"IPLC.VIP"}
+- {"name":"Relay_🏁ZZ-🏁ZZ_73","server":"cn16.somethingstranges.com","type":"ssr","country":"🏁ZZ","port":8508,"password":"passwd","cipher":"chacha20-ietf","protocol":"origin","obfs":"http_simple","obfs-param":"29071-OIX56UoM.download.microsoft.com","group":"IPLC.VIP"}
+- {"name":"Relay_🏁ZZ-🏁ZZ_74","server":"cn17.somethingstranges.com","type":"ssr","country":"🏁ZZ","port":8519,"password":"passwd","cipher":"chacha20-ietf","protocol":"origin","obfs":"http_simple","obfs-param":"29071-OIX56UoM.download.microsoft.com","group":"IPLC.VIP"}
+- {"name":"Relay_🏁ZZ-🏁ZZ_75","server":"cn12.somethingstranges.com","type":"ssr","country":"🏁ZZ","port":8404,"password":"passwd","cipher":"chacha20-ietf","protocol":"origin","obfs":"http_simple","obfs-param":"29071-OIX56UoM.download.microsoft.com","group":"IPLC.VIP"}
+- {"name":"Relay_🏁ZZ-🏁ZZ_76","server":"cn12.somethingstranges.com","type":"ssr","country":"🏁ZZ","port":8406,"password":"passwd","cipher":"chacha20-ietf","protocol":"origin","obfs":"http_simple","obfs-param":"29071-OIX56UoM.download.microsoft.com","group":"IPLC.VIP"}
+- {"name":"Relay_🏁ZZ-🏁ZZ_77","server":"cn16.somethingstranges.com","type":"ssr","country":"🏁ZZ","port":8511,"password":"passwd","cipher":"chacha20-ietf","protocol":"origin","obfs":"http_simple","obfs-param":"29071-OIX56UoM.download.microsoft.com","group":"IPLC.VIP"}
+- {"name":"Relay_🏁ZZ-🏁ZZ_78","server":"cn16.somethingstranges.com","type":"ssr","country":"🏁ZZ","port":8507,"password":"passwd","cipher":"chacha20-ietf","protocol":"origin","obfs":"http_simple","obfs-param":"29071-OIX56UoM.download.microsoft.com","group":"IPLC.VIP"}
+- {"name":"Relay_🏁ZZ-🏁ZZ_79","server":"cn12.somethingstranges.com","type":"ssr","country":"🏁ZZ","port":8408,"password":"passwd","cipher":"chacha20-ietf","protocol":"origin","obfs":"http_simple","obfs-param":"29071-OIX56UoM.download.microsoft.com","group":"IPLC.VIP"}
+- {"name":"Relay_🏁ZZ-🏁ZZ_80","server":"cn13.somethingstranges.com","type":"ssr","country":"🏁ZZ","port":8410,"password":"passwd","cipher":"chacha20-ietf","protocol":"origin","obfs":"http_simple","obfs-param":"29071-OIX56UoM.download.microsoft.com","group":"IPLC.VIP"}
+- {"name":"Relay_🏁ZZ-🏁ZZ_81","server":"cn02.somethingstranges.com","type":"ssr","country":"🏁ZZ","port":8104,"password":"passwd","cipher":"chacha20-ietf","protocol":"origin","obfs":"http_simple","obfs-param":"29071-OIX56UoM.download.microsoft.com","group":"IPLC.VIP"}
+- {"name":"Relay_🏁ZZ-🏁ZZ_82","server":"cn10.somethingstranges.com","type":"ssr","country":"🏁ZZ","port":8304,"password":"passwd","cipher":"chacha20-ietf","protocol":"origin","obfs":"http_simple","obfs-param":"29071-OIX56UoM.download.microsoft.com","group":"IPLC.VIP"}
+- {"name":"Relay_🏁ZZ-🏁ZZ_83","server":"cn16.somethingstranges.com","type":"ssr","country":"🏁ZZ","port":8510,"password":"passwd","cipher":"chacha20-ietf","protocol":"origin","obfs":"http_simple","obfs-param":"29071-OIX56UoM.download.microsoft.com","group":"IPLC.VIP"}
+- {"name":"Relay_🏁ZZ-🏁ZZ_84","server":"cn16.somethingstranges.com","type":"ssr","country":"🏁ZZ","port":8512,"password":"passwd","cipher":"chacha20-ietf","protocol":"origin","obfs":"http_simple","obfs-param":"29071-OIX56UoM.download.microsoft.com","group":"IPLC.VIP"}
+- {"name":"Relay_🏁ZZ-🏁ZZ_85","server":"cn17.somethingstranges.com","type":"ssr","country":"🏁ZZ","port":8520,"password":"passwd","cipher":"chacha20-ietf","protocol":"origin","obfs":"http_simple","obfs-param":"29071-OIX56UoM.download.microsoft.com","group":"IPLC.VIP"}
+- {"name":"Relay_🏁ZZ-🏁ZZ_86","server":"cn18.somethingstranges.com","type":"ssr","country":"🏁ZZ","port":8602,"password":"passwd","cipher":"chacha20-ietf","protocol":"origin","obfs":"http_simple","obfs-param":"29071-OIX56UoM.download.microsoft.com","group":"IPLC.VIP"}
+- {"name":"Relay_🏁ZZ-🏁ZZ_87","server":"cn16.somethingstranges.com","type":"ssr","country":"🏁ZZ","port":8514,"password":"passwd","cipher":"chacha20-ietf","protocol":"origin","obfs":"http_simple","obfs-param":"29071-OIX56UoM.download.microsoft.com","group":"IPLC.VIP"}
+- {"name":"Relay_🏁ZZ-🏁ZZ_88","server":"cn10.somethingstranges.com","type":"ssr","country":"🏁ZZ","port":8303,"password":"passwd","cipher":"chacha20-ietf","protocol":"origin","obfs":"http_simple","obfs-param":"29071-OIX56UoM.download.microsoft.com","group":"IPLC.VIP"}
+- {"name":"Relay_🏁ZZ-🏁ZZ_89","server":"cn09.somethingstranges.com","type":"ssr","country":"🏁ZZ","port":8218,"password":"passwd","cipher":"chacha20-ietf","protocol":"origin","obfs":"http_simple","obfs-param":"29071-OIX56UoM.download.microsoft.com","group":"IPLC.VIP"}
+- {"name":"Relay_🏁ZZ-🏁ZZ_90","server":"cn10.somethingstranges.com","type":"ssr","country":"🏁ZZ","port":8302,"password":"passwd","cipher":"chacha20-ietf","protocol":"origin","obfs":"http_simple","obfs-param":"29071-OIX56UoM.download.microsoft.com","group":"IPLC.VIP"}
+- {"name":"Relay_🏁ZZ-🏁ZZ_91","server":"cn17.somethingstranges.com","type":"ssr","country":"🏁ZZ","port":8516,"password":"passwd","cipher":"chacha20-ietf","protocol":"origin","obfs":"http_simple","obfs-param":"29071-OIX56UoM.download.microsoft.com","group":"IPLC.VIP"}
+- {"name":"Relay_🏁ZZ-🏁ZZ_92","server":"cn18.somethingstranges.com","type":"ssr","country":"🏁ZZ","port":8604,"password":"passwd","cipher":"chacha20-ietf","protocol":"origin","obfs":"http_simple","obfs-param":"29071-OIX56UoM.download.microsoft.com","group":"IPLC.VIP"}
+- {"name":"Relay_🏁ZZ-🏁ZZ_93","server":"cn17.somethingstranges.com","type":"ssr","country":"🏁ZZ","port":8518,"password":"passwd","cipher":"chacha20-ietf","protocol":"origin","obfs":"http_simple","obfs-param":"29071-OIX56UoM.download.microsoft.com","group":"IPLC.VIP"}
+- {"name":"Relay_🏁ZZ-🏁ZZ_94","server":"cn05.somethingstranges.com","type":"ssr","country":"🏁ZZ","port":8122,"password":"passwd","cipher":"chacha20-ietf","protocol":"origin","obfs":"http_simple","obfs-param":"29071-OIX56UoM.download.microsoft.com","group":"IPLC.VIP"}
+- {"name":"Relay_🏁ZZ-🏁ZZ_95","server":"cn17.somethingstranges.com","type":"ssr","country":"🏁ZZ","port":8517,"password":"passwd","cipher":"chacha20-ietf","protocol":"origin","obfs":"http_simple","obfs-param":"29071-OIX56UoM.download.microsoft.com","group":"IPLC.VIP"}
+- {"name":"Relay_🏁ZZ-🏁ZZ_96","server":"cn16.somethingstranges.com","type":"ssr","country":"🏁ZZ","port":8515,"password":"passwd","cipher":"chacha20-ietf","protocol":"origin","obfs":"http_simple","obfs-param":"29071-OIX56UoM.download.microsoft.com","group":"IPLC.VIP"}
+- {"name":"Relay_🏁ZZ-🏁ZZ_97","server":"cn10.somethingstranges.com","type":"ssr","country":"🏁ZZ","port":8305,"password":"passwd","cipher":"chacha20-ietf","protocol":"origin","obfs":"http_simple","obfs-param":"29071-OIX56UoM.download.microsoft.com","group":"IPLC.VIP"}
+- {"name":"Relay_🏁ZZ-🏁ZZ_98","server":"cn18.somethingstranges.com","type":"ssr","country":"🏁ZZ","port":8605,"password":"passwd","cipher":"chacha20-ietf","protocol":"origin","obfs":"http_simple","obfs-param":"29071-OIX56UoM.download.microsoft.com","group":"IPLC.VIP"}
+- {"name":"Relay_🏁ZZ-🏁ZZ_99","server":"cn09.somethingstranges.com","type":"ssr","country":"🏁ZZ","port":8214,"password":"passwd","cipher":"chacha20-ietf","protocol":"origin","obfs":"http_simple","obfs-param":"29071-OIX56UoM.download.microsoft.com","group":"IPLC.VIP"}
+- {"name":"Relay_🏁ZZ-🏁ZZ_100","server":"cn08.somethingstranges.com","type":"ssr","country":"🏁ZZ","port":8213,"password":"passwd","cipher":"chacha20-ietf","protocol":"origin","obfs":"http_simple","obfs-param":"29071-OIX56UoM.download.microsoft.com","group":"IPLC.VIP"}
+- {"name":"Relay_🏁ZZ-🏁ZZ_101","server":"cn18.somethingstranges.com","type":"ssr","country":"🏁ZZ","port":8603,"password":"passwd","cipher":"chacha20-ietf","protocol":"origin","obfs":"http_simple","obfs-param":"29071-OIX56UoM.download.microsoft.com","group":"IPLC.VIP"}
+- {"name":"Relay_🏁ZZ-🏁ZZ_102","server":"cn05.somethingstranges.com","type":"ssr","country":"🏁ZZ","port":8126,"password":"passwd","cipher":"chacha20-ietf","protocol":"origin","obfs":"http_simple","obfs-param":"29071-OIX56UoM.download.microsoft.com","group":"IPLC.VIP"}
+- {"name":"Relay_🏁ZZ-🏁ZZ_103","server":"cn05.somethingstranges.com","type":"ssr","country":"🏁ZZ","port":8125,"password":"passwd","cipher":"chacha20-ietf","protocol":"origin","obfs":"http_simple","obfs-param":"29071-OIX56UoM.download.microsoft.com","group":"IPLC.VIP"}
+- {"name":"Relay_🏁ZZ-🏁ZZ_104","server":"cn13.somethingstranges.com","type":"ssr","country":"🏁ZZ","port":8411,"password":"passwd","cipher":"chacha20-ietf","protocol":"origin","obfs":"http_simple","obfs-param":"29071-OIX56UoM.download.microsoft.com","group":"IPLC.VIP"}
+- {"name":"Relay_🏁ZZ-🏁ZZ_105","server":"cn05.somethingstranges.com","type":"ssr","country":"🏁ZZ","port":8123,"password":"passwd","cipher":"chacha20-ietf","protocol":"origin","obfs":"http_simple","obfs-param":"29071-OIX56UoM.download.microsoft.com","group":"IPLC.VIP"}
+- {"name":"Relay_🏁ZZ-🏁ZZ_106","server":"cn02.somethingstranges.com","type":"ssr","country":"🏁ZZ","port":8110,"password":"passwd","cipher":"chacha20-ietf","protocol":"origin","obfs":"http_simple","obfs-param":"29071-OIX56UoM.download.microsoft.com","group":"IPLC.VIP"}
+- {"name":"Relay_🏁ZZ-🏁ZZ_107","server":"cn18.somethingstranges.com","type":"ssr","country":"🏁ZZ","port":8614,"password":"passwd","cipher":"chacha20-ietf","protocol":"origin","obfs":"http_simple","obfs-param":"29071-OIX56UoM.download.microsoft.com","group":"IPLC.VIP"}
+- {"name":"Relay_🏁ZZ-🏁ZZ_108","server":"cn18.somethingstranges.com","type":"ssr","country":"🏁ZZ","port":8626,"password":"passwd","cipher":"chacha20-ietf","protocol":"origin","obfs":"http_simple","obfs-param":"29071-OIX56UoM.download.microsoft.com","group":"IPLC.VIP"}
+- {"name":"Relay_🏁ZZ-🏁ZZ_109","server":"cn03.somethingstranges.com","type":"ssr","country":"🏁ZZ","port":8111,"password":"passwd","cipher":"chacha20-ietf","protocol":"origin","obfs":"http_simple","obfs-param":"29071-OIX56UoM.download.microsoft.com","group":"IPLC.VIP"}
+- {"name":"Relay_🏁ZZ-🏁ZZ_110","server":"cn05.somethingstranges.com","type":"ssr","country":"🏁ZZ","port":8124,"password":"passwd","cipher":"chacha20-ietf","protocol":"origin","obfs":"http_simple","obfs-param":"29071-OIX56UoM.download.microsoft.com","group":"IPLC.VIP"}
+- {"name":"Relay_🏁ZZ-🏁ZZ_111","server":"cn04.somethingstranges.com","type":"ssr","country":"🏁ZZ","port":8117,"password":"passwd","cipher":"chacha20-ietf","protocol":"origin","obfs":"http_simple","obfs-param":"29071-OIX56UoM.download.microsoft.com","group":"IPLC.VIP"}
+- {"name":"Relay_🏁ZZ-🏁ZZ_112","server":"cn08.somethingstranges.com","type":"ssr","country":"🏁ZZ","port":8212,"password":"passwd","cipher":"chacha20-ietf","protocol":"origin","obfs":"http_simple","obfs-param":"29071-OIX56UoM.download.microsoft.com","group":"IPLC.VIP"}
+- {"name":"Relay_🏁ZZ-🏁ZZ_113","server":"cn04.somethingstranges.com","type":"ssr","country":"🏁ZZ","port":8118,"password":"passwd","cipher":"chacha20-ietf","protocol":"origin","obfs":"http_simple","obfs-param":"29071-OIX56UoM.download.microsoft.com","group":"IPLC.VIP"}
+- {"name":"Relay_🏁ZZ-🏁ZZ_114","server":"cn08.somethingstranges.com","type":"ssr","country":"🏁ZZ","port":8211,"password":"passwd","cipher":"chacha20-ietf","protocol":"origin","obfs":"http_simple","obfs-param":"29071-OIX56UoM.download.microsoft.com","group":"IPLC.VIP"}
+- {"name":"Relay_🏁ZZ-🏁ZZ_115","server":"cn13.somethingstranges.com","type":"ssr","country":"🏁ZZ","port":8412,"password":"passwd","cipher":"chacha20-ietf","protocol":"origin","obfs":"http_simple","obfs-param":"29071-OIX56UoM.download.microsoft.com","group":"IPLC.VIP"}
+- {"name":"Relay_🏁ZZ-🏁ZZ_116","server":"cn04.somethingstranges.com","type":"ssr","country":"🏁ZZ","port":8119,"password":"passwd","cipher":"chacha20-ietf","protocol":"origin","obfs":"http_simple","obfs-param":"29071-OIX56UoM.download.microsoft.com","group":"IPLC.VIP"}
+- {"name":"Relay_🏁ZZ-🏁ZZ_117","server":"cn02.somethingstranges.com","type":"ssr","country":"🏁ZZ","port":8108,"password":"passwd","cipher":"chacha20-ietf","protocol":"origin","obfs":"http_simple","obfs-param":"29071-OIX56UoM.download.microsoft.com","group":"IPLC.VIP"}
+- {"name":"Relay_🏁ZZ-🏁ZZ_118","server":"cn18.somethingstranges.com","type":"ssr","country":"🏁ZZ","port":8625,"password":"passwd","cipher":"chacha20-ietf","protocol":"origin","obfs":"http_simple","obfs-param":"29071-OIX56UoM.download.microsoft.com","group":"IPLC.VIP"}
+- {"name":"Relay_🏁ZZ-🏁ZZ_119","server":"cn18.somethingstranges.com","type":"ssr","country":"🏁ZZ","port":8619,"password":"passwd","cipher":"chacha20-ietf","protocol":"origin","obfs":"http_simple","obfs-param":"29071-OIX56UoM.download.microsoft.com","group":"IPLC.VIP"}
+- {"name":"Relay_🏁ZZ-🏁ZZ_120","server":"cn00.somethingstranges.com","type":"ssr","country":"🏁ZZ","port":8801,"password":"passwd","cipher":"chacha20-ietf","protocol":"origin","obfs":"http_simple","obfs-param":"29071-OIX56UoM.download.microsoft.com","group":"IPLC.VIP"}
+- {"name":"Relay_🏁ZZ-🏁ZZ_121","server":"cn16.somethingstranges.com","type":"ssr","country":"🏁ZZ","port":8509,"password":"passwd","cipher":"chacha20-ietf","protocol":"origin","obfs":"http_simple","obfs-param":"29071-OIX56UoM.download.microsoft.com","group":"IPLC.VIP"}
+- {"name":"Relay_🏁ZZ-🏁ZZ_122","server":"cn18.somethingstranges.com","type":"ssr","country":"🏁ZZ","port":8601,"password":"passwd","cipher":"chacha20-ietf","protocol":"origin","obfs":"http_simple","obfs-param":"29071-OIX56UoM.download.microsoft.com","group":"IPLC.VIP"}
+- {"name":"Relay_🏁ZZ-🏁ZZ_123","server":"cn17.somethingstranges.com","type":"ssr","country":"🏁ZZ","port":8522,"password":"passwd","cipher":"chacha20-ietf","protocol":"origin","obfs":"http_simple","obfs-param":"29071-OIX56UoM.download.microsoft.com","group":"IPLC.VIP"}
+- {"name":"Relay_🏁ZZ-🏁ZZ_124","server":"osng.somethingstranges.com","type":"ssr","country":"🏁ZZ","port":2000,"password":"passwd","cipher":"chacha20-ietf","protocol":"origin","obfs":"http_simple","obfs-param":"29071-OIX56UoM.download.microsoft.com","group":"IPLC.VIP"}
+- {"name":"Relay_🏁ZZ-🏁ZZ_125","server":"cn00.somethingstranges.com","type":"ssr","country":"🏁ZZ","port":8802,"password":"passwd","cipher":"chacha20-ietf","protocol":"origin","obfs":"http_simple","obfs-param":"29071-OIX56UoM.download.microsoft.com","group":"IPLC.VIP"}
+- {"name":"Relay_🏁ZZ-🏁ZZ_126","server":"cn00.somethingstranges.com","type":"ssr","country":"🏁ZZ","port":8803,"password":"passwd","cipher":"chacha20-ietf","protocol":"origin","obfs":"http_simple","obfs-param":"29071-OIX56UoM.download.microsoft.com","group":"IPLC.VIP"}
+- {"name":"Relay_🏁ZZ-🏁ZZ_127","server":"cn02.somethingstranges.com","type":"ssr","country":"🏁ZZ","port":8109,"password":"passwd","cipher":"chacha20-ietf","protocol":"origin","obfs":"http_simple","obfs-param":"29071-OIX56UoM.download.microsoft.com","group":"IPLC.VIP"}
+- {"name":"Relay_🏁ZZ-🏁ZZ_128","server":"cn08.somethingstranges.com","type":"ssr","country":"🏁ZZ","port":8210,"password":"passwd","cipher":"chacha20-ietf","protocol":"origin","obfs":"http_simple","obfs-param":"29071-OIX56UoM.download.microsoft.com","group":"IPLC.VIP"}
+- {"name":"Relay_🏁ZZ-🏁ZZ_129","server":"cn09.somethingstranges.com","type":"ssr","country":"🏁ZZ","port":8217,"password":"passwd","cipher":"chacha20-ietf","protocol":"origin","obfs":"http_simple","obfs-param":"29071-OIX56UoM.download.microsoft.com","group":"IPLC.VIP"}
 proxy-groups:
 - name: loadbalance1
   type: fallback
   stragery: consistent-hashing
   tolerance: 300
   proxies:
-  - _01
+  - Relay_🇨🇳CN-🇨🇳CN_01
   - Relay_🇨🇳CN-🇨🇳CN_02
-  - 🇨🇳CN_03
-  - Relay_🇫🇷FR-🇩🇪DE_04
-  - Relay_🇭🇰HK-🇭🇰HK_05
-  - 🇵🇹PT_06
-  - 🇷🇺RU_07
+  - Relay_🇨🇳CN-🇨🇳CN_03
+  - Relay_🇨🇳CN-🇨🇳CN_04
+  - Relay_🇨🇳CN-🇨🇳CN_05
+  - Relay_🇨🇳CN-🇨🇳CN_06
+  - Relay_🇨🇳CN-🇨🇳CN_07
+  - Relay_🇨🇳CN-🇨🇳CN_08
+  - Relay_🇨🇳CN-🇨🇳CN_09
+  - Relay_🇨🇳CN-🇨🇳CN_10
+  - Relay_🇨🇳CN-🇨🇳CN_11
+  - Relay_🇨🇳CN-🇨🇳CN_12
+  - Relay_🇨🇳CN-🇨🇳CN_13
+  - Relay_🇨🇳CN-🇨🇳CN_14
+  - Relay_🇨🇳CN-🇨🇳CN_15
+  - Relay_🇨🇳CN-🇨🇳CN_16
+  - Relay_🇨🇳CN-🇨🇳CN_17
+  - Relay_🇨🇳CN-🇨🇳CN_18
+  - Relay_🇨🇳CN-🇨🇳CN_19
+  - Relay_🇨🇳CN-🇨🇳CN_20
+  - Relay_🇨🇳CN-🇨🇳CN_21
+  - Relay_🇫🇷FR-🇫🇷FR_22
+  - Relay_🇭🇰HK-🇭🇰HK_23
+  - Relay_🇭🇰HK-🇭🇰HK_24
+  - Relay_🇭🇰HK-🇭🇰HK_25
+  - Relay_🇮🇷IR-🇮🇷IR_26
+  - Relay_🇮🇷IR-🇮🇷IR_27
+  - Relay_🇮🇷IR-🇮🇷IR_28
+  - Relay_🇮🇷IR-🇮🇷IR_29
+  - Relay_🇮🇷IR-🇮🇷IR_30
+  - Relay_🇳🇱NL-🇳🇱NL_31
+  - 🇷🇺RU_32
+  - 🇷🇺RU_33
+  - Relay_🏁ZZ-🏁ZZ_34
+  - Relay_🏁ZZ-🏁ZZ_35
+  - Relay_🏁ZZ-🏁ZZ_36
+  - Relay_🏁ZZ-🏁ZZ_37
+  - Relay_🏁ZZ-🏁ZZ_38
+  - Relay_🏁ZZ-🏁ZZ_39
+  - Relay_🏁ZZ-🏁ZZ_40
+  - Relay_🏁ZZ-🏁ZZ_41
+  - Relay_🏁ZZ-🏁ZZ_42
+  - Relay_🏁ZZ-🏁ZZ_43
+  - Relay_🏁ZZ-🏁ZZ_44
+  - Relay_🏁ZZ-🏁ZZ_45
+  - Relay_🏁ZZ-🏁ZZ_46
+  - Relay_🏁ZZ-🏁ZZ_47
+  - Relay_🏁ZZ-🏁ZZ_48
+  - Relay_🏁ZZ-🏁ZZ_49
+  - Relay_🏁ZZ-🏁ZZ_50
+  - Relay_🏁ZZ-🏁ZZ_51
+  - Relay_🏁ZZ-🏁ZZ_52
+  - Relay_🏁ZZ-🏁ZZ_53
+  - Relay_🏁ZZ-🏁ZZ_54
+  - Relay_🏁ZZ-🏁ZZ_55
+  - Relay_🏁ZZ-🏁ZZ_56
+  - Relay_🏁ZZ-🏁ZZ_57
+  - Relay_🏁ZZ-🏁ZZ_58
+  - Relay_🏁ZZ-🏁ZZ_59
+  - Relay_🏁ZZ-🏁ZZ_60
+  - Relay_🏁ZZ-🏁ZZ_61
+  - Relay_🏁ZZ-🏁ZZ_62
+  - Relay_🏁ZZ-🏁ZZ_63
+  - Relay_🏁ZZ-🏁ZZ_64
+  - Relay_🏁ZZ-🏁ZZ_65
+  - Relay_🏁ZZ-🏁ZZ_66
+  - Relay_🏁ZZ-🏁ZZ_67
+  - Relay_🏁ZZ-🏁ZZ_68
+  - Relay_🏁ZZ-🏁ZZ_69
+  - Relay_🏁ZZ-🏁ZZ_70
+  - Relay_🏁ZZ-🏁ZZ_71
+  - Relay_🏁ZZ-🏁ZZ_72
+  - Relay_🏁ZZ-🏁ZZ_73
+  - Relay_🏁ZZ-🏁ZZ_74
+  - Relay_🏁ZZ-🏁ZZ_75
+  - Relay_🏁ZZ-🏁ZZ_76
+  - Relay_🏁ZZ-🏁ZZ_77
+  - Relay_🏁ZZ-🏁ZZ_78
+  - Relay_🏁ZZ-🏁ZZ_79
+  - Relay_🏁ZZ-🏁ZZ_80
+  - Relay_🏁ZZ-🏁ZZ_81
+  - Relay_🏁ZZ-🏁ZZ_82
+  - Relay_🏁ZZ-🏁ZZ_83
+  - Relay_🏁ZZ-🏁ZZ_84
+  - Relay_🏁ZZ-🏁ZZ_85
+  - Relay_🏁ZZ-🏁ZZ_86
+  - Relay_🏁ZZ-🏁ZZ_87
+  - Relay_🏁ZZ-🏁ZZ_88
+  - Relay_🏁ZZ-🏁ZZ_89
+  - Relay_🏁ZZ-🏁ZZ_90
+  - Relay_🏁ZZ-🏁ZZ_91
+  - Relay_🏁ZZ-🏁ZZ_92
+  - Relay_🏁ZZ-🏁ZZ_93
+  - Relay_🏁ZZ-🏁ZZ_94
+  - Relay_🏁ZZ-🏁ZZ_95
+  - Relay_🏁ZZ-🏁ZZ_96
+  - Relay_🏁ZZ-🏁ZZ_97
+  - Relay_🏁ZZ-🏁ZZ_98
+  - Relay_🏁ZZ-🏁ZZ_99
+  - Relay_🏁ZZ-🏁ZZ_100
+  - Relay_🏁ZZ-🏁ZZ_101
+  - Relay_🏁ZZ-🏁ZZ_102
+  - Relay_🏁ZZ-🏁ZZ_103
+  - Relay_🏁ZZ-🏁ZZ_104
+  - Relay_🏁ZZ-🏁ZZ_105
+  - Relay_🏁ZZ-🏁ZZ_106
+  - Relay_🏁ZZ-🏁ZZ_107
+  - Relay_🏁ZZ-🏁ZZ_108
+  - Relay_🏁ZZ-🏁ZZ_109
+  - Relay_🏁ZZ-🏁ZZ_110
+  - Relay_🏁ZZ-🏁ZZ_111
+  - Relay_🏁ZZ-🏁ZZ_112
+  - Relay_🏁ZZ-🏁ZZ_113
+  - Relay_🏁ZZ-🏁ZZ_114
+  - Relay_🏁ZZ-🏁ZZ_115
+  - Relay_🏁ZZ-🏁ZZ_116
+  - Relay_🏁ZZ-🏁ZZ_117
+  - Relay_🏁ZZ-🏁ZZ_118
+  - Relay_🏁ZZ-🏁ZZ_119
+  - Relay_🏁ZZ-🏁ZZ_120
+  - Relay_🏁ZZ-🏁ZZ_121
+  - Relay_🏁ZZ-🏁ZZ_122
+  - Relay_🏁ZZ-🏁ZZ_123
+  - Relay_🏁ZZ-🏁ZZ_124
+  - Relay_🏁ZZ-🏁ZZ_125
+  - Relay_🏁ZZ-🏁ZZ_126
+  - Relay_🏁ZZ-🏁ZZ_127
+  - Relay_🏁ZZ-🏁ZZ_128
+  - Relay_🏁ZZ-🏁ZZ_129
   url: https://clients3.google.com/generate_204
   interval: 600
 rules:
