@@ -31,24 +31,38 @@ dns:
   - +.googleapis.cn
   - +.gvt1.com
 proxies:
-- {"name":"Relay_-🇭🇰HK_01","server":"v10.hdacd.com","type":"vmess","port":30807,"uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"cipher":"auto","http-opts":{},"h2-opts":{}}
-- {"name":"Relay_🇦🇺AU-🇦🇺AU_02","server":"steady-lemming.rooster465.autos","type":"trojan","country":"🇦🇺AU","port":443,"password":"IL37892054","sni":"steady-lemming.rooster465.autos","skip-cert-verify":true,"udp":true}
-- {"name":"Relay_🇨🇳CN-🇸🇬SG_03","server":"v12.hdacd.com","type":"vmess","country":"🇨🇳CN","port":30812,"uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":0,"cipher":"auto","network":"tcp","servername":"ddDFHhj.922922.Shop","http-opts":{},"h2-opts":{},"skip-cert-verify":true}
-- {"name":"Relay_🇬🇧GB-🇺🇸US_04","server":"194.33.45.157","type":"trojan","country":"🇬🇧GB","port":443,"password":"3ac6a6ca99f74941b1eaf892818e2ddb","skip-cert-verify":true,"udp":true}
-- {"name":"🇭🇰HK_05","server":"58.152.25.253","type":"trojan","country":"🇭🇰HK","port":443,"password":"BxceQaOe","skip-cert-verify":true,"udp":true}
-- {"name":"🇷🇺RU_06","server":"89.221.225.71","type":"trojan","country":"🇷🇺RU","port":443,"password":"3ac6a6ca99f74941b1eaf892818e2ddb","skip-cert-verify":true,"udp":true}
+- {"name":"Relay_🇦🇺AU-🇦🇺AU_01","server":"steady-lemming.rooster465.autos","type":"trojan","country":"🇦🇺AU","port":443,"password":"IL37892054","sni":"steady-lemming.rooster465.autos","skip-cert-verify":true,"udp":true}
+- {"name":"🇨🇳CN_02","server":"v29.hdacd.com","type":"vmess","country":"🇨🇳CN","port":30829,"uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"cipher":"auto","network":"tcp","http-opts":{},"h2-opts":{},"skip-cert-verify":true}
+- {"name":"🇨🇳CN_03","server":"v36.hdacd.com","type":"vmess","country":"🇨🇳CN","port":30836,"uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"cipher":"auto","network":"tcp","http-opts":{},"h2-opts":{},"skip-cert-verify":true}
+- {"name":"🇨🇳CN_04","server":"v33.hdacd.com","type":"vmess","country":"🇨🇳CN","port":30833,"uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"cipher":"auto","network":"tcp","http-opts":{},"h2-opts":{},"skip-cert-verify":true}
+- {"name":"🇬🇧GB_05","server":"82.198.246.97","type":"vmess","country":"🇬🇧GB","port":180,"uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"cipher":"auto","network":"tcp","http-opts":{},"h2-opts":{},"skip-cert-verify":true}
+- {"name":"Relay_🇬🇧GB-🇺🇸US_06","server":"194.33.45.157","type":"trojan","country":"🇬🇧GB","port":443,"password":"3ac6a6ca99f74941b1eaf892818e2ddb","skip-cert-verify":true,"udp":true}
+- {"name":"🇭🇰HK_07","server":"103.149.182.105","type":"ss","country":"🇭🇰HK","port":8388,"password":"asd123456","cipher":"chacha20-ietf"}
+- {"name":"🇭🇰HK_08","server":"58.152.25.253","type":"trojan","country":"🇭🇰HK","port":443,"password":"BxceQaOe","skip-cert-verify":true,"udp":true}
+- {"name":"🇵🇹PT_09","server":"185.231.233.112","type":"ss","country":"🇵🇹PT","port":989,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
+- {"name":"🇷🇺RU_10","server":"89.221.225.71","type":"trojan","country":"🇷🇺RU","port":443,"password":"3ac6a6ca99f74941b1eaf892818e2ddb","skip-cert-verify":true,"udp":true}
+- {"name":"Relay_🇺🇸US-🇺🇸US_11","server":"nm3.boom.party","type":"ssr","country":"🇺🇸US","port":13000,"password":"Uk92CS","cipher":"aes-256-cfb","protocol":"auth_aes128_sha1","obfs":"http_simple"}
+- {"name":"Pool_🏁ZZ_12","server":"103.186.154.75","type":"ss","country":"🏁ZZ","port":38388,"password":"Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV","cipher":"aes-256-cfb"}
+- {"name":"Relay_🏁ZZ-🇸🇬SG_13","server":"103.181.164.145","type":"vmess","country":"🏁ZZ","port":51556,"uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":0,"cipher":"auto","network":"tcp","http-opts":{},"h2-opts":{},"skip-cert-verify":true}
 proxy-groups:
 - name: loadbalance1
   type: fallback
   stragery: consistent-hashing
   tolerance: 300
   proxies:
-  - Relay_-🇭🇰HK_01
-  - Relay_🇦🇺AU-🇦🇺AU_02
-  - Relay_🇨🇳CN-🇸🇬SG_03
-  - Relay_🇬🇧GB-🇺🇸US_04
-  - 🇭🇰HK_05
-  - 🇷🇺RU_06
+  - Relay_🇦🇺AU-🇦🇺AU_01
+  - 🇨🇳CN_02
+  - 🇨🇳CN_03
+  - 🇨🇳CN_04
+  - 🇬🇧GB_05
+  - Relay_🇬🇧GB-🇺🇸US_06
+  - 🇭🇰HK_07
+  - 🇭🇰HK_08
+  - 🇵🇹PT_09
+  - 🇷🇺RU_10
+  - Relay_🇺🇸US-🇺🇸US_11
+  - Pool_🏁ZZ_12
+  - Relay_🏁ZZ-🇸🇬SG_13
   url: https://clients3.google.com/generate_204
   interval: 600
 rules:
