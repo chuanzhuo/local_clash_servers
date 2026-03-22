@@ -31,16 +31,12 @@ dns:
   - +.googleapis.cn
   - +.gvt1.com
 proxies:
-- {"name":"_01","server":"v10.hdacd.com","type":"vmess","port":30807,"uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"cipher":"auto","http-opts":{},"h2-opts":{}}
-- {"name":"Relay_🇬🇧GB-🇺🇸US_02","server":"82.198.246.97","type":"vmess","country":"🇬🇧GB","port":180,"uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"cipher":"auto","network":"tcp","http-opts":{},"h2-opts":{},"skip-cert-verify":true}
 proxy-groups:
 - name: loadbalance1
   type: fallback
   stragery: consistent-hashing
   tolerance: 300
   proxies:
-  - _01
-  - Relay_🇬🇧GB-🇺🇸US_02
   url: https://clients3.google.com/generate_204
   interval: 600
 rules:
