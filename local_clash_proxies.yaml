@@ -31,26 +31,36 @@ dns:
   - +.googleapis.cn
   - +.gvt1.com
 proxies:
-- {"name":"Relay_-🇺🇸US_01","server":"82.198.246.250","type":"vmess","port":180,"uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"cipher":"auto","http-opts":{},"h2-opts":{}}
-- {"name":"Relay_🇬🇧GB-🇺🇸US_02","server":"82.198.246.214","type":"vmess","country":"🇬🇧GB","port":180,"uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"cipher":"auto","http-opts":{},"h2-opts":{},"skip-cert-verify":true}
-- {"name":"Relay_🇭🇰HK-🇭🇰HK_03","server":"v10.hdacd.com","type":"vmess","country":"🇭🇰HK","port":30807,"uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"cipher":"auto","network":"tcp","http-opts":{},"h2-opts":{},"skip-cert-verify":true}
-- {"name":"🇺🇸US_04","server":"90081bb25c.node.tro.cac.cab","type":"trojan","country":"🇺🇸US","port":41943,"password":"4f4d1167-ef14-4304-9bce-0740472503ef","sni":"az.01.naiun.bilibili.com","skip-cert-verify":true,"udp":true}
-- {"name":"🇺🇸US_05","server":"90081bb25c.node.tro.cac.cab","type":"trojan","country":"🇺🇸US","port":45553,"password":"4f4d1167-ef14-4304-9bce-0740472503ef","sni":"ch.01.naiun.bilibili.com","skip-cert-verify":true,"udp":true}
-- {"name":"🇺🇸US_06","server":"90081bb25c.node.tro.cac.cab","type":"trojan","country":"🇺🇸US","port":45619,"password":"4f4d1167-ef14-4304-9bce-0740472503ef","sni":"fr.01.naiun.bilibili.com","skip-cert-verify":true,"udp":true}
-- {"name":"Relay_🇺🇸US-🇺🇸US_07","server":"90081bb25c.node.tro.cac.cab","type":"trojan","country":"🇺🇸US","port":47909,"password":"4f4d1167-ef14-4304-9bce-0740472503ef","sni":"is.01.naiun.bilibili.com","skip-cert-verify":true,"udp":true}
+- {"name":"_01","server":"82.198.246.250","type":"vmess","port":180,"uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"cipher":"auto","http-opts":{},"h2-opts":{}}
+- {"name":"_02","server":"90081bb25c.node.tro.cac.cab","type":"trojan","port":46424,"password":"4f4d1167-ef14-4304-9bce-0740472503ef","sni":"de.01.naiun.bilibili.com","skip-cert-verify":true,"udp":true}
+- {"name":"Relay_-🇺🇸US_03","server":"90081bb25c.node.tro.cac.cab","type":"trojan","port":45553,"password":"4f4d1167-ef14-4304-9bce-0740472503ef","sni":"ch.01.naiun.bilibili.com","skip-cert-verify":true,"udp":true}
+- {"name":"_04","server":"90081bb25c.node.tro.cac.cab","type":"trojan","port":41943,"password":"4f4d1167-ef14-4304-9bce-0740472503ef","sni":"az.01.naiun.bilibili.com","skip-cert-verify":true,"udp":true}
+- {"name":"_05","server":"90081bb25c.node.tro.cac.cab","type":"trojan","port":45619,"password":"4f4d1167-ef14-4304-9bce-0740472503ef","sni":"fr.01.naiun.bilibili.com","skip-cert-verify":true}
+- {"name":"_06","server":"155.117.198.83","type":"trojan","port":46424,"password":"4f4d1167-ef14-4304-9bce-0740472503ef","sni":"de.01.naiun.bilibili.com","skip-cert-verify":true}
+- {"name":"_07","server":"90081bb25c.node.tro.cac.cab","type":"trojan","port":47909,"password":"4f4d1167-ef14-4304-9bce-0740472503ef","sni":"is.01.naiun.bilibili.com","skip-cert-verify":true,"udp":true}
+- {"name":"_08","server":"90081bb25c.node.tro.cac.cab","type":"trojan","port":48697,"password":"4f4d1167-ef14-4304-9bce-0740472503ef","sni":"gh.01.naiun.bilibili.com","skip-cert-verify":true,"udp":true}
+- {"name":"_09","server":"155.117.198.83","type":"trojan","port":45619,"password":"4f4d1167-ef14-4304-9bce-0740472503ef","alpn":["http/1.1"],"sni":"fr.01.naiun.bilibili.com","skip-cert-verify":true}
+- {"name":"Relay_🇭🇰HK-🇭🇰HK_10","server":"v10.hdacd.com","type":"vmess","country":"🇭🇰HK","port":30807,"uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"cipher":"auto","network":"tcp","http-opts":{},"h2-opts":{},"skip-cert-verify":true}
+- {"name":"Relay_🇺🇸US-🇺🇸US_11","server":"nm3.boom.party","type":"ssr","country":"🇺🇸US","port":13000,"password":"Uk92CS","cipher":"aes-256-cfb","protocol":"auth_aes128_sha1","obfs":"http_simple"}
+- {"name":"🇺🇸US_12","server":"155.117.198.87","type":"trojan","country":"🇺🇸US","port":47909,"password":"4f4d1167-ef14-4304-9bce-0740472503ef","sni":"is.01.naiun.bilibili.com","skip-cert-verify":true,"udp":true}
 proxy-groups:
 - name: loadbalance1
   type: fallback
   stragery: consistent-hashing
   tolerance: 300
   proxies:
-  - Relay_-🇺🇸US_01
-  - Relay_🇬🇧GB-🇺🇸US_02
-  - Relay_🇭🇰HK-🇭🇰HK_03
-  - 🇺🇸US_04
-  - 🇺🇸US_05
-  - 🇺🇸US_06
-  - Relay_🇺🇸US-🇺🇸US_07
+  - _01
+  - _02
+  - Relay_-🇺🇸US_03
+  - _04
+  - _05
+  - _06
+  - _07
+  - _08
+  - _09
+  - Relay_🇭🇰HK-🇭🇰HK_10
+  - Relay_🇺🇸US-🇺🇸US_11
+  - 🇺🇸US_12
   url: https://clients3.google.com/generate_204
   interval: 600
 rules:
