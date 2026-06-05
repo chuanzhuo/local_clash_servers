@@ -31,12 +31,24 @@ dns:
   - +.googleapis.cn
   - +.gvt1.com
 proxies:
+- {"name":"🇦🇺AU_01","server":"v24.hdacd.com","type":"vmess","country":"🇦🇺AU","port":30824,"uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"cipher":"auto","http-opts":{},"h2-opts":{},"skip-cert-verify":true}
+- {"name":"Relay_🇭🇰HK-🇭🇰HK_02","server":"v10.hdacd.com","type":"vmess","country":"🇭🇰HK","port":30807,"uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"cipher":"auto","network":"tcp","http-opts":{},"h2-opts":{},"skip-cert-verify":true}
+- {"name":"🇺🇸US_03","server":"90081bb25c.node.tro.cac.cab","type":"trojan","country":"🇺🇸US","port":47909,"password":"4f4d1167-ef14-4304-9bce-0740472503ef","sni":"is.01.naiun.bilibili.com","skip-cert-verify":true,"udp":true}
+- {"name":"Relay_🇺🇸US-🇬🇧GB_04","server":"90081bb25c.node.tro.cac.cab","type":"trojan","country":"🇺🇸US","port":45619,"password":"4f4d1167-ef14-4304-9bce-0740472503ef","sni":"fr.01.naiun.bilibili.com","skip-cert-verify":true,"udp":true}
+- {"name":"Relay_🇺🇸US-🇺🇸US_05","server":"90081bb25c.node.tro.cac.cab","type":"trojan","country":"🇺🇸US","port":45553,"password":"4f4d1167-ef14-4304-9bce-0740472503ef","sni":"ch.01.naiun.bilibili.com","skip-cert-verify":true,"udp":true}
+- {"name":"🇺🇸US_06","server":"90081bb25c.node.tro.cac.cab","type":"trojan","country":"🇺🇸US","port":41943,"password":"4f4d1167-ef14-4304-9bce-0740472503ef","sni":"az.01.naiun.bilibili.com","skip-cert-verify":true,"udp":true}
 proxy-groups:
 - name: loadbalance1
   type: fallback
   stragery: consistent-hashing
   tolerance: 300
   proxies:
+  - 🇦🇺AU_01
+  - Relay_🇭🇰HK-🇭🇰HK_02
+  - 🇺🇸US_03
+  - Relay_🇺🇸US-🇬🇧GB_04
+  - Relay_🇺🇸US-🇺🇸US_05
+  - 🇺🇸US_06
   url: https://clients3.google.com/generate_204
   interval: 600
 rules:
