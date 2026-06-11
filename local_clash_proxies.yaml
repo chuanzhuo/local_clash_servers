@@ -31,20 +31,26 @@ dns:
   - +.googleapis.cn
   - +.gvt1.com
 proxies:
-- {"name":"","server":"chengbai02.ascwt179.com","type":"ss","country":"🇧🇩BD","port":13223,"password":"JVrsLLN1tkN8oXZO","cipher":"aes-128-gcm"}
-- {"name":"","server":"211.201.169.70","type":"ss","country":"🇰🇷KR","port":8314,"password":"qwerREWQ@@","cipher":"aes-256-cfb"}
-- {"name":"","server":"nm3.boom.party","type":"ssr","country":"🇺🇸US","port":13000,"password":"Uk92CS","cipher":"aes-256-cfb","protocol":"auth_aes128_sha1","obfs":"http_simple"}
-- {"name":"","server":"104.16.0.0","type":"vmess","country":"🏁ZZ","port":443,"uuid":"95d2c461-61f5-4dae-bc74-4d10ce1f6236","alterId":0,"cipher":"auto","network":"ws","servername":"gongyilm.dpdns.org","http-opts":{},"h2-opts":{},"tls":true,"skip-cert-verify":true,"ws-opts":{"path":"/ws-gongyi","headers":{"HOST":"gongyilm.dpdns.org"}}}
+- {"name":"Relay_-🇺🇸US_01","server":"v6.hdacd.com","type":"vmess","port":30806,"uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"cipher":"auto","network":"tcp","http-opts":{},"h2-opts":{},"skip-cert-verify":true}
+- {"name":"Relay_-🇺🇸US_02","server":"v4.hdacd.com","type":"vmess","port":30804,"uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"cipher":"auto","network":"tcp","http-opts":{},"h2-opts":{},"skip-cert-verify":true}
+- {"name":"Relay_-🇬🇧GB_03","server":"v36.hdacd.com","type":"vmess","port":30836,"uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"cipher":"auto","network":"tcp","http-opts":{},"h2-opts":{},"skip-cert-verify":true}
+- {"name":"Relay_🇦🇺AU-🇺🇸US_04","server":"v24.hdacd.com","type":"vmess","country":"🇦🇺AU","port":30824,"uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"cipher":"auto","http-opts":{},"h2-opts":{},"skip-cert-verify":true}
+- {"name":"Relay_🇺🇸US-🇺🇸US_05","server":"nm3.boom.party","type":"ssr","country":"🇺🇸US","port":13000,"password":"Uk92CS","cipher":"aes-256-cfb","protocol":"auth_aes128_sha1","obfs":"http_simple"}
+- {"name":"Relay_🇺🇸US-🇺🇸US_06","server":"v9.hdacd.com","type":"vmess","country":"🇺🇸US","port":30809,"uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"cipher":"auto","http-opts":{},"h2-opts":{},"skip-cert-verify":true}
+- {"name":"Relay_🏁ZZ-🇺🇸US_07","server":"104.16.0.0","type":"vmess","country":"🏁ZZ","port":443,"uuid":"95d2c461-61f5-4dae-bc74-4d10ce1f6236","alterId":0,"cipher":"auto","network":"ws","servername":"gongyilm.dpdns.org","http-opts":{},"h2-opts":{},"tls":true,"skip-cert-verify":true,"ws-opts":{"path":"/ws-gongyi","headers":{"HOST":"gongyilm.dpdns.org"}}}
 proxy-groups:
 - name: loadbalance1
   type: fallback
   stragery: consistent-hashing
   tolerance: 300
   proxies:
-  - 
-  - 
-  - 
-  - 
+  - Relay_-🇺🇸US_01
+  - Relay_-🇺🇸US_02
+  - Relay_-🇬🇧GB_03
+  - Relay_🇦🇺AU-🇺🇸US_04
+  - Relay_🇺🇸US-🇺🇸US_05
+  - Relay_🇺🇸US-🇺🇸US_06
+  - Relay_🏁ZZ-🇺🇸US_07
   url: https://clients3.google.com/generate_204
   interval: 600
 rules:
