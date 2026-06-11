@@ -31,20 +31,20 @@ dns:
   - +.googleapis.cn
   - +.gvt1.com
 proxies:
-- {"name":"🇧🇩BD_01","server":"chengbai02.ascwt179.com","type":"ss","country":"🇧🇩BD","port":13223,"password":"JVrsLLN1tkN8oXZO","cipher":"aes-128-gcm"}
-- {"name":"🇰🇷KR_02","server":"211.201.169.70","type":"ss","country":"🇰🇷KR","port":8314,"password":"qwerREWQ@@","cipher":"aes-256-cfb"}
-- {"name":"Relay_🇺🇸US-🇺🇸US_03","server":"nm3.boom.party","type":"ssr","country":"🇺🇸US","port":13000,"password":"Uk92CS","cipher":"aes-256-cfb","protocol":"auth_aes128_sha1","obfs":"http_simple"}
-- {"name":"Relay_🏁ZZ-🇺🇸US_04","server":"104.16.0.0","type":"vmess","country":"🏁ZZ","port":443,"uuid":"95d2c461-61f5-4dae-bc74-4d10ce1f6236","alterId":0,"cipher":"auto","network":"ws","servername":"gongyilm.dpdns.org","http-opts":{},"h2-opts":{},"tls":true,"skip-cert-verify":true,"ws-opts":{"path":"/ws-gongyi","headers":{"HOST":"gongyilm.dpdns.org"}}}
+- {"name":"","server":"chengbai02.ascwt179.com","type":"ss","country":"🇧🇩BD","port":13223,"password":"JVrsLLN1tkN8oXZO","cipher":"aes-128-gcm"}
+- {"name":"","server":"211.201.169.70","type":"ss","country":"🇰🇷KR","port":8314,"password":"qwerREWQ@@","cipher":"aes-256-cfb"}
+- {"name":"","server":"nm3.boom.party","type":"ssr","country":"🇺🇸US","port":13000,"password":"Uk92CS","cipher":"aes-256-cfb","protocol":"auth_aes128_sha1","obfs":"http_simple"}
+- {"name":"","server":"104.16.0.0","type":"vmess","country":"🏁ZZ","port":443,"uuid":"95d2c461-61f5-4dae-bc74-4d10ce1f6236","alterId":0,"cipher":"auto","network":"ws","servername":"gongyilm.dpdns.org","http-opts":{},"h2-opts":{},"tls":true,"skip-cert-verify":true,"ws-opts":{"path":"/ws-gongyi","headers":{"HOST":"gongyilm.dpdns.org"}}}
 proxy-groups:
 - name: loadbalance1
   type: fallback
   stragery: consistent-hashing
   tolerance: 300
   proxies:
-  - 🇧🇩BD_01
-  - 🇰🇷KR_02
-  - Relay_🇺🇸US-🇺🇸US_03
-  - Relay_🏁ZZ-🇺🇸US_04
+  - 
+  - 
+  - 
+  - 
   url: https://clients3.google.com/generate_204
   interval: 600
 rules:
