@@ -31,14 +31,26 @@ dns:
   - +.googleapis.cn
   - +.gvt1.com
 proxies:
-- {"name":"Relay_🇺🇸US-🇺🇸US_01","server":"nm3.boom.party","type":"ssr","country":"🇺🇸US","port":13000,"password":"Uk92CS","cipher":"aes-256-cfb","protocol":"auth_aes128_sha1","obfs":"http_simple"}
+- {"name":"_01","server":"155.117.198.85","type":"trojan","port":46424,"password":"4f4d1167-ef14-4304-9bce-0740472503ef","sni":"de.01.naiun.bilibili.com","skip-cert-verify":true,"udp":true}
+- {"name":"_02","server":"155.117.198.85","type":"trojan","port":41943,"password":"4f4d1167-ef14-4304-9bce-0740472503ef","sni":"az.01.naiun.bilibili.com","skip-cert-verify":true,"udp":true}
+- {"name":"Relay_-🇺🇸US_03","server":"155.117.198.85","type":"trojan","port":45553,"password":"4f4d1167-ef14-4304-9bce-0740472503ef","sni":"ch.01.naiun.bilibili.com","skip-cert-verify":true,"udp":true}
+- {"name":"_04","server":"155.117.198.85","type":"trojan","port":47909,"password":"4f4d1167-ef14-4304-9bce-0740472503ef","sni":"is.01.naiun.bilibili.com","skip-cert-verify":true,"udp":true}
+- {"name":"🇬🇧GB_05","server":"82.198.246.37","type":"vmess","country":"🇬🇧GB","port":180,"uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"cipher":"auto","network":"tcp","servername":"Koma-YT.PAGeS.Dev","http-opts":{},"h2-opts":{},"skip-cert-verify":true}
+- {"name":"Relay_🇺🇸US-🇺🇸US_06","server":"nm3.boom.party","type":"ssr","country":"🇺🇸US","port":13000,"password":"Uk92CS","cipher":"aes-256-cfb","protocol":"auth_aes128_sha1","obfs":"http_simple"}
+- {"name":"🇺🇸US_07","server":"v24.hdacd.com","type":"vmess","country":"🇺🇸US","port":30824,"uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"cipher":"auto","http-opts":{},"h2-opts":{},"skip-cert-verify":true}
 proxy-groups:
 - name: loadbalance1
   type: fallback
   stragery: consistent-hashing
   tolerance: 300
   proxies:
-  - Relay_🇺🇸US-🇺🇸US_01
+  - _01
+  - _02
+  - Relay_-🇺🇸US_03
+  - _04
+  - 🇬🇧GB_05
+  - Relay_🇺🇸US-🇺🇸US_06
+  - 🇺🇸US_07
   url: https://clients3.google.com/generate_204
   interval: 600
 rules:
