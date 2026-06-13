@@ -31,22 +31,28 @@ dns:
   - +.googleapis.cn
   - +.gvt1.com
 proxies:
-- {"name":"Relay_-🇺🇸US_01","server":"n3.cover20.ir","type":"ss","port":55129,"password":"3ffoWdZBJSEIOsXCU8S930NYWwAzsH/rQAqvJPqbTuo=","cipher":"chacha20-ietf-poly1305"}
-- {"name":"Relay_-🇺🇸US_02","server":"82.198.246.37","type":"vmess","port":180,"udp":true,"uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"cipher":"auto","network":"tcp","http-opts":{},"h2-opts":{},"skip-cert-verify":true}
-- {"name":"🇭🇰HK_03","server":"v10.hdacd.com","type":"vmess","country":"🇭🇰HK","port":30807,"uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"cipher":"auto","network":"tcp","http-opts":{},"h2-opts":{},"skip-cert-verify":true}
+- {"name":"🇦🇺AU_01","server":"v35.hdacd.com","type":"vmess","country":"🇦🇺AU","port":30835,"uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"cipher":"auto","http-opts":{},"h2-opts":{},"skip-cert-verify":true}
+- {"name":"🇦🇺AU_02","server":"v36.hdacd.com","type":"vmess","country":"🇦🇺AU","port":30836,"uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"cipher":"auto","http-opts":{},"h2-opts":{},"skip-cert-verify":true}
+- {"name":"Relay_🇭🇰HK-🇭🇰HK_03","server":"v10.hdacd.com","type":"vmess","country":"🇭🇰HK","port":30807,"uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"cipher":"auto","network":"tcp","http-opts":{},"h2-opts":{},"skip-cert-verify":true}
 - {"name":"Relay_🇺🇸US-🇺🇸US_04","server":"nm3.boom.party","type":"ssr","country":"🇺🇸US","port":13000,"password":"Uk92CS","cipher":"aes-256-cfb","protocol":"auth_aes128_sha1","obfs":"http_simple"}
-- {"name":"🇺🇸US_05","server":"v24.hdacd.com","type":"vmess","country":"🇺🇸US","port":30824,"uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"cipher":"auto","http-opts":{},"h2-opts":{},"skip-cert-verify":true}
+- {"name":"🏁ZZ_05","server":"103.177.136.45","type":"trojan","country":"🏁ZZ","port":47909,"password":"4f4d1167-ef14-4304-9bce-0740472503ef","sni":"is.01.naiun.bilibili.com","skip-cert-verify":true,"udp":true}
+- {"name":"Relay_🏁ZZ-🇺🇸US_06","server":"103.177.136.42","type":"trojan","country":"🏁ZZ","port":46424,"password":"4f4d1167-ef14-4304-9bce-0740472503ef","sni":"de.01.naiun.bilibili.com","skip-cert-verify":true,"udp":true}
+- {"name":"🏁ZZ_07","server":"103.177.136.42","type":"trojan","country":"🏁ZZ","port":47909,"password":"4f4d1167-ef14-4304-9bce-0740472503ef","sni":"is.01.naiun.bilibili.com","skip-cert-verify":true,"udp":true}
+- {"name":"Relay_🏁ZZ-🇬🇧GB_08","server":"103.177.136.42","type":"trojan","country":"🏁ZZ","port":45619,"password":"4f4d1167-ef14-4304-9bce-0740472503ef","sni":"fr.01.naiun.bilibili.com","skip-cert-verify":true,"udp":true}
 proxy-groups:
 - name: loadbalance1
   type: fallback
   stragery: consistent-hashing
   tolerance: 300
   proxies:
-  - Relay_-🇺🇸US_01
-  - Relay_-🇺🇸US_02
-  - 🇭🇰HK_03
+  - 🇦🇺AU_01
+  - 🇦🇺AU_02
+  - Relay_🇭🇰HK-🇭🇰HK_03
   - Relay_🇺🇸US-🇺🇸US_04
-  - 🇺🇸US_05
+  - 🏁ZZ_05
+  - Relay_🏁ZZ-🇺🇸US_06
+  - 🏁ZZ_07
+  - Relay_🏁ZZ-🇬🇧GB_08
   url: https://clients3.google.com/generate_204
   interval: 600
 rules:
