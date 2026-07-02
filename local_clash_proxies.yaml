@@ -31,24 +31,26 @@ dns:
   - +.googleapis.cn
   - +.gvt1.com
 proxies:
-- {"name":"Relay_-🇺🇸US_01","server":"e2.cover20.ir","type":"ss","port":30874,"password":"zIV/nEE7RS3ySiXfLhgiLwTQ4xJuOmtf4pIMQeD4hbc=","cipher":"chacha20-ietf-poly1305"}
-- {"name":"Relay_-🇫🇷FR_02","server":"185.84.158.13","type":"ss","port":19964,"password":"XROTjCK7AfqLu8dPP+ib2V/0C0J2bpRxIDeIMk/i/I8=","cipher":"chacha20-ietf-poly1305"}
-- {"name":"Relay_🇭🇰HK-🇱🇹LT_03","server":"chengbai02.ascwt179.com","type":"ss","country":"🇭🇰HK","port":13223,"password":"JVrsLLN1tkN8oXZO","cipher":"aes-128-gcm"}
-- {"name":"Relay_🇭🇰HK-🇭🇰HK_04","server":"v10.hdacd.com","type":"vmess","country":"🇭🇰HK","port":30807,"uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"cipher":"auto","network":"tcp","http-opts":{},"h2-opts":{},"skip-cert-verify":true}
+- {"name":"Relay_-🇭🇰HK_01","server":"v10.hdacd.com","type":"vmess","port":30807,"uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"cipher":"auto","http-opts":{},"h2-opts":{}}
+- {"name":"_02","server":"v29.hdacd.com","type":"vmess","port":30829,"uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"cipher":"auto","network":"tcp","http-opts":{},"h2-opts":{},"skip-cert-verify":true}
+- {"name":"_03","server":"v8.hdacd.com","type":"vmess","port":30808,"uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"cipher":"auto","network":"tcp","http-opts":{},"h2-opts":{},"skip-cert-verify":true}
+- {"name":"🇭🇰HK_04","server":"chengbai02.ascwt179.com","type":"ss","country":"🇭🇰HK","port":13223,"password":"JVrsLLN1tkN8oXZO","cipher":"aes-128-gcm"}
 - {"name":"Relay_🇺🇸US-🇺🇸US_05","server":"nm3.boom.party","type":"ssr","country":"🇺🇸US","port":13000,"password":"Uk92CS","cipher":"aes-256-cfb","protocol":"auth_aes128_sha1","obfs":"http_simple"}
-- {"name":"🏁ZZ_06","server":"v35.hdacd.com","type":"vmess","country":"🏁ZZ","port":30835,"uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"cipher":"auto","http-opts":{},"h2-opts":{},"skip-cert-verify":true}
+- {"name":"Relay_🏁ZZ-🇺🇸US_06","server":"v36.hdacd.com","type":"vmess","country":"🏁ZZ","port":30836,"uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"cipher":"auto","http-opts":{},"h2-opts":{},"skip-cert-verify":true}
+- {"name":"Relay_🏁ZZ-🇺🇸US_07","server":"v9.hdacd.com","type":"vmess","country":"🏁ZZ","port":30809,"uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"cipher":"auto","http-opts":{},"h2-opts":{},"skip-cert-verify":true}
 proxy-groups:
 - name: loadbalance1
   type: fallback
   stragery: consistent-hashing
   tolerance: 300
   proxies:
-  - Relay_-🇺🇸US_01
-  - Relay_-🇫🇷FR_02
-  - Relay_🇭🇰HK-🇱🇹LT_03
-  - Relay_🇭🇰HK-🇭🇰HK_04
+  - Relay_-🇭🇰HK_01
+  - _02
+  - _03
+  - 🇭🇰HK_04
   - Relay_🇺🇸US-🇺🇸US_05
-  - 🏁ZZ_06
+  - Relay_🏁ZZ-🇺🇸US_06
+  - Relay_🏁ZZ-🇺🇸US_07
   url: https://clients3.google.com/generate_204
   interval: 600
 rules:
