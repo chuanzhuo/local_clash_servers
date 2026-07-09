@@ -31,18 +31,26 @@ dns:
   - +.googleapis.cn
   - +.gvt1.com
 proxies:
-- {"name":"Relay_-🇭🇰HK_01","server":"v10.hdacd.com","type":"vmess","port":30807,"uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"cipher":"auto","http-opts":{},"h2-opts":{}}
+- {"name":"Relay_-🇺🇸US_01","server":"v45.hdacd.com","type":"vmess","port":30845,"udp":true,"uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"cipher":"auto","network":"tcp","http-opts":{},"h2-opts":{}}
 - {"name":"_02","server":"guanwang.awsno.com","type":"vmess","port":443,"udp":true,"uuid":"6a89a215-22bf-4bd7-9642-b95b2e09583a","alterId":0,"cipher":"auto","network":"tcp","servername":"gw.alicdn.com","http-opts":{},"h2-opts":{},"tls":true,"skip-cert-verify":true}
-- {"name":"🇺🇸US_03","server":"nm3.boom.party","type":"ssr","country":"🇺🇸US","port":13000,"password":"Uk92CS","cipher":"aes-256-cfb","protocol":"auth_aes128_sha1","obfs":"http_simple"}
+- {"name":"Relay_🇨🇳CN-🇺🇸US_03","server":"v36.hdacd.com","type":"vmess","country":"🇨🇳CN","port":30836,"uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"cipher":"auto","http-opts":{},"h2-opts":{},"skip-cert-verify":true}
+- {"name":"🇨🇳CN_04","server":"v35.hdacd.com","type":"vmess","country":"🇨🇳CN","port":30835,"uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"cipher":"auto","http-opts":{},"h2-opts":{},"skip-cert-verify":true}
+- {"name":"Relay_🇨🇳CN-🇺🇸US_05","server":"v24.hdacd.com","type":"vmess","country":"🇨🇳CN","port":30824,"uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"cipher":"auto","http-opts":{},"h2-opts":{},"skip-cert-verify":true}
+- {"name":"Relay_🇭🇰HK-🇭🇰HK_06","server":"v10.hdacd.com","type":"vmess","country":"🇭🇰HK","port":30807,"uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"cipher":"auto","network":"tcp","http-opts":{},"h2-opts":{},"skip-cert-verify":true}
+- {"name":"🇺🇸US_07","server":"nm3.boom.party","type":"ssr","country":"🇺🇸US","port":13000,"password":"Uk92CS","cipher":"aes-256-cfb","protocol":"auth_aes128_sha1","obfs":"http_simple"}
 proxy-groups:
 - name: loadbalance1
   type: fallback
   stragery: consistent-hashing
   tolerance: 300
   proxies:
-  - Relay_-🇭🇰HK_01
+  - Relay_-🇺🇸US_01
   - _02
-  - 🇺🇸US_03
+  - Relay_🇨🇳CN-🇺🇸US_03
+  - 🇨🇳CN_04
+  - Relay_🇨🇳CN-🇺🇸US_05
+  - Relay_🇭🇰HK-🇭🇰HK_06
+  - 🇺🇸US_07
   url: https://clients3.google.com/generate_204
   interval: 600
 rules:
