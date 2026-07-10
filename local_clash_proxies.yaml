@@ -31,26 +31,26 @@ dns:
   - +.googleapis.cn
   - +.gvt1.com
 proxies:
-- {"name":"Relay_-🇺🇸US_01","server":"v45.hdacd.com","type":"vmess","port":30845,"udp":true,"uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"cipher":"auto","network":"tcp","http-opts":{},"h2-opts":{}}
-- {"name":"_02","server":"217.142.138.61","type":"vmess","port":80,"udp":true,"uuid":"ac1b933d-afff-4487-93ef-f57130a55dff","alterId":0,"cipher":"auto","network":"http","http-opts":{"path":["/"]},"h2-opts":{},"skip-cert-verify":true}
-- {"name":"_03","server":"jpbgp.netvigor.cc","type":"trojan","port":19128,"password":"gcuCpQfaiVeDBdWG","sni":"yazhou10.dynu.net","skip-cert-verify":true,"udp":true}
-- {"name":"Relay_🇨🇳CN-🇧🇷BR_04","server":"v35.hdacd.com","type":"vmess","country":"🇨🇳CN","port":30835,"uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"cipher":"auto","http-opts":{},"h2-opts":{},"skip-cert-verify":true}
-- {"name":"Relay_🇨🇳CN-🇺🇸US_05","server":"v24.hdacd.com","type":"vmess","country":"🇨🇳CN","port":30824,"uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"cipher":"auto","http-opts":{},"h2-opts":{},"skip-cert-verify":true}
+- {"name":"_01","server":"guanwang.awsno.com","type":"vmess","port":443,"udp":true,"uuid":"6a89a215-22bf-4bd7-9642-b95b2e09583a","alterId":0,"cipher":"auto","network":"tcp","servername":"gw.alicdn.com","http-opts":{},"h2-opts":{},"tls":true,"skip-cert-verify":true}
+- {"name":"Relay_🇨🇳CN-🇧🇷BR_02","server":"v35.hdacd.com","type":"vmess","country":"🇨🇳CN","port":30835,"uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"cipher":"auto","http-opts":{},"h2-opts":{},"skip-cert-verify":true}
+- {"name":"Relay_🇨🇳CN-🇺🇸US_03","server":"v9.hdacd.com","type":"vmess","country":"🇨🇳CN","port":30809,"uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"cipher":"auto","http-opts":{},"h2-opts":{},"skip-cert-verify":true}
+- {"name":"Relay_🇨🇳CN-🇨🇳CN_04","server":"us200m.jiasu.asia","type":"trojan","country":"🇨🇳CN","port":50000,"password":"7027ff8f-cf30-4423-acf7-c0da20b640e7","sni":"us200m.jiasu.asia","skip-cert-verify":true,"udp":true}
+- {"name":"Relay_🇨🇳CN-🇭🇰HK_05","server":"106.75.160.27","type":"trojan","country":"🇨🇳CN","port":39001,"password":"ef73ca2cf3d9cd0f04c8f448da8125c6","sni":"www.yrtok.com","skip-cert-verify":true,"udp":true}
 - {"name":"Relay_🇭🇰HK-🇭🇰HK_06","server":"v10.hdacd.com","type":"vmess","country":"🇭🇰HK","port":30807,"uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"cipher":"auto","network":"tcp","http-opts":{},"h2-opts":{},"skip-cert-verify":true}
-- {"name":"Relay_🇷🇺RU-🇫🇷FR_07","server":"e1.cover20.ir","type":"ss","country":"🇷🇺RU","port":51570,"password":"uZh8w6CHRyLaMAGkt8mg6cra0LnLi/6GmYmwqflmO3g=","cipher":"chacha20-ietf-poly1305"}
+- {"name":"🇭🇰HK_07","server":"jpbgp.netvigor.cc","type":"trojan","country":"🇭🇰HK","port":19128,"password":"OccIqeORGQwiNkwS","sni":"yazhou10.dynu.net","skip-cert-verify":true,"udp":true}
 proxy-groups:
 - name: loadbalance1
   type: fallback
   stragery: consistent-hashing
   tolerance: 300
   proxies:
-  - Relay_-🇺🇸US_01
-  - _02
-  - _03
-  - Relay_🇨🇳CN-🇧🇷BR_04
-  - Relay_🇨🇳CN-🇺🇸US_05
+  - _01
+  - Relay_🇨🇳CN-🇧🇷BR_02
+  - Relay_🇨🇳CN-🇺🇸US_03
+  - Relay_🇨🇳CN-🇨🇳CN_04
+  - Relay_🇨🇳CN-🇭🇰HK_05
   - Relay_🇭🇰HK-🇭🇰HK_06
-  - Relay_🇷🇺RU-🇫🇷FR_07
+  - 🇭🇰HK_07
   url: https://clients3.google.com/generate_204
   interval: 600
 rules:
