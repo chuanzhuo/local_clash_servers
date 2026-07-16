@@ -31,16 +31,16 @@ dns:
   - +.googleapis.cn
   - +.gvt1.com
 proxies:
-- {"name":"Relay_-🇺🇸US_01","server":"tolerant-rattler.rooster465.autos","type":"trojan","port":443,"password":"CF68213490","sni":"tolerant-rattler.rooster465.autos","skip-cert-verify":true,"udp":true}
-- {"name":"Relay_🇭🇰HK-🇭🇰HK_02","server":"v10.hdacd.com","type":"vmess","country":"🇭🇰HK","port":30807,"uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"cipher":"auto","network":"tcp","http-opts":{},"h2-opts":{},"skip-cert-verify":true}
+- {"name":"","server":"tolerant-rattler.rooster465.autos","type":"trojan","port":443,"password":"CF68213490","sni":"tolerant-rattler.rooster465.autos","skip-cert-verify":true,"udp":true}
+- {"name":"","server":"v10.hdacd.com","type":"vmess","country":"🇭🇰HK","port":30807,"uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"cipher":"auto","network":"tcp","http-opts":{},"h2-opts":{},"skip-cert-verify":true}
 proxy-groups:
 - name: loadbalance1
   type: fallback
   stragery: consistent-hashing
   tolerance: 300
   proxies:
-  - Relay_-🇺🇸US_01
-  - Relay_🇭🇰HK-🇭🇰HK_02
+  - 
+  - 
   url: https://clients3.google.com/generate_204
   interval: 600
 rules:
