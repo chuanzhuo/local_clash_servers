@@ -32,32 +32,29 @@ dns:
   - +.gvt1.com
 proxies:
 - {"name":"_01","server":"18.234.148.112","type":"ss","port":443,"udp":true,"password":"amazonskr05","cipher":"aes-256-cfb"}
-- {"name":"🇧🇩BD_02","server":"103.136.68.36","type":"ss","country":"🇧🇩BD","port":8388,"password":"OUdEsH1GGrha0QOK","cipher":"aes-256-gcm"}
-- {"name":"🇨🇳CN_03","server":"112.132.215.108","type":"vmess","country":"🇨🇳CN","port":50002,"uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"cipher":"auto","http-opts":{},"h2-opts":{},"skip-cert-verify":true}
-- {"name":"🇭🇰HK_04","server":"v24.hdacd.com","type":"vmess","country":"🇭🇰HK","port":30824,"uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"cipher":"auto","network":"tcp","http-opts":{},"h2-opts":{},"skip-cert-verify":true}
-- {"name":"🇭🇰HK_05","server":"v36.hdacd.com","type":"vmess","country":"🇭🇰HK","port":30836,"uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"cipher":"auto","http-opts":{},"h2-opts":{},"skip-cert-verify":true}
-- {"name":"🇭🇰HK_06","server":"v4.hdacd.com","type":"vmess","country":"🇭🇰HK","port":30804,"uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"cipher":"auto","http-opts":{},"h2-opts":{},"skip-cert-verify":true}
-- {"name":"🇭🇰HK_07","server":"v33.hdacd.com","type":"vmess","country":"🇭🇰HK","port":30833,"uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"cipher":"auto","http-opts":{},"h2-opts":{},"skip-cert-verify":true}
-- {"name":"Relay_🇺🇸US-🇺🇸US_08","server":"api.meituan88.com","type":"ssr","country":"🇺🇸US","port":46736,"password":"di15PV","cipher":"chacha20-ietf","protocol":"auth_aes128_md5","obfs":"tls1.2_ticket_auth","obfs-param":"33f313723.douyin.com"}
-- {"name":"Relay_🇺🇸US-🇺🇸US_09","server":"api.meituan88.com","type":"ssr","country":"🇺🇸US","port":7018,"password":"di15PV","cipher":"chacha20-ietf","protocol":"auth_aes128_md5","obfs":"plain","obfs-param":"33f313723.douyin.com"}
-- {"name":"Relay_🇺🇸US-🇺🇸US_10","server":"api.meituan88.com","type":"ssr","country":"🇺🇸US","port":26774,"password":"di15PV","cipher":"chacha20-ietf","protocol":"auth_aes128_md5","obfs":"plain","obfs-param":"33f313723.douyin.com"}
-- {"name":"Relay_🇺🇸US-🇺🇸US_11","server":"api.meituan88.com","type":"ssr","country":"🇺🇸US","port":7007,"password":"di15PV","cipher":"chacha20-ietf","protocol":"auth_aes128_md5","obfs":"plain","obfs-param":"33f313723.douyin.com"}
-- {"name":"Relay_🇺🇸US-🇺🇸US_12","server":"api.meituan88.com","type":"ssr","country":"🇺🇸US","port":7003,"password":"di15PV","cipher":"chacha20-ietf","protocol":"auth_aes128_md5","obfs":"plain","obfs-param":"33f313723.douyin.com"}
-- {"name":"Relay_🇺🇸US-🇺🇸US_13","server":"api.meituan88.com","type":"ssr","country":"🇺🇸US","port":7016,"password":"di15PV","cipher":"chacha20-ietf","protocol":"auth_aes128_md5","obfs":"plain","obfs-param":"33f313723.douyin.com"}
-- {"name":"Relay_🇺🇸US-🇺🇸US_14","server":"api.meituan88.com","type":"ssr","country":"🇺🇸US","port":7001,"password":"di15PV","cipher":"chacha20-ietf","protocol":"auth_aes128_md5","obfs":"plain","obfs-param":"33f313723.douyin.com"}
-- {"name":"Relay_🇺🇸US-🇺🇸US_15","server":"api.meituan88.com","type":"ssr","country":"🇺🇸US","port":7015,"password":"di15PV","cipher":"chacha20-ietf","protocol":"auth_aes128_md5","obfs":"plain","obfs-param":"33f313723.douyin.com"}
-- {"name":"Relay_🇺🇸US-🇺🇸US_16","server":"api.meituan88.com","type":"ssr","country":"🇺🇸US","port":61714,"password":"di15PV","cipher":"chacha20-ietf","protocol":"auth_aes128_md5","obfs":"tls1.2_ticket_auth","obfs-param":"33f313723.douyin.com"}
-- {"name":"Relay_🇺🇸US-🇺🇸US_17","server":"api.meituan88.com","type":"ssr","country":"🇺🇸US","port":18566,"password":"di15PV","cipher":"chacha20-ietf","protocol":"auth_aes128_md5","obfs":"plain","obfs-param":"33f313723.douyin.com"}
-- {"name":"Relay_🇺🇸US-🇺🇸US_18","server":"api.meituan88.com","type":"ssr","country":"🇺🇸US","port":58427,"password":"di15PV","cipher":"rc4-md5","protocol":"auth_aes128_md5","obfs":"plain","obfs-param":"33f313723.douyin.com"}
-- {"name":"Relay_🇺🇸US-🇺🇸US_19","server":"api.meituan88.com","type":"ssr","country":"🇺🇸US","port":49997,"password":"di15PV","cipher":"rc4-md5","protocol":"auth_aes128_md5","obfs":"tls1.2_ticket_auth","obfs-param":"33f313723.douyin.com"}
-- {"name":"Relay_🇺🇸US-🇺🇸US_20","server":"api.meituan88.com","type":"ssr","country":"🇺🇸US","port":2103,"password":"di15PV","cipher":"aes-256-cfb","protocol":"auth_aes128_md5","obfs":"tls1.2_ticket_auth","obfs-param":"87c276924.douyin.com"}
-- {"name":"Relay_🇺🇸US-🇺🇸US_21","server":"api.meituan88.com","type":"ssr","country":"🇺🇸US","port":41181,"password":"di15PV","cipher":"chacha20-ietf","protocol":"auth_aes128_md5","obfs":"plain","obfs-param":"665203463.douyin.com"}
-- {"name":"Relay_🇺🇸US-🇺🇸US_22","server":"api.meituan88.com","type":"ssr","country":"🇺🇸US","port":14048,"password":"di15PV","cipher":"chacha20-ietf","protocol":"auth_aes128_md5","obfs":"plain","obfs-param":"14e116735.douyin.com"}
-- {"name":"Relay_🇺🇸US-🇺🇸US_23","server":"api.meituan88.com","type":"ssr","country":"🇺🇸US","port":2107,"password":"di15PV","cipher":"aes-256-cfb","protocol":"auth_aes128_md5","obfs":"tls1.2_ticket_auth","obfs-param":"87c276924.douyin.com"}
-- {"name":"Relay_🇺🇸US-🇺🇸US_24","server":"api.meituan88.com","type":"ssr","country":"🇺🇸US","port":19623,"password":"di15PV","cipher":"chacha20-ietf","protocol":"auth_aes128_md5","obfs":"tls1.2_ticket_auth","obfs-param":"665203463.douyin.com"}
-- {"name":"Relay_🇺🇸US-🇺🇸US_25","server":"api.meituan88.com","type":"ssr","country":"🇺🇸US","port":41155,"password":"di15PV","cipher":"rc4-md5","protocol":"auth_aes128_md5","obfs":"tls1.2_ticket_auth","obfs-param":"99e144391.douyin.com"}
-- {"name":"Relay_🇺🇸US-🇺🇸US_26","server":"api.meituan88.com","type":"ssr","country":"🇺🇸US","port":59382,"password":"di15PV","cipher":"chacha20-ietf","protocol":"auth_aes128_md5","obfs":"tls1.2_ticket_auth","obfs-param":"99e144391.douyin.com"}
-- {"name":"🇺🇸US_27","server":"www.shopify.com","type":"vmess","country":"🇺🇸US","port":443,"uuid":"6a89a215-22bf-4bd7-9642-b95b2e09583a","alterId":0,"cipher":"auto","network":"ws","servername":"guanwang.awsno.com","http-opts":{},"h2-opts":{},"tls":true,"skip-cert-verify":true,"ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"HOST":"guanwang.awsno.com"}}}
+- {"name":"🇨🇳CN_02","server":"112.132.215.108","type":"vmess","country":"🇨🇳CN","port":50002,"uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"cipher":"auto","http-opts":{},"h2-opts":{},"skip-cert-verify":true}
+- {"name":"Relay_🇭🇰HK-🇺🇸US_03","server":"v35.hdacd.com","type":"vmess","country":"🇭🇰HK","port":30835,"uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"cipher":"auto","http-opts":{},"h2-opts":{},"skip-cert-verify":true}
+- {"name":"Relay_🇺🇸US-🇺🇸US_04","server":"api.meituan88.com","type":"ssr","country":"🇺🇸US","port":46736,"password":"di15PV","cipher":"chacha20-ietf","protocol":"auth_aes128_md5","obfs":"tls1.2_ticket_auth","obfs-param":"33f313723.douyin.com"}
+- {"name":"Relay_🇺🇸US-🇺🇸US_05","server":"api.meituan88.com","type":"ssr","country":"🇺🇸US","port":2103,"password":"di15PV","cipher":"aes-256-cfb","protocol":"auth_aes128_md5","obfs":"tls1.2_ticket_auth","obfs-param":"87c276924.douyin.com"}
+- {"name":"Relay_🇺🇸US-🇺🇸US_06","server":"api.meituan88.com","type":"ssr","country":"🇺🇸US","port":7001,"password":"di15PV","cipher":"chacha20-ietf","protocol":"auth_aes128_md5","obfs":"plain","obfs-param":"33f313723.douyin.com"}
+- {"name":"Relay_🇺🇸US-🇺🇸US_07","server":"api.meituan88.com","type":"ssr","country":"🇺🇸US","port":61714,"password":"di15PV","cipher":"chacha20-ietf","protocol":"auth_aes128_md5","obfs":"tls1.2_ticket_auth","obfs-param":"33f313723.douyin.com"}
+- {"name":"Relay_🇺🇸US-🇺🇸US_08","server":"api.meituan88.com","type":"ssr","country":"🇺🇸US","port":7003,"password":"di15PV","cipher":"chacha20-ietf","protocol":"auth_aes128_md5","obfs":"plain","obfs-param":"33f313723.douyin.com"}
+- {"name":"Relay_🇺🇸US-🇺🇸US_09","server":"api.meituan88.com","type":"ssr","country":"🇺🇸US","port":18566,"password":"di15PV","cipher":"chacha20-ietf","protocol":"auth_aes128_md5","obfs":"plain","obfs-param":"33f313723.douyin.com"}
+- {"name":"Relay_🇺🇸US-🇺🇸US_10","server":"api.meituan88.com","type":"ssr","country":"🇺🇸US","port":2107,"password":"di15PV","cipher":"aes-256-cfb","protocol":"auth_aes128_md5","obfs":"tls1.2_ticket_auth","obfs-param":"87c276924.douyin.com"}
+- {"name":"Relay_🇺🇸US-🇺🇸US_11","server":"api.meituan88.com","type":"ssr","country":"🇺🇸US","port":58427,"password":"di15PV","cipher":"rc4-md5","protocol":"auth_aes128_md5","obfs":"plain","obfs-param":"33f313723.douyin.com"}
+- {"name":"Relay_🇺🇸US-🇺🇸US_12","server":"api.meituan88.com","type":"ssr","country":"🇺🇸US","port":14048,"password":"di15PV","cipher":"chacha20-ietf","protocol":"auth_aes128_md5","obfs":"plain","obfs-param":"14e116735.douyin.com"}
+- {"name":"Relay_🇺🇸US-🇺🇸US_13","server":"api.meituan88.com","type":"ssr","country":"🇺🇸US","port":19623,"password":"di15PV","cipher":"chacha20-ietf","protocol":"auth_aes128_md5","obfs":"tls1.2_ticket_auth","obfs-param":"665203463.douyin.com"}
+- {"name":"Relay_🇺🇸US-🇺🇸US_14","server":"api.meituan88.com","type":"ssr","country":"🇺🇸US","port":7015,"password":"di15PV","cipher":"chacha20-ietf","protocol":"auth_aes128_md5","obfs":"plain","obfs-param":"33f313723.douyin.com"}
+- {"name":"Relay_🇺🇸US-🇺🇸US_15","server":"api.meituan88.com","type":"ssr","country":"🇺🇸US","port":7016,"password":"di15PV","cipher":"chacha20-ietf","protocol":"auth_aes128_md5","obfs":"plain","obfs-param":"33f313723.douyin.com"}
+- {"name":"Relay_🇺🇸US-🇺🇸US_16","server":"api.meituan88.com","type":"ssr","country":"🇺🇸US","port":41181,"password":"di15PV","cipher":"chacha20-ietf","protocol":"auth_aes128_md5","obfs":"plain","obfs-param":"665203463.douyin.com"}
+- {"name":"Relay_🇺🇸US-🇺🇸US_17","server":"api.meituan88.com","type":"ssr","country":"🇺🇸US","port":26774,"password":"di15PV","cipher":"chacha20-ietf","protocol":"auth_aes128_md5","obfs":"plain","obfs-param":"33f313723.douyin.com"}
+- {"name":"Relay_🇺🇸US-🇺🇸US_18","server":"api.meituan88.com","type":"ssr","country":"🇺🇸US","port":49997,"password":"di15PV","cipher":"rc4-md5","protocol":"auth_aes128_md5","obfs":"tls1.2_ticket_auth","obfs-param":"33f313723.douyin.com"}
+- {"name":"Relay_🇺🇸US-🇺🇸US_19","server":"api.meituan88.com","type":"ssr","country":"🇺🇸US","port":41155,"password":"di15PV","cipher":"rc4-md5","protocol":"auth_aes128_md5","obfs":"tls1.2_ticket_auth","obfs-param":"99e144391.douyin.com"}
+- {"name":"Relay_🇺🇸US-🇺🇸US_20","server":"api.meituan88.com","type":"ssr","country":"🇺🇸US","port":7007,"password":"di15PV","cipher":"chacha20-ietf","protocol":"auth_aes128_md5","obfs":"plain","obfs-param":"33f313723.douyin.com"}
+- {"name":"Relay_🇺🇸US-🇺🇸US_21","server":"nm3.boom.party","type":"ssr","country":"🇺🇸US","port":13000,"password":"Uk92CS","cipher":"aes-256-cfb","protocol":"auth_aes128_sha1","obfs":"http_simple"}
+- {"name":"Relay_🇺🇸US-🇺🇸US_22","server":"api.meituan88.com","type":"ssr","country":"🇺🇸US","port":7018,"password":"di15PV","cipher":"chacha20-ietf","protocol":"auth_aes128_md5","obfs":"plain","obfs-param":"33f313723.douyin.com"}
+- {"name":"Relay_🇺🇸US-🇺🇸US_23","server":"api.meituan88.com","type":"ssr","country":"🇺🇸US","port":59382,"password":"di15PV","cipher":"chacha20-ietf","protocol":"auth_aes128_md5","obfs":"tls1.2_ticket_auth","obfs-param":"99e144391.douyin.com"}
+- {"name":"🇺🇸US_24","server":"www.shopify.com","type":"vmess","country":"🇺🇸US","port":443,"uuid":"6a89a215-22bf-4bd7-9642-b95b2e09583a","alterId":0,"cipher":"auto","network":"ws","servername":"guanwang.awsno.com","http-opts":{},"h2-opts":{},"tls":true,"skip-cert-verify":true,"ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"HOST":"guanwang.awsno.com"}}}
 proxy-groups:
 - name: loadbalance1
   type: fallback
@@ -65,12 +62,12 @@ proxy-groups:
   tolerance: 300
   proxies:
   - _01
-  - 🇧🇩BD_02
-  - 🇨🇳CN_03
-  - 🇭🇰HK_04
-  - 🇭🇰HK_05
-  - 🇭🇰HK_06
-  - 🇭🇰HK_07
+  - 🇨🇳CN_02
+  - Relay_🇭🇰HK-🇺🇸US_03
+  - Relay_🇺🇸US-🇺🇸US_04
+  - Relay_🇺🇸US-🇺🇸US_05
+  - Relay_🇺🇸US-🇺🇸US_06
+  - Relay_🇺🇸US-🇺🇸US_07
   - Relay_🇺🇸US-🇺🇸US_08
   - Relay_🇺🇸US-🇺🇸US_09
   - Relay_🇺🇸US-🇺🇸US_10
@@ -87,10 +84,7 @@ proxy-groups:
   - Relay_🇺🇸US-🇺🇸US_21
   - Relay_🇺🇸US-🇺🇸US_22
   - Relay_🇺🇸US-🇺🇸US_23
-  - Relay_🇺🇸US-🇺🇸US_24
-  - Relay_🇺🇸US-🇺🇸US_25
-  - Relay_🇺🇸US-🇺🇸US_26
-  - 🇺🇸US_27
+  - 🇺🇸US_24
   url: https://clients3.google.com/generate_204
   interval: 600
 rules:
